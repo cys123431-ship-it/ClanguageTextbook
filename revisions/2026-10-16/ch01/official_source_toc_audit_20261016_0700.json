@@ -1,0 +1,47 @@
+{
+  "status": "partial TOC inspection only; original exercise objectives not yet audited",
+  "date": "2026-10-16",
+  "express": {
+    "file": "c언어 압축 (1)(1).pdf",
+    "total_pdf_pages": 750,
+    "visually_inspected_pdf_pages": [
+      8,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "confirmed": "chapter-level contents pages 10-17 and first chapter opening at PDF page 19-20",
+    "unverified": "every individual chapter example/LAB/Exercise/Programming/Mini Project/Advanced Topic objective"
+  },
+  "kr": {
+    "file": "C_Programming.pdf",
+    "total_pdf_pages": 288,
+    "visually_inspected_pdf_pages": [
+      5,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "confirmed": "contents on PDF pages 7-9: chapters 1-8; chapter 8 topics 8.1 file descriptors, 8.2 read/write, 8.3 open/creat/close/unlink, 8.4 lseek, 8.5 fopen/getc model, 8.6 directory listing, 8.7 allocator; Appendices A/B/C",
+    "unverified": "all exercise-specific learning objectives and exact source-to-new-textbook section mappings"
+  },
+  "ocr": {
+    "file": "C Programming Language - 2nd Edition (OCR).pdf",
+    "total_pdf_pages": 238,
+    "confirmed": "TOC parsed to support scan navigation; not substitute for original scan item audit"
+  },
+  "next_source_audit": "Make a stable item-level objective table with source book, chapter/section, example/LAB/Exercise/Programming/Mini Project/Advanced Topic identifier, independent target exercise, location, and validation status. Do not mark uninspected entries complete."
+}
