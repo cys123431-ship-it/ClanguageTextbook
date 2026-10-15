@@ -1,0 +1,16 @@
+{
+  "reported_completed_range": "1.1~1.64",
+  "new_sections": [
+    "1.62",
+    "1.63",
+    "1.64"
+  ],
+  "new_section_status": "manuscript and GCC/Clang tests complete; original source objective audit pending",
+  "next_section": "1.65",
+  "progress_percent": null,
+  "source_objective_full_audit": false,
+  "stage": "ISO C11 locale/wchar/wctype/uchar manuscript + strict tests",
+  "library_delivery": "succeeded",
+  "github_delivery": "partial: DOCX + selected QA + README/progress on publish/ch01-1-62-1-64 branch; main pending; ZIP blocked",
+  "timestamp": "2026-10-16T08:19:21+09:00"
+}

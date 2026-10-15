@@ -1,0 +1,65 @@
+{
+  "run": "ch01_1.62-1.64",
+  "timestamp": "2026-10-16T08:19:21+09:00",
+  "files": [
+    {
+      "name": "C언어_종합교과서_이해중심_정식개정판_제1장_1.62-1.64.docx",
+      "bytes": 54816,
+      "sha256": "6c1670ed4bdf03ae3faeeee86227f3a235aabcb3723fdaae1f60f01057285420"
+    },
+    {
+      "name": "official_ch01_1_62-1_64_sources.zip",
+      "bytes": 9563,
+      "sha256": "0cef1168e73fdadea4b55a221a566539326bf2d929690f841ad410e31fcb583d"
+    },
+    {
+      "name": "build_ch01_1_62_to_1_64.py",
+      "bytes": 55901,
+      "sha256": "cc865446bb5a10b15676528d63f7cb8b1f8264a602f26dcc02ba58d8c90a1ab4"
+    },
+    {
+      "name": "verify_delivery.py",
+      "bytes": 7063,
+      "sha256": "e5a9d6038e29ee5eb58dbfce07e947926a92c6f982cf3aad2258649a65457bd1"
+    },
+    {
+      "name": "official_ch01_1_62-1_64_c11_verification.json",
+      "bytes": 24060,
+      "sha256": "9eb0afca272cdb041cf5d11fe0d60e431911b252473a111980b30fe708de795f"
+    },
+    {
+      "name": "official_ch01_1_62-1_64_code_match.json",
+      "bytes": 2754,
+      "sha256": "ac7a6f7ea598aa358fd3037de4ff3a991e236443b93fe8c0d44443cac4c07040"
+    },
+    {
+      "name": "official_ch01_1_62-1_64_page_qa.json",
+      "bytes": 2352,
+      "sha256": "efa017891d4f91851fe815319d22e3ec7235f50ed00ded8aa65a35ee95021da5"
+    },
+    {
+      "name": "official_ch01_1_62-1_64_pedagogy_qa.json",
+      "bytes": 603,
+      "sha256": "9e72dd0ed1d193442aaeadd173d354ee5e82b3ca34d84cc6b1e4f86fb7b12640"
+    },
+    {
+      "name": "official_ch01_1_62-1_64_source_inspection.json",
+      "bytes": 1028,
+      "sha256": "cfa16241da8bc97b5baa529fe8484e4d46bd06f7c1f572b7fb58ece84409b8d9"
+    },
+    {
+      "name": "official_rewrite_objective_tracking_1_1-1_64.json",
+      "bytes": 2623,
+      "sha256": "4a27d55a7bc077c8c787cce5595a22f613bf4c844c08411174d4103aea14ad04"
+    },
+    {
+      "name": "official_rewrite_progress_1_1-1_64.json",
+      "bytes": 590,
+      "sha256": "561998f760771d9107348e7cde29360925dc618bbf7f808b473e7c5a9292b17d"
+    }
+  ],
+  "source_full_audit_complete": false,
+  "github_delivery": "partial: publish branch, main pending; source ZIP blocked",
+  "library_delivery": "succeeded",
+  "next_section": "1.65"
+}

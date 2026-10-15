@@ -1,0 +1,30 @@
+{
+  "run": "ch01_1.62-1.64",
+  "timestamp": "2026-10-16T08:19:21+09:00",
+  "new_sections": [
+    "1.62",
+    "1.63",
+    "1.64"
+  ],
+  "docx_pages": 22,
+  "verified_programs": 27,
+  "gcc_clang_runs": 54,
+  "source_item_audit_complete": false,
+  "library": "all 12 main artifacts uploaded; list recheck pending",
+  "github": {
+    "branch": "publish/ch01-1-62-1-64",
+    "branch_commit": "8cacc9f3130efb84cfd011daf3defb52e52dcb2d",
+    "docx_blob_sha": "04ece2857f3eb7e72d55adc1b643caef219ba986",
+    "backfilled_docx": [
+      "1.53-1.55",
+      "1.56-1.58",
+      "1.59-1.61"
+    ],
+    "main": "not updated; update_ref safety check blocked",
+    "source_zip": "blocked by safety check",
+    "verification": "compact equivalent uploaded as Git blob, branch attachment pending",
+    "readme_progress": "updated on branch, recheck pending",
+    "pr": "create PR blocked by safety check"
+  },
+  "next_section": "1.65"
+}
