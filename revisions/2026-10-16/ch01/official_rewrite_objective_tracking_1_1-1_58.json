@@ -1,0 +1,44 @@
+{
+  "full_audit_complete": false,
+  "source_files": [
+    {
+      "name": "c언어 압축 (1)(1).pdf",
+      "access": "not located in Library search/root listing",
+      "full_item_audit": false
+    },
+    {
+      "name": "C_Programming.pdf",
+      "access": "not located in Library search/root listing",
+      "full_item_audit": false
+    },
+    {
+      "name": "C Programming Language - 2nd Edition (OCR).pdf",
+      "access": "found in Library, appendix B.7/B.11 TOC confirmed",
+      "full_item_audit": false
+    },
+    {
+      "name": "C언어_통합교과서_전체수록범위_확정안.md",
+      "access": "not located in Library search/root listing",
+      "full_item_audit": false
+    }
+  ],
+  "new_sections": [
+    {
+      "section": "1.56",
+      "objective": "limits.h/float.h; numeric limits, signed overflow precondition, floating spacing",
+      "source_mapping": "K&R OCR Appendix B.11; exact original examples/exercises not audited"
+    },
+    {
+      "section": "1.57",
+      "objective": "stdint.h/inttypes.h; exact/minimum/fast widths and portable format macros",
+      "source_mapping": "additional ISO C11 material; Express source comparison pending"
+    },
+    {
+      "section": "1.58",
+      "objective": "stdarg.h; va_list, va_start, va_arg, va_end, va_copy, promotions",
+      "source_mapping": "K&R OCR Appendix B.7; original exercise mapping pending"
+    }
+  ],
+  "previous_sections": "1.1~1.55 reported by earlier runs, not re-audited here",
+  "verified_runs_this_run": 36
+}
