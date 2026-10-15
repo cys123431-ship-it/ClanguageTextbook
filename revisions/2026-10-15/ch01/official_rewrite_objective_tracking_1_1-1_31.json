@@ -1,0 +1,36 @@
+{
+  "previous_sections": "1.1–1.28 (prior manifest; not independently re-audited in this run)",
+  "new_sections": {
+    "1.29": {
+      "objectives": [
+        "#include 헤더 인터페이스",
+        "#define 객체형 매크로",
+        "전처리와 실행의 구분",
+        "컴파일러 -E의 비표준성"
+      ],
+      "source_mapping": "K&R 4.11 / Express 16 chapter-level, page-by-page not verified",
+      "status": "new manuscript and C11 tests passed; source exercise audit pending"
+    },
+    "1.30": {
+      "objectives": [
+        "함수형 매크로",
+        "우선순위 괄호",
+        "인수 중복 평가",
+        "함수 대안"
+      ],
+      "source_mapping": "K&R 4.11 / Express 16 chapter-level, page-by-page not verified",
+      "status": "new manuscript and C11 tests passed; source exercise audit pending"
+    },
+    "1.31": {
+      "objectives": [
+        "#if/#ifdef/#ifndef/#else/#endif",
+        "defined",
+        "헤더 가드",
+        "다중 소스 컴파일과 연결"
+      ],
+      "source_mapping": "K&R 4.5/4.11 / Express 16 chapter-level, page-by-page not verified",
+      "status": "new manuscript and C11 tests passed; source exercise audit pending"
+    }
+  },
+  "originals_full_audit": false
+}
