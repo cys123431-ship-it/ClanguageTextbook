@@ -1,0 +1,55 @@
+{
+  "run": "ch01_1.53-1.55",
+  "timestamp": "2026-10-16T05:05:12+09:00",
+  "files": [
+    {
+      "name": "C언어_종합교과서_이해중심_정식개정판_제1장_1.53-1.55.docx",
+      "bytes": 48293,
+      "sha256": "81a6eaf3617ed5e598056ee79f8ba1d1cca34c0c7c32dcc9c420c6ad981a577e"
+    },
+    {
+      "name": "build_ch01_1_53_to_1_55.py",
+      "bytes": 37303,
+      "sha256": "d02fd5a9df2350b5646bded0ebe387caeb347927b02efd71d02bacd8c8b900ec"
+    },
+    {
+      "name": "official_ch01_1_53-1_55_c11_verification.json",
+      "bytes": 14785,
+      "sha256": "40eea200672c027f81c7de4c4d86c77a2bb30afe6dcaf4a35456bbb6e07c3bc4"
+    },
+    {
+      "name": "official_ch01_1_53-1_55_code_match.json",
+      "bytes": 1980,
+      "sha256": "c9b618496d1cc48f8afb878738749e34e7c735b61de3774fbc40efc2b6736416"
+    },
+    {
+      "name": "official_ch01_1_53-1_55_page_qa.json",
+      "bytes": 1434,
+      "sha256": "bca23358196f2c6dd0d37213e5c4af7647371831a605ababb612dde4a5638d1c"
+    },
+    {
+      "name": "official_ch01_1_53-1_55_source_inspection.json",
+      "bytes": 415,
+      "sha256": "9f8cc1d2a8ced374db9653d5ec22ee000876b15bed77dfcd08120338903f9832"
+    },
+    {
+      "name": "official_ch01_1_53-1_55_sources.zip",
+      "bytes": 5924,
+      "sha256": "22adde05d7d9c3c9956b64f4e25900a012b91bf545b4da06a470f7d1571aeffe"
+    },
+    {
+      "name": "official_rewrite_objective_tracking_1_1-1_55.json",
+      "bytes": 1518,
+      "sha256": "6643c75ddeff2d82a56d64c554fe61fe665f41b46039c9569aafac4130b267af"
+    },
+    {
+      "name": "official_rewrite_progress_1_1-1_55.json",
+      "bytes": 382,
+      "sha256": "99729c0c49155b178044c2ad74063489e9b350a76ad70c30b5c33b98151613d9"
+    }
+  ],
+  "source_full_audit_complete": false,
+  "github_delivery": "pending",
+  "library_delivery": "pending",
+  "next_section": "1.56"
+}

@@ -1,0 +1,44 @@
+{
+  "full_audit_complete": false,
+  "source_files": [
+    {
+      "name": "c언어 압축 (1)(1).pdf",
+      "current_access": "not found in accessible Library search/root list this run",
+      "full_item_audit": false
+    },
+    {
+      "name": "C_Programming.pdf",
+      "current_access": "not found in accessible Library search/root list this run",
+      "full_item_audit": false
+    },
+    {
+      "name": "C Programming Language - 2nd Edition (OCR).pdf",
+      "current_access": "not found in accessible Library search/root list this run",
+      "full_item_audit": false
+    },
+    {
+      "name": "C언어_통합교과서_전체수록범위_확정안.md",
+      "current_access": "not found in accessible Library search/root list this run",
+      "full_item_audit": false
+    }
+  ],
+  "new_sections": [
+    {
+      "section": "1.53",
+      "objectives": "<math.h> sqrt/hypot/floor/ceil/trunc/pow/fabs; domain and precision warnings",
+      "original_source_crosscheck": "unverified this run"
+    },
+    {
+      "section": "1.54",
+      "objectives": "<time.h> struct tm/strftime/mktime/difftime; time_t and local timezone caveats",
+      "original_source_crosscheck": "unverified this run"
+    },
+    {
+      "section": "1.55",
+      "objectives": "<errno.h> errno/ERANGE and strtol full input validation; <assert.h> internal contract",
+      "original_source_crosscheck": "unverified this run"
+    }
+  ],
+  "c11_verified_runs": 36,
+  "previous_sections": "1.1~1.52 reported by prior run; not re-audited here"
+}

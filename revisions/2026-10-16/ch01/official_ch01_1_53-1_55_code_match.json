@@ -1,0 +1,115 @@
+{
+  "source_files": 18,
+  "docx_code_blocks_matched": 18,
+  "all_match": true,
+  "details": [
+    {
+      "section": "1.53",
+      "example": "A",
+      "kind": "main",
+      "match": true
+    },
+    {
+      "section": "1.53",
+      "example": "A",
+      "kind": "variation",
+      "match": true
+    },
+    {
+      "section": "1.53",
+      "example": "B",
+      "kind": "main",
+      "match": true
+    },
+    {
+      "section": "1.53",
+      "example": "B",
+      "kind": "variation",
+      "match": true
+    },
+    {
+      "section": "1.53",
+      "example": "C",
+      "kind": "main",
+      "match": true
+    },
+    {
+      "section": "1.53",
+      "example": "C",
+      "kind": "variation",
+      "match": true
+    },
+    {
+      "section": "1.54",
+      "example": "A",
+      "kind": "main",
+      "match": true
+    },
+    {
+      "section": "1.54",
+      "example": "A",
+      "kind": "variation",
+      "match": true
+    },
+    {
+      "section": "1.54",
+      "example": "B",
+      "kind": "main",
+      "match": true
+    },
+    {
+      "section": "1.54",
+      "example": "B",
+      "kind": "variation",
+      "match": true
+    },
+    {
+      "section": "1.54",
+      "example": "C",
+      "kind": "main",
+      "match": true
+    },
+    {
+      "section": "1.54",
+      "example": "C",
+      "kind": "variation",
+      "match": true
+    },
+    {
+      "section": "1.55",
+      "example": "A",
+      "kind": "main",
+      "match": true
+    },
+    {
+      "section": "1.55",
+      "example": "A",
+      "kind": "variation",
+      "match": true
+    },
+    {
+      "section": "1.55",
+      "example": "B",
+      "kind": "main",
+      "match": true
+    },
+    {
+      "section": "1.55",
+      "example": "B",
+      "kind": "variation",
+      "match": true
+    },
+    {
+      "section": "1.55",
+      "example": "C",
+      "kind": "main",
+      "match": true
+    },
+    {
+      "section": "1.55",
+      "example": "C",
+      "kind": "variation",
+      "match": true
+    }
+  ]
+}
