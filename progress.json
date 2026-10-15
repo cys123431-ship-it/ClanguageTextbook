@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "project": "C언어 통합교과서 이해 중심 개정판",
+  "status": "집필 진행 중",
+  "progress_percent": null,
+  "progress_basis": "새 개정판의 확정 전체 절 수와 검증 완료 절 수를 확인하기 전까지 백분율 미표시",
+  "completed_sections": [],
+  "last_completed_section": null,
+  "last_verified_at": null,
+  "stages": [
+    {
+      "id": "draft",
+      "label": "전체 초안 집필",
+      "completed": false
+    },
+    {
+      "id": "coverage",
+      "label": "원본 두 권 학습목표 전수 대조",
+      "completed": false
+    },
+    {
+      "id": "qa",
+      "label": "코드·DOCX 전체 검증",
+      "completed": false
+    },
+    {
+      "id": "publish",
+      "label": "최종 산출물 GitHub 업로드 및 재확인",
+      "completed": false
+    }
+  ]
+}
