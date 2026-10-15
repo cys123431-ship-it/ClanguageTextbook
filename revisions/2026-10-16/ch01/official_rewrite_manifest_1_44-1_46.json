@@ -43,7 +43,13 @@
       "sha256": "2310c733515b02521decf25ff7d5f811eb55766fad44bace30152915272cb4c7"
     }
   ],
-  "github_delivery": "pending",
-  "library_delivery": "pending",
-  "rendered_pages": 16
+  "github_delivery": "partial: DOCX and six JSON snapshots on main, README/progress verified; ZIP and full build script blocked",
+  "library_delivery": "complete: 9 files uploaded and listing confirmed",
+  "rendered_pages": 16,
+  "github_commit": "9f79e7bbaf83b1a9e3165f28fc81d7844fd2588f",
+  "github_docx_blob": "0860ae9bafd8dfe570f116f58f3fa23324f151c3",
+  "pending_github_files": [
+    "official_ch01_1_44-1_46_sources.zip",
+    "build_ch01_1_44_to_1_46.py"
+  ]
 }
