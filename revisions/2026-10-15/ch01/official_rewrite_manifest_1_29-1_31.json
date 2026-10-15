@@ -10,5 +10,8 @@
   "progress": "official_rewrite_progress_1_1-1_31.json",
   "objectives": "official_rewrite_objective_tracking_1_1-1_31.json",
   "originals_audit": "incomplete",
-  "github_status": "pending"
+  "github_status": "partial: DOCX and text QA/script/verification/progress/objectives/manifest uploaded and re-fetched on main; source ZIP pending",
+  "github_docx_blob_sha": "5f1305cf9403739e7fd71ca5a7e11b38c9839340",
+  "github_docx_commit_sha": "ab0ca52ff52ea669211dbff2b72f9adfa87c7ddb",
+  "github_progress_commit_sha": "864246fba706d91d8243b45740366791b89f32a6"
 }
