@@ -3,15 +3,15 @@
   "sources": [
     {
       "name": "c언어 압축 (1)(1).pdf",
-      "status": "이번 회차 원본 PDF 파일 접근 미확인; 원서 항목별 대조 미완료"
+      "status": "스캔 원본 접근 확인: PDF 3쪽 장 목록, 7쪽 구성표에서 제15장 파일 스트림 확인. 개별 학습목표·LAB 전수 대조 미완료."
     },
     {
       "name": "C_Programming.pdf",
-      "status": "이번 회차 원본 PDF 파일 접근 미확인; 원서 항목별 대조 미완료"
+      "status": "스캔 원본 접근 확인: PDF 3쪽 표지, 6쪽 판권 확인. 관련 장 원본 본문·연습문제 전수 대조 미완료."
     },
     {
       "name": "C Programming Language - 2nd Edition (OCR).pdf",
-      "status": "목차 페이지 2~4 열람, K&R 5.10 및 7장 파일 입출력 목표 확인; 전체 대조 미완료"
+      "status": "OCR 목차 2~4쪽 확인: K&R 5.10 명령행 인수, 7.1/7.4/7.5/7.7 입출력·파일. 전체 대조 미완료."
     }
   ],
   "new_sections": [
@@ -33,5 +33,6 @@
       "verification": "GCC/Clang C11 compile-run-stdout passed",
       "original_pdf_item_by_item": "partial: K&R OCR 7.4/7.5"
     }
-  ]
+  ],
+  "scope_md": "C언어_통합교과서_전체수록범위_확정안.md Library 루트에서 접근하여 편집 단위 11, 18, 19, 21을 대조함. 세부 원서 항목별 대조 미완료."
 }
