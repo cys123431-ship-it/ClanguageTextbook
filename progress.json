@@ -41,10 +41,13 @@
     "1.34",
     "1.35",
     "1.36",
-    "1.37"
+    "1.37",
+    "1.38",
+    "1.39",
+    "1.40"
   ],
-  "last_completed_section": "1.37",
-  "last_verified_at": "2026-10-15T22:56:38+09:00",
+  "last_completed_section": "1.40",
+  "last_verified_at": "2026-10-16T00:02:16+09:00",
   "stages": [
     {
       "id": "draft",
@@ -78,7 +81,8 @@
     "revisions/2026-10-15/ch01/C언어_종합교과서_이해중심_정식개정판_제1장_1.26-1.28.docx",
     "revisions/2026-10-15/ch01/C언어_종합교과서_이해중심_정식개정판_제1장_1.29-1.31.docx",
     "revisions/2026-10-15/ch01/C언어_종합교과서_이해중심_정식개정판_제1장_1.32-1.34.docx",
-    "revisions/2026-10-15/ch01/C언어_종합교과서_이해중심_정식개정판_제1장_1.35-1.37.docx"
+    "revisions/2026-10-15/ch01/C언어_종합교과서_이해중심_정식개정판_제1장_1.35-1.37.docx",
+    "revisions/2026-10-15/ch01/C언어_종합교과서_이해중심_정식개정판_제1장_1.38-1.40.docx"
   ],
-  "github_delivery_status": "DOCX verified on main through section 1.37; ancillary binary ZIP and some text artifacts pending"
+  "github_delivery_status": "DOCX, C source ZIP and run artifacts verified on main through 1.40; full original-source audit pending"
 }
