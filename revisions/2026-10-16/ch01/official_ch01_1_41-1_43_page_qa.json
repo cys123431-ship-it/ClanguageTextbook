@@ -1,0 +1,79 @@
+{
+  "pages": 18,
+  "per_page": [
+    {
+      "page": 1,
+      "ink_fraction": 0.1176
+    },
+    {
+      "page": 2,
+      "ink_fraction": 0.0913
+    },
+    {
+      "page": 3,
+      "ink_fraction": 0.0809
+    },
+    {
+      "page": 4,
+      "ink_fraction": 0.079
+    },
+    {
+      "page": 5,
+      "ink_fraction": 0.0796
+    },
+    {
+      "page": 6,
+      "ink_fraction": 0.089
+    },
+    {
+      "page": 7,
+      "ink_fraction": 0.0757
+    },
+    {
+      "page": 8,
+      "ink_fraction": 0.0697
+    },
+    {
+      "page": 9,
+      "ink_fraction": 0.0824
+    },
+    {
+      "page": 10,
+      "ink_fraction": 0.0828
+    },
+    {
+      "page": 11,
+      "ink_fraction": 0.0866
+    },
+    {
+      "page": 12,
+      "ink_fraction": 0.0848
+    },
+    {
+      "page": 13,
+      "ink_fraction": 0.0695
+    },
+    {
+      "page": 14,
+      "ink_fraction": 0.0766
+    },
+    {
+      "page": 15,
+      "ink_fraction": 0.0772
+    },
+    {
+      "page": 16,
+      "ink_fraction": 0.0925
+    },
+    {
+      "page": 17,
+      "ink_fraction": 0.0536
+    },
+    {
+      "page": 18,
+      "ink_fraction": 0.0876
+    }
+  ],
+  "empty_pages": [],
+  "visual_inspection": "All-page contact sheet reviewed; no empty page, overflow or orphan heading observed."
+}
