@@ -1,0 +1,39 @@
+{
+  "checked_at": "2026-10-16T02:12:11.027257+09:00",
+  "source_files": [
+    {
+      "name": "c언어 압축 (1)(1).pdf",
+      "file_pages": [
+        3,
+        7
+      ],
+      "verified": "스캔 원본 3쪽 장 목록과 7쪽 15장 파일 스트림 표기",
+      "item_by_item_audit": false
+    },
+    {
+      "name": "C_Programming.pdf",
+      "file_pages": [
+        3,
+        6
+      ],
+      "verified": "스캔 원본 표지 및 판권 접근",
+      "item_by_item_audit": false
+    },
+    {
+      "name": "C Programming Language - 2nd Edition (OCR).pdf",
+      "file_pages": [
+        2,
+        3,
+        4
+      ],
+      "verified": "목차에서 5.10, 7장 관련 절 확인",
+      "item_by_item_audit": false
+    },
+    {
+      "name": "C언어_통합교과서_전체수록범위_확정안.md",
+      "verified": "11, 18, 19, 21 편집 단위와 연관",
+      "item_by_item_audit": false
+    }
+  ],
+  "coverage_complete": false
+}
