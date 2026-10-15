@@ -1,0 +1,65 @@
+{
+  "run": "ch01_1.59-1.61",
+  "timestamp": "2026-10-16T07:10:04+09:00",
+  "files": [
+    {
+      "name": "C언어_종합교과서_이해중심_정식개정판_제1장_1.59-1.61.docx",
+      "bytes": 50511,
+      "sha256": "0e438b4cf2d675d57ec53711618b1bcdb2bfe40b92b4b7374411502be74025f3"
+    },
+    {
+      "name": "official_ch01_1_59-1_61_sources.zip",
+      "bytes": 6036,
+      "sha256": "8c2a9ad46f8e8ed7a62674aa4dca1e720096b071e65b65174cb13963e276fe3b"
+    },
+    {
+      "name": "build_ch01_1_59_to_1_61.py",
+      "bytes": 43644,
+      "sha256": "48329d23a511da49b5758c5f45621fd2f9b79a9ec0b30733365c3d2082c9d40c"
+    },
+    {
+      "name": "verify_delivery.py",
+      "bytes": 2768,
+      "sha256": "84f70bdadf8acc609204f669a26e6ff2d394694c56ccd4748005d6c25b1f2125"
+    },
+    {
+      "name": "official_ch01_1_59-1_61_c11_verification.json",
+      "bytes": 19527,
+      "sha256": "69ba04f4fc850eb40ec27da9cf0d00901fadbafb57037782e5320d1931f88565"
+    },
+    {
+      "name": "official_ch01_1_59-1_61_code_match.json",
+      "bytes": 2131,
+      "sha256": "09de54a62294709534b1e2782f5319fcb99513c06d2d028144c65ad9d39c88c3"
+    },
+    {
+      "name": "official_ch01_1_59-1_61_page_qa.json",
+      "bytes": 2544,
+      "sha256": "15b2651b3d146e0ec1fa6fedbf807df13f655bf83ad47362d13f0d86a53e9c12"
+    },
+    {
+      "name": "official_ch01_1_59-1_61_pedagogy_qa.json",
+      "bytes": 371,
+      "sha256": "fdaa273312c75c79578d6508cbaa375c9b711e1a8431df6d64e2eba4946bec13"
+    },
+    {
+      "name": "official_ch01_1_59-1_61_source_inspection.json",
+      "bytes": 837,
+      "sha256": "471468ae533e2e36e211cc70c4bc2398637162d68680910242c517d44bc88f55"
+    },
+    {
+      "name": "official_rewrite_objective_tracking_1_1-1_61.json",
+      "bytes": 2311,
+      "sha256": "567a54b76e0375d5e5b73cd2260817d5f09e360609fb6e7061b62d6c4c36b6b5"
+    },
+    {
+      "name": "official_rewrite_progress_1_1-1_61.json",
+      "bytes": 399,
+      "sha256": "89da6e45b461a3e9e1f4a50d5759b6d37039dd1e6841218befeeee4018bd1bb1"
+    }
+  ],
+  "source_full_audit_complete": false,
+  "github_delivery": "pending",
+  "library_delivery": "pending",
+  "next_section": "1.62"
+}

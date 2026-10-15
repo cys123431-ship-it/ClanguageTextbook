@@ -1,0 +1,50 @@
+{
+  "schema_version": 2,
+  "timestamp": "2026-10-16T07:09:04+09:00",
+  "full_original_item_audit_complete": false,
+  "sources": [
+    {
+      "name": "c언어 압축 (1)(1).pdf",
+      "pages": 750,
+      "status": "file materialized; scanned PDF page 8 visually inspected; LAB/Exercise/Mini Project item-level audit pending"
+    },
+    {
+      "name": "C_Programming.pdf",
+      "pages": 288,
+      "status": "file materialized; scanned PDF page 5 visually inspected; chapter/exercise item-level audit pending"
+    },
+    {
+      "name": "C Programming Language - 2nd Edition (OCR).pdf",
+      "pages": 238,
+      "status": "file materialized; table of contents inspected; supplementary only; full item-level audit pending"
+    },
+    {
+      "name": "C언어_통합교과서_전체수록범위_확정안.md",
+      "status": "full scope text available; 36 editorial units and 31 C23 headers identified; objective audit pending"
+    }
+  ],
+  "previous_reported_completed": "1.1~1.58 (not re-audited in this run)",
+  "new_sections": [
+    {
+      "section": "1.59",
+      "objective": "size_t/ptrdiff_t/offsetof, array-size, pointer difference, struct padding",
+      "source_relation": "K&R Appendix A.7/A.8 and Express arrays/structures, extended with ISO C11 stddef.h; individual original examples not yet audited",
+      "status": "new manuscript+code tests complete; original item comparison pending"
+    },
+    {
+      "section": "1.60",
+      "objective": "_Static_assert, _Generic, _Alignas, _Alignof, compile-time checking, type selection",
+      "source_relation": "ISO C11 additions beyond K&R 2nd edition; Express detailed comparison pending",
+      "status": "new manuscript+code tests complete; original item comparison pending"
+    },
+    {
+      "section": "1.61",
+      "objective": "complex.h, tgmath.h, complex arithmetic and type generic math",
+      "source_relation": "ISO C99/C11 extensions beyond K&R 2nd edition; Express detailed comparison pending",
+      "status": "new manuscript+code tests complete; original item comparison pending"
+    }
+  ],
+  "verified_programs": 21,
+  "verified_compiler_runs": 42,
+  "outstanding": "Original books: all chapter/section/examples/LAB/Exercise/Programming/Mini Project/Advanced Topic/appendix learning objectives require item-by-item mapping."
+}

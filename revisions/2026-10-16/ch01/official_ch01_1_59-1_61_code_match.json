@@ -1,0 +1,28 @@
+{
+  "docx_code_blocks": 21,
+  "compiled_source_count": 21,
+  "matched": true,
+  "per_file_sha256": {
+    "ch1_59_1_example.c": "8d1e1fe0b550d106658cb72bb0d8e72b1268600ca190d05a68b2084aae9c8bba",
+    "ch1_59_1_variation.c": "0152fed9e2d7e2255734685e35988648b4fdf613a93116d2166edf5aa6a97a29",
+    "ch1_59_2_example.c": "4803caeda56293b094e4b4ecfdda04e376d9298c9c79253e9660f59a2187f467",
+    "ch1_59_2_variation.c": "31856e0539cb7103ceed96a6127b0c58f6b569f0354bc7cb174cc86126d2e6c9",
+    "ch1_59_3_example.c": "6cba6612f71e851b4da08658752eba825c7e6e69b92a5bf7c31b50e3531c3187",
+    "ch1_59_3_variation.c": "c7b330b71f1dadbc58c0bdf6787b6b412d17bf6771d97c44c19a4d5e127624e5",
+    "ch1_59_independent_solution.c": "3bfe1aad05e058d1b45695f49ae96b675dafb444e7168585247340b0da8e0725",
+    "ch1_60_1_example.c": "8502628b0346effe55924fcd15ca280f304d42940a2241994997199b4e52ec0c",
+    "ch1_60_1_variation.c": "c8f236c5029ba76ef3ab5e7244e4c7143ef3ded0c0f781c648048fb1cfd35639",
+    "ch1_60_2_example.c": "e5c6bf0175617ee6f9619afe6b2ce8473a59e307935fe03196778e65b0837242",
+    "ch1_60_2_variation.c": "6bd165825ee2bac9b3c9f214fc4caef019b89309d40694ba8e0097ebbe86ae08",
+    "ch1_60_3_example.c": "fdee21abcf4229cabedd454f676f8a11e0087e385e8ba27c84136a09b24c12ac",
+    "ch1_60_3_variation.c": "e437989a28a875353a590febad9e59d8ba4a5ef349dbf1c8539e35afe6d6745b",
+    "ch1_60_independent_solution.c": "c0fb3ab1d1278c9f8f89b67517dbbb86e4d887580edccd1502cfbc696fb7067d",
+    "ch1_61_1_example.c": "8276fdc5536f5babe051d3c7055031b0484a6b176116f1ad6e7efa9b2c21e9a2",
+    "ch1_61_1_variation.c": "5b7b3eff08c4d6e24e806fc6b300146a76c6baa5892b2fc18d5ecac5785be10e",
+    "ch1_61_2_example.c": "a04df495e6b09f13316372b3b89aacbbe8d42834679a6793c8bfccb7bc76bd59",
+    "ch1_61_2_variation.c": "457c00b8aeb32a265eb67bba7b0ecb64ccce196f90a21bee76ae32bcd3268d2b",
+    "ch1_61_3_example.c": "d23962c286be9126408560c0f6233724cc68d66fee20dd420f0835a77a8e568d",
+    "ch1_61_3_variation.c": "31e19e9d6327bed566b4b9ed93f5715fb577c7fc6608cb34498e1f6de0ecc05d",
+    "ch1_61_independent_solution.c": "f5865c6a2d6028d1c0e9356bdf5e362088d586c578b080e7779e56e014dd8386"
+  }
+}

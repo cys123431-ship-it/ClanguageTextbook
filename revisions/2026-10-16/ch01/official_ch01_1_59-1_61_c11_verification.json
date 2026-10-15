@@ -1,0 +1,907 @@
+{
+  "run": "official_ch01_1_59-1_61",
+  "timestamp": "2026-10-16T07:09:04+09:00",
+  "standard": "ISO C11",
+  "flags": [
+    "-std=c11",
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-Werror",
+    "-O0"
+  ],
+  "compilers": [
+    "gcc",
+    "clang"
+  ],
+  "link_options": [
+    "-lm"
+  ],
+  "source_count": 21,
+  "compile_run_count": 42,
+  "all_passed": true,
+  "cases": [
+    {
+      "file": "ch1_59_1_example.c",
+      "compiler": "gcc",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "link_options": [
+        "-lm"
+      ],
+      "compile_returncode": 0,
+      "run_returncode": 0,
+      "expected_stdout": "count=4 total=24\n",
+      "actual_stdout": "count=4 total=24\n",
+      "stderr": "",
+      "passed": true
+    },
+    {
+      "file": "ch1_59_1_example.c",
+      "compiler": "clang",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "link_options": [
+        "-lm"
+      ],
+      "compile_returncode": 0,
+      "run_returncode": 0,
+      "expected_stdout": "count=4 total=24\n",
+      "actual_stdout": "count=4 total=24\n",
+      "stderr": "",
+      "passed": true
+    },
+    {
+      "file": "ch1_59_1_variation.c",
+      "compiler": "gcc",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "link_options": [
+        "-lm"
+      ],
+      "compile_returncode": 0,
+      "run_returncode": 0,
+      "expected_stdout": "count=5 total=30\n",
+      "actual_stdout": "count=5 total=30\n",
+      "stderr": "",
+      "passed": true
+    },
+    {
+      "file": "ch1_59_1_variation.c",
+      "compiler": "clang",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "link_options": [
+        "-lm"
+      ],
+      "compile_returncode": 0,
+      "run_returncode": 0,
+      "expected_stdout": "count=5 total=30\n",
+      "actual_stdout": "count=5 total=30\n",
+      "stderr": "",
+      "passed": true
+    },
+    {
+      "file": "ch1_59_2_example.c",
+      "compiler": "gcc",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "link_options": [
+        "-lm"
+      ],
+      "compile_returncode": 0,
+      "run_returncode": 0,
+      "expected_stdout": "distance=3 last=10\n",
+      "actual_stdout": "distance=3 last=10\n",
+      "stderr": "",
+      "passed": true
+    },
+    {
+      "file": "ch1_59_2_example.c",
+      "compiler": "clang",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "link_options": [
+        "-lm"
+      ],
+      "compile_returncode": 0,
+      "run_returncode": 0,
+      "expected_stdout": "distance=3 last=10\n",
+      "actual_stdout": "distance=3 last=10\n",
+      "stderr": "",
+      "passed": true
+    },
+    {
+      "file": "ch1_59_2_variation.c",
+      "compiler": "gcc",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "link_options": [
+        "-lm"
+      ],
+      "compile_returncode": 0,
+      "run_returncode": 0,
+      "expected_stdout": "distance=-3 earlier=4\n",
+      "actual_stdout": "distance=-3 earlier=4\n",
+      "stderr": "",
+      "passed": true
+    },
+    {
+      "file": "ch1_59_2_variation.c",
+      "compiler": "clang",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "link_options": [
+        "-lm"
+      ],
+      "compile_returncode": 0,
+      "run_returncode": 0,
+      "expected_stdout": "distance=-3 earlier=4\n",
+      "actual_stdout": "distance=-3 earlier=4\n",
+      "stderr": "",
+      "passed": true
+    },
+    {
+      "file": "ch1_59_3_example.c",
+      "compiler": "gcc",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "link_options": [
+        "-lm"
+      ],
+      "compile_returncode": 0,
+      "run_returncode": 0,
+      "expected_stdout": "ordered=1 inside=1\n",
+      "actual_stdout": "ordered=1 inside=1\n",
+      "stderr": "",
+      "passed": true
+    },
+    {
+      "file": "ch1_59_3_example.c",
+      "compiler": "clang",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "link_options": [
+        "-lm"
+      ],
+      "compile_returncode": 0,
+      "run_returncode": 0,
+      "expected_stdout": "ordered=1 inside=1\n",
+      "actual_stdout": "ordered=1 inside=1\n",
+      "stderr": "",
+      "passed": true
+    },
+    {
+      "file": "ch1_59_3_variation.c",
+      "compiler": "gcc",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "link_options": [
+        "-lm"
+      ],
+      "compile_returncode": 0,
+      "run_returncode": 0,
+      "expected_stdout": "ordered=1 inside=1\n",
+      "actual_stdout": "ordered=1 inside=1\n",
+      "stderr": "",
+      "passed": true
+    },
+    {
+      "file": "ch1_59_3_variation.c",
+      "compiler": "clang",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "link_options": [
+        "-lm"
+      ],
+      "compile_returncode": 0,
+      "run_returncode": 0,
+      "expected_stdout": "ordered=1 inside=1\n",
+      "actual_stdout": "ordered=1 inside=1\n",
+      "stderr": "",
+      "passed": true
+    },
+    {
+      "file": "ch1_59_independent_solution.c",
+      "compiler": "gcc",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "link_options": [
+        "-lm"
+      ],
+      "compile_returncode": 0,
+      "run_returncode": 0,
+      "expected_stdout": "count=3 last=8\n",
+      "actual_stdout": "count=3 last=8\n",
+      "stderr": "",
+      "passed": true
+    },
+    {
+      "file": "ch1_59_independent_solution.c",
+      "compiler": "clang",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "link_options": [
+        "-lm"
+      ],
+      "compile_returncode": 0,
+      "run_returncode": 0,
+      "expected_stdout": "count=3 last=8\n",
+      "actual_stdout": "count=3 last=8\n",
+      "stderr": "",
+      "passed": true
+    },
+    {
+      "file": "ch1_60_1_example.c",
+      "compiler": "gcc",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "link_options": [
+        "-lm"
+      ],
+      "compile_returncode": 0,
+      "run_returncode": 0,
+      "expected_stdout": "minimum-range=1\n",
+      "actual_stdout": "minimum-range=1\n",
+      "stderr": "",
+      "passed": true
+    },
+    {
+      "file": "ch1_60_1_example.c",
+      "compiler": "clang",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "link_options": [
+        "-lm"
+      ],
+      "compile_returncode": 0,
+      "run_returncode": 0,
+      "expected_stdout": "minimum-range=1\n",
+      "actual_stdout": "minimum-range=1\n",
+      "stderr": "",
+      "passed": true
+    },
+    {
+      "file": "ch1_60_1_variation.c",
+      "compiler": "gcc",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "link_options": [
+        "-lm"
+      ],
+      "compile_returncode": 0,
+      "run_returncode": 0,
+      "expected_stdout": "char-size=1\n",
+      "actual_stdout": "char-size=1\n",
+      "stderr": "",
+      "passed": true
+    },
+    {
+      "file": "ch1_60_1_variation.c",
+      "compiler": "clang",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "link_options": [
+        "-lm"
+      ],
+      "compile_returncode": 0,
+      "run_returncode": 0,
+      "expected_stdout": "char-size=1\n",
+      "actual_stdout": "char-size=1\n",
+      "stderr": "",
+      "passed": true
+    },
+    {
+      "file": "ch1_60_2_example.c",
+      "compiler": "gcc",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "link_options": [
+        "-lm"
+      ],
+      "compile_returncode": 0,
+      "run_returncode": 0,
+      "expected_stdout": "kind=int counter=4\n",
+      "actual_stdout": "kind=int counter=4\n",
+      "stderr": "",
+      "passed": true
+    },
+    {
+      "file": "ch1_60_2_example.c",
+      "compiler": "clang",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "link_options": [
+        "-lm"
+      ],
+      "compile_returncode": 0,
+      "run_returncode": 0,
+      "expected_stdout": "kind=int counter=4\n",
+      "actual_stdout": "kind=int counter=4\n",
+      "stderr": "",
+      "passed": true
+    },
+    {
+      "file": "ch1_60_2_variation.c",
+      "compiler": "gcc",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "link_options": [
+        "-lm"
+      ],
+      "compile_returncode": 0,
+      "run_returncode": 0,
+      "expected_stdout": "kind=double value=2.5\n",
+      "actual_stdout": "kind=double value=2.5\n",
+      "stderr": "",
+      "passed": true
+    },
+    {
+      "file": "ch1_60_2_variation.c",
+      "compiler": "clang",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "link_options": [
+        "-lm"
+      ],
+      "compile_returncode": 0,
+      "run_returncode": 0,
+      "expected_stdout": "kind=double value=2.5\n",
+      "actual_stdout": "kind=double value=2.5\n",
+      "stderr": "",
+      "passed": true
+    },
+    {
+      "file": "ch1_60_3_example.c",
+      "compiler": "gcc",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "link_options": [
+        "-lm"
+      ],
+      "compile_returncode": 0,
+      "run_returncode": 0,
+      "expected_stdout": "same=1 size-ok=1 align-ok=1\n",
+      "actual_stdout": "same=1 size-ok=1 align-ok=1\n",
+      "stderr": "",
+      "passed": true
+    },
+    {
+      "file": "ch1_60_3_example.c",
+      "compiler": "clang",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "link_options": [
+        "-lm"
+      ],
+      "compile_returncode": 0,
+      "run_returncode": 0,
+      "expected_stdout": "same=1 size-ok=1 align-ok=1\n",
+      "actual_stdout": "same=1 size-ok=1 align-ok=1\n",
+      "stderr": "",
+      "passed": true
+    },
+    {
+      "file": "ch1_60_3_variation.c",
+      "compiler": "gcc",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "link_options": [
+        "-lm"
+      ],
+      "compile_returncode": 0,
+      "run_returncode": 0,
+      "expected_stdout": "same=1 size-ok=1 align-ok=1\n",
+      "actual_stdout": "same=1 size-ok=1 align-ok=1\n",
+      "stderr": "",
+      "passed": true
+    },
+    {
+      "file": "ch1_60_3_variation.c",
+      "compiler": "clang",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "link_options": [
+        "-lm"
+      ],
+      "compile_returncode": 0,
+      "run_returncode": 0,
+      "expected_stdout": "same=1 size-ok=1 align-ok=1\n",
+      "actual_stdout": "same=1 size-ok=1 align-ok=1\n",
+      "stderr": "",
+      "passed": true
+    },
+    {
+      "file": "ch1_60_independent_solution.c",
+      "compiler": "gcc",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "link_options": [
+        "-lm"
+      ],
+      "compile_returncode": 0,
+      "run_returncode": 0,
+      "expected_stdout": "float=1 int=1\n",
+      "actual_stdout": "float=1 int=1\n",
+      "stderr": "",
+      "passed": true
+    },
+    {
+      "file": "ch1_60_independent_solution.c",
+      "compiler": "clang",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "link_options": [
+        "-lm"
+      ],
+      "compile_returncode": 0,
+      "run_returncode": 0,
+      "expected_stdout": "float=1 int=1\n",
+      "actual_stdout": "float=1 int=1\n",
+      "stderr": "",
+      "passed": true
+    },
+    {
+      "file": "ch1_61_1_example.c",
+      "compiler": "gcc",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "link_options": [
+        "-lm"
+      ],
+      "compile_returncode": 0,
+      "run_returncode": 0,
+      "expected_stdout": "magnitude=5.0\n",
+      "actual_stdout": "magnitude=5.0\n",
+      "stderr": "",
+      "passed": true
+    },
+    {
+      "file": "ch1_61_1_example.c",
+      "compiler": "clang",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "link_options": [
+        "-lm"
+      ],
+      "compile_returncode": 0,
+      "run_returncode": 0,
+      "expected_stdout": "magnitude=5.0\n",
+      "actual_stdout": "magnitude=5.0\n",
+      "stderr": "",
+      "passed": true
+    },
+    {
+      "file": "ch1_61_1_variation.c",
+      "compiler": "gcc",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "link_options": [
+        "-lm"
+      ],
+      "compile_returncode": 0,
+      "run_returncode": 0,
+      "expected_stdout": "magnitude=13.0\n",
+      "actual_stdout": "magnitude=13.0\n",
+      "stderr": "",
+      "passed": true
+    },
+    {
+      "file": "ch1_61_1_variation.c",
+      "compiler": "clang",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "link_options": [
+        "-lm"
+      ],
+      "compile_returncode": 0,
+      "run_returncode": 0,
+      "expected_stdout": "magnitude=13.0\n",
+      "actual_stdout": "magnitude=13.0\n",
+      "stderr": "",
+      "passed": true
+    },
+    {
+      "file": "ch1_61_2_example.c",
+      "compiler": "gcc",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "link_options": [
+        "-lm"
+      ],
+      "compile_returncode": 0,
+      "run_returncode": 0,
+      "expected_stdout": "real=3.0 imag=2.0\n",
+      "actual_stdout": "real=3.0 imag=2.0\n",
+      "stderr": "",
+      "passed": true
+    },
+    {
+      "file": "ch1_61_2_example.c",
+      "compiler": "clang",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "link_options": [
+        "-lm"
+      ],
+      "compile_returncode": 0,
+      "run_returncode": 0,
+      "expected_stdout": "real=3.0 imag=2.0\n",
+      "actual_stdout": "real=3.0 imag=2.0\n",
+      "stderr": "",
+      "passed": true
+    },
+    {
+      "file": "ch1_61_2_variation.c",
+      "compiler": "gcc",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "link_options": [
+        "-lm"
+      ],
+      "compile_returncode": 0,
+      "run_returncode": 0,
+      "expected_stdout": "real=5.0 imag=1.0\n",
+      "actual_stdout": "real=5.0 imag=1.0\n",
+      "stderr": "",
+      "passed": true
+    },
+    {
+      "file": "ch1_61_2_variation.c",
+      "compiler": "clang",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "link_options": [
+        "-lm"
+      ],
+      "compile_returncode": 0,
+      "run_returncode": 0,
+      "expected_stdout": "real=5.0 imag=1.0\n",
+      "actual_stdout": "real=5.0 imag=1.0\n",
+      "stderr": "",
+      "passed": true
+    },
+    {
+      "file": "ch1_61_3_example.c",
+      "compiler": "gcc",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "link_options": [
+        "-lm"
+      ],
+      "compile_returncode": 0,
+      "run_returncode": 0,
+      "expected_stdout": "roots=3.0 4.0 types=1 1\n",
+      "actual_stdout": "roots=3.0 4.0 types=1 1\n",
+      "stderr": "",
+      "passed": true
+    },
+    {
+      "file": "ch1_61_3_example.c",
+      "compiler": "clang",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "link_options": [
+        "-lm"
+      ],
+      "compile_returncode": 0,
+      "run_returncode": 0,
+      "expected_stdout": "roots=3.0 4.0 types=1 1\n",
+      "actual_stdout": "roots=3.0 4.0 types=1 1\n",
+      "stderr": "",
+      "passed": true
+    },
+    {
+      "file": "ch1_61_3_variation.c",
+      "compiler": "gcc",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "link_options": [
+        "-lm"
+      ],
+      "compile_returncode": 0,
+      "run_returncode": 0,
+      "expected_stdout": "roots=5.0 6.0 types=1 1\n",
+      "actual_stdout": "roots=5.0 6.0 types=1 1\n",
+      "stderr": "",
+      "passed": true
+    },
+    {
+      "file": "ch1_61_3_variation.c",
+      "compiler": "clang",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "link_options": [
+        "-lm"
+      ],
+      "compile_returncode": 0,
+      "run_returncode": 0,
+      "expected_stdout": "roots=5.0 6.0 types=1 1\n",
+      "actual_stdout": "roots=5.0 6.0 types=1 1\n",
+      "stderr": "",
+      "passed": true
+    },
+    {
+      "file": "ch1_61_independent_solution.c",
+      "compiler": "gcc",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "link_options": [
+        "-lm"
+      ],
+      "compile_returncode": 0,
+      "run_returncode": 0,
+      "expected_stdout": "distance=5.0\n",
+      "actual_stdout": "distance=5.0\n",
+      "stderr": "",
+      "passed": true
+    },
+    {
+      "file": "ch1_61_independent_solution.c",
+      "compiler": "clang",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "link_options": [
+        "-lm"
+      ],
+      "compile_returncode": 0,
+      "run_returncode": 0,
+      "expected_stdout": "distance=5.0\n",
+      "actual_stdout": "distance=5.0\n",
+      "stderr": "",
+      "passed": true
+    }
+  ]
+}

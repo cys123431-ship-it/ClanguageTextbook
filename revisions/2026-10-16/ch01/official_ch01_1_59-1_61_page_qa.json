@@ -1,0 +1,171 @@
+{
+  "rendered_pages": 15,
+  "all_pages_within_bounds": true,
+  "pages": [
+    {
+      "page": 1,
+      "text_chars": 2075,
+      "bbox": [
+        65.3,
+        25.5,
+        530.2,
+        816.4
+      ],
+      "within_page": true
+    },
+    {
+      "page": 2,
+      "text_chars": 1677,
+      "bbox": [
+        65.3,
+        25.5,
+        530.2,
+        816.4
+      ],
+      "within_page": true
+    },
+    {
+      "page": 3,
+      "text_chars": 1584,
+      "bbox": [
+        65.3,
+        25.5,
+        530.2,
+        816.4
+      ],
+      "within_page": true
+    },
+    {
+      "page": 4,
+      "text_chars": 1615,
+      "bbox": [
+        65.3,
+        25.5,
+        531.3,
+        816.4
+      ],
+      "within_page": true
+    },
+    {
+      "page": 5,
+      "text_chars": 1526,
+      "bbox": [
+        65.3,
+        25.5,
+        531.1,
+        816.4
+      ],
+      "within_page": true
+    },
+    {
+      "page": 6,
+      "text_chars": 1953,
+      "bbox": [
+        65.3,
+        25.5,
+        530.2,
+        816.4
+      ],
+      "within_page": true
+    },
+    {
+      "page": 7,
+      "text_chars": 1689,
+      "bbox": [
+        65.3,
+        25.5,
+        532.5,
+        816.4
+      ],
+      "within_page": true
+    },
+    {
+      "page": 8,
+      "text_chars": 1639,
+      "bbox": [
+        65.3,
+        25.5,
+        530.2,
+        816.4
+      ],
+      "within_page": true
+    },
+    {
+      "page": 9,
+      "text_chars": 1946,
+      "bbox": [
+        65.3,
+        25.5,
+        531.1,
+        816.4
+      ],
+      "within_page": true
+    },
+    {
+      "page": 10,
+      "text_chars": 2087,
+      "bbox": [
+        65.3,
+        25.5,
+        530.2,
+        816.4
+      ],
+      "within_page": true
+    },
+    {
+      "page": 11,
+      "text_chars": 1508,
+      "bbox": [
+        65.3,
+        25.5,
+        531.1,
+        816.4
+      ],
+      "within_page": true
+    },
+    {
+      "page": 12,
+      "text_chars": 1539,
+      "bbox": [
+        65.3,
+        25.5,
+        530.2,
+        816.4
+      ],
+      "within_page": true
+    },
+    {
+      "page": 13,
+      "text_chars": 1660,
+      "bbox": [
+        65.3,
+        25.5,
+        530.2,
+        816.4
+      ],
+      "within_page": true
+    },
+    {
+      "page": 14,
+      "text_chars": 1578,
+      "bbox": [
+        65.3,
+        25.5,
+        531.4,
+        816.4
+      ],
+      "within_page": true
+    },
+    {
+      "page": 15,
+      "text_chars": 937,
+      "bbox": [
+        65.3,
+        25.5,
+        530.2,
+        816.4
+      ],
+      "within_page": true
+    }
+  ]
+}
