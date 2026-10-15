@@ -1,0 +1,37 @@
+{
+  "timestamp": "2026-10-16T08:13:58+09:00",
+  "scope_md": "C언어_통합교과서_전체수록범위_확정안.md (Library materialized, editorial unit 24 confirmed)",
+  "pdfs": [
+    {
+      "name": "c언어 압축 (1)(1).pdf",
+      "pages": 750,
+      "materialized": true,
+      "visually_inspected_pages": [
+        10,
+        13
+      ],
+      "full_item_audit": false
+    },
+    {
+      "name": "C_Programming.pdf",
+      "pages": 288,
+      "materialized": true,
+      "visually_inspected_pages": [
+        6
+      ],
+      "full_item_audit": false
+    },
+    {
+      "name": "C Programming Language - 2nd Edition (OCR).pdf",
+      "pages": 238,
+      "materialized": true,
+      "toc_text_inspected_pages": [
+        4,
+        5
+      ],
+      "full_item_audit": false
+    }
+  ],
+  "copyright": "No lengthy quotation, translated passage, original exercise, or illustration copied.",
+  "caveat": "Original LAB/Exercise/Programming/Mini Project/Advanced Topic/Appendix individual objective audit remains pending."
+}

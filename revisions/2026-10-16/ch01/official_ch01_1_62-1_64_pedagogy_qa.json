@@ -1,0 +1,21 @@
+{
+  "sections": [
+    "1.62",
+    "1.63",
+    "1.64"
+  ],
+  "complete_examples": 12,
+  "adjacent_variations": 12,
+  "independent_solutions": 3,
+  "total_verified_sources": 27,
+  "prediction_before_explanation": true,
+  "line_explanations_and_trace": true,
+  "adjacent_variation_answer": true,
+  "guided_fading": true,
+  "cumulative_retrieval": true,
+  "debugging_progression": true,
+  "subgoal_decomposition": true,
+  "misconception_diagnosis": true,
+  "first_appearance_notes": true,
+  "review_method": "DOCX paragraph/section structure and source-code blocks checked; prior sections not re-audited"
+}

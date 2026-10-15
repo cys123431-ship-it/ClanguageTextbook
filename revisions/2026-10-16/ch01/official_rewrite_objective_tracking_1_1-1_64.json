@@ -1,0 +1,74 @@
+{
+  "schema_version": 3,
+  "timestamp": "2026-10-16T08:13:58+09:00",
+  "full_original_item_audit_complete": false,
+  "previous_reported_completed": "1.1~1.61 (not independently re-audited this run)",
+  "source_materials": [
+    {
+      "name": "c언어 압축 (1)(1).pdf",
+      "pages": 750,
+      "materialized": true,
+      "visually_inspected_pages": [
+        10,
+        13
+      ],
+      "full_item_audit": false
+    },
+    {
+      "name": "C_Programming.pdf",
+      "pages": 288,
+      "materialized": true,
+      "visually_inspected_pages": [
+        6
+      ],
+      "full_item_audit": false
+    },
+    {
+      "name": "C Programming Language - 2nd Edition (OCR).pdf",
+      "pages": 238,
+      "materialized": true,
+      "toc_text_inspected_pages": [
+        4,
+        5
+      ],
+      "full_item_audit": false
+    },
+    {
+      "name": "C언어_통합교과서_전체수록범위_확정안.md",
+      "materialized": true,
+      "status": "editorial unit 24 checked; original item audit pending"
+    }
+  ],
+  "new_sections": [
+    {
+      "section": "1.62",
+      "objective": "locale.h: setlocale/localeconv, LC_NUMERIC/LC_COLLATE/LC_CTYPE, strcoll/strxfrm, strtod locale effects",
+      "editorial_unit": "24: 문자 인코딩·국제화·시간",
+      "source_relation": "K&R appendix B locale and library behavior; Express original LAB item matching not yet completed",
+      "new_manuscript": "complete",
+      "compiler_tests": "passed",
+      "source_item_match": "pending"
+    },
+    {
+      "section": "1.63",
+      "objective": "wchar.h: wchar_t, wide strings, wcslen/wcscmp, mbstowcs/wcstombs, wmemmove, wcstol",
+      "editorial_unit": "24: 문자 인코딩·국제화·시간",
+      "source_relation": "C95/C99/C11 standard library extension; K&R 2nd predates these features; Express original item matching pending",
+      "new_manuscript": "complete",
+      "compiler_tests": "passed",
+      "source_item_match": "pending"
+    },
+    {
+      "section": "1.64",
+      "objective": "wctype.h and uchar.h: wide classification, descriptors, char16_t/char32_t, stateful conversion",
+      "editorial_unit": "24: 문자 인코딩·국제화·시간",
+      "source_relation": "C95/C11 library extension beyond K&R 2nd; Express original item matching pending",
+      "new_manuscript": "complete",
+      "compiler_tests": "passed",
+      "source_item_match": "pending"
+    }
+  ],
+  "verified_programs": 27,
+  "verified_compiler_runs": 54,
+  "outstanding": "All original chapter/section/LAB/Exercise/Programming/Mini Project/Advanced Topic/Appendix learning objectives must be mapped individually."
+}

@@ -1,0 +1,139 @@
+{
+  "rendered_pages": 22,
+  "pages": [
+    {
+      "page": 1,
+      "words": 146,
+      "chars": 2253,
+      "out_of_bounds_words": 0
+    },
+    {
+      "page": 2,
+      "words": 154,
+      "chars": 1917,
+      "out_of_bounds_words": 0
+    },
+    {
+      "page": 3,
+      "words": 149,
+      "chars": 1652,
+      "out_of_bounds_words": 0
+    },
+    {
+      "page": 4,
+      "words": 160,
+      "chars": 1582,
+      "out_of_bounds_words": 0
+    },
+    {
+      "page": 5,
+      "words": 138,
+      "chars": 1611,
+      "out_of_bounds_words": 0
+    },
+    {
+      "page": 6,
+      "words": 167,
+      "chars": 1715,
+      "out_of_bounds_words": 0
+    },
+    {
+      "page": 7,
+      "words": 197,
+      "chars": 1733,
+      "out_of_bounds_words": 0
+    },
+    {
+      "page": 8,
+      "words": 153,
+      "chars": 2090,
+      "out_of_bounds_words": 0
+    },
+    {
+      "page": 9,
+      "words": 145,
+      "chars": 1551,
+      "out_of_bounds_words": 0
+    },
+    {
+      "page": 10,
+      "words": 147,
+      "chars": 1679,
+      "out_of_bounds_words": 0
+    },
+    {
+      "page": 11,
+      "words": 163,
+      "chars": 1684,
+      "out_of_bounds_words": 0
+    },
+    {
+      "page": 12,
+      "words": 140,
+      "chars": 1485,
+      "out_of_bounds_words": 0
+    },
+    {
+      "page": 13,
+      "words": 157,
+      "chars": 1673,
+      "out_of_bounds_words": 0
+    },
+    {
+      "page": 14,
+      "words": 163,
+      "chars": 2133,
+      "out_of_bounds_words": 0
+    },
+    {
+      "page": 15,
+      "words": 158,
+      "chars": 1681,
+      "out_of_bounds_words": 0
+    },
+    {
+      "page": 16,
+      "words": 169,
+      "chars": 1675,
+      "out_of_bounds_words": 0
+    },
+    {
+      "page": 17,
+      "words": 150,
+      "chars": 1460,
+      "out_of_bounds_words": 0
+    },
+    {
+      "page": 18,
+      "words": 162,
+      "chars": 1910,
+      "out_of_bounds_words": 0
+    },
+    {
+      "page": 19,
+      "words": 179,
+      "chars": 1526,
+      "out_of_bounds_words": 0
+    },
+    {
+      "page": 20,
+      "words": 162,
+      "chars": 1798,
+      "out_of_bounds_words": 0
+    },
+    {
+      "page": 21,
+      "words": 146,
+      "chars": 1557,
+      "out_of_bounds_words": 0
+    },
+    {
+      "page": 22,
+      "words": 64,
+      "chars": 835,
+      "out_of_bounds_words": 0
+    }
+  ],
+  "no_empty_pages": true,
+  "out_of_bounds_words": 0
+}
