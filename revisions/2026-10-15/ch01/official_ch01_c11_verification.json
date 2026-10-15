@@ -1,0 +1,245 @@
+{
+  "flags": [
+    "-std=c11",
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-Werror",
+    "-O0"
+  ],
+  "cases": [
+    {
+      "compiler": "gcc",
+      "file": "ch1_1_main.c",
+      "compiled": true,
+      "compile_stderr": "",
+      "exit_code": 0,
+      "actual_stdout": "Study record begins.\nToday is the first C lesson.\n",
+      "expected_stdout": "Study record begins.\nToday is the first C lesson.\n",
+      "matches": true,
+      "run_stderr": ""
+    },
+    {
+      "compiler": "gcc",
+      "file": "ch1_1_variant.c",
+      "compiled": true,
+      "compile_stderr": "",
+      "exit_code": 0,
+      "actual_stdout": "Ready for practice.\nCheck the output.\n",
+      "expected_stdout": "Ready for practice.\nCheck the output.\n",
+      "matches": true,
+      "run_stderr": ""
+    },
+    {
+      "compiler": "gcc",
+      "file": "ch1_2_main.c",
+      "compiled": true,
+      "compile_stderr": "",
+      "exit_code": 0,
+      "actual_stdout": "Preparation: 8 min\nPractice: 12 min\nTotal: 20 min\n",
+      "expected_stdout": "Preparation: 8 min\nPractice: 12 min\nTotal: 20 min\n",
+      "matches": true,
+      "run_stderr": ""
+    },
+    {
+      "compiler": "gcc",
+      "file": "ch1_2_variant.c",
+      "compiled": true,
+      "compile_stderr": "",
+      "exit_code": 0,
+      "actual_stdout": "Total: 25 min\n",
+      "expected_stdout": "Total: 25 min\n",
+      "matches": true,
+      "run_stderr": ""
+    },
+    {
+      "compiler": "gcc",
+      "file": "ch1_3_main.c",
+      "compiled": true,
+      "compile_stderr": "",
+      "exit_code": 0,
+      "actual_stdout": "Initial total: 40 min\nRevised total: 45 min\n",
+      "expected_stdout": "Initial total: 40 min\nRevised total: 45 min\n",
+      "matches": true,
+      "run_stderr": ""
+    },
+    {
+      "compiler": "gcc",
+      "file": "ch1_3_variant.c",
+      "compiled": true,
+      "compile_stderr": "",
+      "exit_code": 0,
+      "actual_stdout": "Before break: 30 min\nAfter break: 37 min\n",
+      "expected_stdout": "Before break: 30 min\nAfter break: 37 min\n",
+      "matches": true,
+      "run_stderr": ""
+    },
+    {
+      "compiler": "gcc",
+      "file": "ch1_4_main.c",
+      "compiled": true,
+      "compile_stderr": "",
+      "exit_code": 0,
+      "actual_stdout": "Not enough seats.\nCheck finished.\n",
+      "expected_stdout": "Not enough seats.\nCheck finished.\n",
+      "matches": true,
+      "run_stderr": ""
+    },
+    {
+      "compiler": "gcc",
+      "file": "ch1_4_variant.c",
+      "compiled": true,
+      "compile_stderr": "",
+      "exit_code": 0,
+      "actual_stdout": "Registration open.\n",
+      "expected_stdout": "Registration open.\n",
+      "matches": true,
+      "run_stderr": ""
+    },
+    {
+      "compiler": "gcc",
+      "file": "ch1_5_main.c",
+      "compiled": true,
+      "compile_stderr": "",
+      "exit_code": 0,
+      "actual_stdout": "Largest: 19\n",
+      "expected_stdout": "Largest: 19\n",
+      "matches": true,
+      "run_stderr": ""
+    },
+    {
+      "compiler": "gcc",
+      "file": "ch1_5_variant.c",
+      "compiled": true,
+      "compile_stderr": "",
+      "exit_code": 0,
+      "actual_stdout": "Smallest: -9\n",
+      "expected_stdout": "Smallest: -9\n",
+      "matches": true,
+      "run_stderr": ""
+    },
+    {
+      "compiler": "clang",
+      "file": "ch1_1_main.c",
+      "compiled": true,
+      "compile_stderr": "",
+      "exit_code": 0,
+      "actual_stdout": "Study record begins.\nToday is the first C lesson.\n",
+      "expected_stdout": "Study record begins.\nToday is the first C lesson.\n",
+      "matches": true,
+      "run_stderr": ""
+    },
+    {
+      "compiler": "clang",
+      "file": "ch1_1_variant.c",
+      "compiled": true,
+      "compile_stderr": "",
+      "exit_code": 0,
+      "actual_stdout": "Ready for practice.\nCheck the output.\n",
+      "expected_stdout": "Ready for practice.\nCheck the output.\n",
+      "matches": true,
+      "run_stderr": ""
+    },
+    {
+      "compiler": "clang",
+      "file": "ch1_2_main.c",
+      "compiled": true,
+      "compile_stderr": "",
+      "exit_code": 0,
+      "actual_stdout": "Preparation: 8 min\nPractice: 12 min\nTotal: 20 min\n",
+      "expected_stdout": "Preparation: 8 min\nPractice: 12 min\nTotal: 20 min\n",
+      "matches": true,
+      "run_stderr": ""
+    },
+    {
+      "compiler": "clang",
+      "file": "ch1_2_variant.c",
+      "compiled": true,
+      "compile_stderr": "",
+      "exit_code": 0,
+      "actual_stdout": "Total: 25 min\n",
+      "expected_stdout": "Total: 25 min\n",
+      "matches": true,
+      "run_stderr": ""
+    },
+    {
+      "compiler": "clang",
+      "file": "ch1_3_main.c",
+      "compiled": true,
+      "compile_stderr": "",
+      "exit_code": 0,
+      "actual_stdout": "Initial total: 40 min\nRevised total: 45 min\n",
+      "expected_stdout": "Initial total: 40 min\nRevised total: 45 min\n",
+      "matches": true,
+      "run_stderr": ""
+    },
+    {
+      "compiler": "clang",
+      "file": "ch1_3_variant.c",
+      "compiled": true,
+      "compile_stderr": "",
+      "exit_code": 0,
+      "actual_stdout": "Before break: 30 min\nAfter break: 37 min\n",
+      "expected_stdout": "Before break: 30 min\nAfter break: 37 min\n",
+      "matches": true,
+      "run_stderr": ""
+    },
+    {
+      "compiler": "clang",
+      "file": "ch1_4_main.c",
+      "compiled": true,
+      "compile_stderr": "",
+      "exit_code": 0,
+      "actual_stdout": "Not enough seats.\nCheck finished.\n",
+      "expected_stdout": "Not enough seats.\nCheck finished.\n",
+      "matches": true,
+      "run_stderr": ""
+    },
+    {
+      "compiler": "clang",
+      "file": "ch1_4_variant.c",
+      "compiled": true,
+      "compile_stderr": "",
+      "exit_code": 0,
+      "actual_stdout": "Registration open.\n",
+      "expected_stdout": "Registration open.\n",
+      "matches": true,
+      "run_stderr": ""
+    },
+    {
+      "compiler": "clang",
+      "file": "ch1_5_main.c",
+      "compiled": true,
+      "compile_stderr": "",
+      "exit_code": 0,
+      "actual_stdout": "Largest: 19\n",
+      "expected_stdout": "Largest: 19\n",
+      "matches": true,
+      "run_stderr": ""
+    },
+    {
+      "compiler": "clang",
+      "file": "ch1_5_variant.c",
+      "compiled": true,
+      "compile_stderr": "",
+      "exit_code": 0,
+      "actual_stdout": "Smallest: -9\n",
+      "expected_stdout": "Smallest: -9\n",
+      "matches": true,
+      "run_stderr": ""
+    }
+  ],
+  "compilers": {
+    "gcc": {
+      "available": true,
+      "version": "gcc (Debian 14.2.0-19) 14.2.0"
+    },
+    "clang": {
+      "available": true,
+      "version": "clang version 17.0.0 (https://github.com/swiftlang/llvm-project.git 10999b6d034fe318f3d56c83bddb6572593a8bb0)"
+    }
+  },
+  "pass_count": 20,
+  "case_count": 20,
+  "all_pass": true
+}
