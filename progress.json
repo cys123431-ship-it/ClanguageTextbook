@@ -29,10 +29,16 @@
     "1.22",
     "1.23",
     "1.24",
-    "1.25"
+    "1.25",
+    "1.26",
+    "1.27",
+    "1.28",
+    "1.29",
+    "1.30",
+    "1.31"
   ],
-  "last_completed_section": "1.25",
-  "last_verified_at": "2026-10-15T19:19:00+09:00",
+  "last_completed_section": "1.31",
+  "last_verified_at": "2026-10-15T21:01:41+09:00",
   "stages": [
     {
       "id": "draft",
@@ -62,7 +68,9 @@
     "revisions/2026-10-15/ch01/C언어_종합교과서_이해중심_정식개정판_제1장_1.13-1.16.docx",
     "revisions/2026-10-15/ch01/C언어_종합교과서_이해중심_정식개정판_제1장_1.17-1.19.docx",
     "revisions/2026-10-15/ch01/C언어_종합교과서_이해중심_정식개정판_제1장_1.20-1.22.docx",
-    "revisions/2026-10-15/ch01/C언어_종합교과서_이해중심_정식개정판_제1장_1.23-1.25.docx"
+    "revisions/2026-10-15/ch01/C언어_종합교과서_이해중심_정식개정판_제1장_1.23-1.25.docx",
+    "revisions/2026-10-15/ch01/C언어_종합교과서_이해중심_정식개정판_제1장_1.26-1.28.docx",
+    "revisions/2026-10-15/ch01/C언어_종합교과서_이해중심_정식개정판_제1장_1.29-1.31.docx"
   ],
-  "github_delivery_status": "DOCX on main verified through section 1.25; blob SHA re-fetched"
+  "github_delivery_status": "Verified DOCX on main through section 1.31; source ZIP upload pending"
 }
