@@ -1,16 +1,31 @@
 {
   "run": "chapter01_1.38-1.40",
-  "generated_at": "2026-10-16T00:02:16+09:00",
+  "generated_at": "2026-10-16T00:10:49+09:00",
   "files": [
     {
       "name": "C언어_종합교과서_이해중심_정식개정판_제1장_1.38-1.40.docx",
-      "sha256": "be30acbfdfe1ef14f8f9bdb74e1e14a8f455cbe2cf43d0a357eacbbad30e1e3c",
-      "size": 47748
+      "sha256": "77ca678168387ef402d529bc279e34e87fb7d0d7d59defdf615c43b7cd9de2a7",
+      "size": 47744
     },
     {
-      "name": "official_rewrite_progress_1_1-1_40.json",
-      "sha256": "167b4333e5844bbb74d457900c3f2d56b1438e50e27000e1d75f40cbefb47c44",
-      "size": 649
+      "name": "official_ch01_1_38-1_40_sources.zip",
+      "sha256": "a6f60f4f9affd33e8c6162de26a7642baa59fa2b066473a4290598b985d967c3",
+      "size": 7294
+    },
+    {
+      "name": "build_ch01_1_38_to_1_40.py",
+      "sha256": "634f40db9f943fb937eaa9e4adcee0375c388c01e5966631c7e47ada6c9ad790",
+      "size": 38191
+    },
+    {
+      "name": "official_ch01_1_38-1_40_c11_verification.json",
+      "sha256": "08afe3b68b595d8281aeee1c3eb8249bff131ee57e1a5d13907a027121b24e88",
+      "size": 9840
+    },
+    {
+      "name": "official_ch01_1_38-1_40_page_qa.json",
+      "sha256": "47704038f968179f3de8191a96dae1179e518917ed57ce2e5a94002cf2725805",
+      "size": 391
     },
     {
       "name": "official_ch01_1_38-1_40_source_inspection.json",
@@ -18,32 +33,16 @@
       "size": 431
     },
     {
-      "name": "build_ch01_1_38_to_1_40.py",
-      "sha256": "409c7e23014ea9223272d79cf50c895dd7a8a71c01bb8708142f8bd822bf47bc",
-      "size": 38207
-    },
-    {
-      "name": "official_ch01_1_38-1_40_sources.zip",
-      "sha256": "d78c366492baa9220988f0ff2d98ff2f5afecbfd65ba06baddcb6063f1afc92c",
-      "size": 7294
-    },
-    {
-      "name": "official_ch01_1_38-1_40_c11_verification.json",
-      "sha256": "140b9ba1f53c4411a7941dbcbb5d214b0395988753e786a8078ddfd49c56d5b3",
-      "size": 9840
+      "name": "official_rewrite_progress_1_1-1_40.json",
+      "sha256": "d3d262852aec7c5b11e21e6aa69d51d12a42fe14e8125011c98d20e5d9851d23",
+      "size": 649
     },
     {
       "name": "official_rewrite_objective_tracking_1_1-1_40.json",
-      "sha256": "e30a13d13608637e46a6ebd5a053dd2bf46f9579f09e2f7894e9b3ce9563ad2c",
-      "size": 1040
-    },
-    {
-      "name": "official_ch01_1_38-1_40_page_qa.json",
-      "sha256": "074d64f55db2e5ce9abd952684eac082c309ab2fc6d935469b8842aefa6c22b5",
-      "size": 354
+      "sha256": "d1e65c2791b18a5111b44299a73c75726eb0711c337b2882e02d56a8fd70e84a",
+      "size": 1024
     }
   ],
-  "github_status": "pending",
-  "library_status": "pending",
-  "pages": 18
+  "github_status": "branch-only (old DOCX blob; final corrected version awaiting upload)",
+  "library_status": "reupload pending"
 }

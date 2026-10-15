@@ -15,7 +15,7 @@
     1333,
     814,
     1308,
-    1566,
+    1558,
     1507,
     1260,
     1165,
@@ -23,5 +23,6 @@
     1391,
     1039
   ],
-  "contact_sheet_inspected": true
+  "contact_sheet_inspected": true,
+  "heading_1_40_orphan_fixed": true
 }
