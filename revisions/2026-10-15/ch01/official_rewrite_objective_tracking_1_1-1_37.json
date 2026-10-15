@@ -1,0 +1,29 @@
+{
+  "source_audit": "pending full source-to-learning-objective audit",
+  "OCR_KR_toc_inspected": [
+    "K&R 5.5 Character Pointers and Functions",
+    "K&R 5.6 Pointer Arrays; Pointers to Pointers",
+    "K&R 5.7 Multi-dimensional Arrays",
+    "K&R 5.9 Pointers vs. Multi-dimensional Arrays",
+    "K&R 5.11 Pointers to Functions"
+  ],
+  "Express_baseline": "not verified this run",
+  "K_R_primary_baseline": "not verified this run",
+  "covered_new_original_topics": [
+    {
+      "section": "1.35",
+      "topics": "이번 절에서는 char word[]와 const char *word의 차이를 먼저 확인하고, const char *names[]라는 새 선언을 단계별로 읽는다. const는 문자열 리터럴의 내용을 수정하지 않겠다는 약속이다. 포인터를 옮기는 것과 문자를 수정하는 것은 서로 다른 연산이다.",
+      "source_item_status": "topic independently taught; source-to-item match pending"
+    },
+    {
+      "section": "1.36",
+      "topics": "행의 원소 개수는 형식의 일부다. int (*row)[3]는 정수 세 개짜리 배열을 가리킨다. 괄호를 빼고 int *row[3]이라고 쓰면 포인터 세 개를 담은 배열이라는 전혀 다른 선언이 된다. 새 기호를 소개한 뒤 코드를 읽는다.",
+      "source_item_status": "topic independently taught; source-to-item match pending"
+    },
+    {
+      "section": "1.37",
+      "topics": "함수 이름은 적절한 식에서 함수 포인터로 변환된다. int (*operation)(int)는 int 하나를 받아 int를 반환하는 함수를 가리키는 형식이다. 괄호를 생략한 int *operation(int)는 int 포인터를 반환하는 함수 선언이므로 다르다. 함수를 호출하기 전에 대상이 유효한지 확인한다.",
+      "source_item_status": "topic independently taught; source-to-item match pending"
+    }
+  ]
+}
