@@ -1,0 +1,409 @@
+{
+  "run": "chapter01_1.38-1.40",
+  "generated_at": "2026-10-16T00:02:16+09:00",
+  "standard": "ISO C11",
+  "compilers": [
+    "gcc",
+    "clang"
+  ],
+  "flags": [
+    "-std=c11",
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-Werror",
+    "-O0"
+  ],
+  "example_programs": 12,
+  "variant_programs": 12,
+  "compilation_and_execution_checks": 48,
+  "passed": 48,
+  "docx_source_match": 24,
+  "source_audit_complete": false,
+  "tests": [
+    {
+      "name": "ch01_1_38_A_main",
+      "compiler": "gcc",
+      "compile_ok": true,
+      "run_ok": true,
+      "expected": "id=4 score=75\n",
+      "stdout": "id=4 score=75\n"
+    },
+    {
+      "name": "ch01_1_38_A_main",
+      "compiler": "clang",
+      "compile_ok": true,
+      "run_ok": true,
+      "expected": "id=4 score=75\n",
+      "stdout": "id=4 score=75\n"
+    },
+    {
+      "name": "ch01_1_38_A_variant",
+      "compiler": "gcc",
+      "compile_ok": true,
+      "run_ok": true,
+      "expected": "id=9 score=72\n",
+      "stdout": "id=9 score=72\n"
+    },
+    {
+      "name": "ch01_1_38_A_variant",
+      "compiler": "clang",
+      "compile_ok": true,
+      "run_ok": true,
+      "expected": "id=9 score=72\n",
+      "stdout": "id=9 score=72\n"
+    },
+    {
+      "name": "ch01_1_38_B_main",
+      "compiler": "gcc",
+      "compile_ok": true,
+      "run_ok": true,
+      "expected": "a=80 b=95\n",
+      "stdout": "a=80 b=95\n"
+    },
+    {
+      "name": "ch01_1_38_B_main",
+      "compiler": "clang",
+      "compile_ok": true,
+      "run_ok": true,
+      "expected": "a=80 b=95\n",
+      "stdout": "a=80 b=95\n"
+    },
+    {
+      "name": "ch01_1_38_B_variant",
+      "compiler": "gcc",
+      "compile_ok": true,
+      "run_ok": true,
+      "expected": "a=2 b=5\n",
+      "stdout": "a=2 b=5\n"
+    },
+    {
+      "name": "ch01_1_38_B_variant",
+      "compiler": "clang",
+      "compile_ok": true,
+      "run_ok": true,
+      "expected": "a=2 b=5\n",
+      "stdout": "a=2 b=5\n"
+    },
+    {
+      "name": "ch01_1_38_C_main",
+      "compiler": "gcc",
+      "compile_ok": true,
+      "run_ok": true,
+      "expected": "3:(6,6)\n",
+      "stdout": "3:(6,6)\n"
+    },
+    {
+      "name": "ch01_1_38_C_main",
+      "compiler": "clang",
+      "compile_ok": true,
+      "run_ok": true,
+      "expected": "3:(6,6)\n",
+      "stdout": "3:(6,6)\n"
+    },
+    {
+      "name": "ch01_1_38_C_variant",
+      "compiler": "gcc",
+      "compile_ok": true,
+      "run_ok": true,
+      "expected": "5:(1,5)\n",
+      "stdout": "5:(1,5)\n"
+    },
+    {
+      "name": "ch01_1_38_C_variant",
+      "compiler": "clang",
+      "compile_ok": true,
+      "run_ok": true,
+      "expected": "5:(1,5)\n",
+      "stdout": "5:(1,5)\n"
+    },
+    {
+      "name": "ch01_1_38_D_main",
+      "compiler": "gcc",
+      "compile_ok": true,
+      "run_ok": true,
+      "expected": "ch=7 value=42 valid=1\n",
+      "stdout": "ch=7 value=42 valid=1\n"
+    },
+    {
+      "name": "ch01_1_38_D_main",
+      "compiler": "clang",
+      "compile_ok": true,
+      "run_ok": true,
+      "expected": "ch=7 value=42 valid=1\n",
+      "stdout": "ch=7 value=42 valid=1\n"
+    },
+    {
+      "name": "ch01_1_38_D_variant",
+      "compiler": "gcc",
+      "compile_ok": true,
+      "run_ok": true,
+      "expected": "ch=2 value=18 valid=0\n",
+      "stdout": "ch=2 value=18 valid=0\n"
+    },
+    {
+      "name": "ch01_1_38_D_variant",
+      "compiler": "clang",
+      "compile_ok": true,
+      "run_ok": true,
+      "expected": "ch=2 value=18 valid=0\n",
+      "stdout": "ch=2 value=18 valid=0\n"
+    },
+    {
+      "name": "ch01_1_39_A_main",
+      "compiler": "gcc",
+      "compile_ok": true,
+      "run_ok": true,
+      "expected": "best=12 score=91\n",
+      "stdout": "best=12 score=91\n"
+    },
+    {
+      "name": "ch01_1_39_A_main",
+      "compiler": "clang",
+      "compile_ok": true,
+      "run_ok": true,
+      "expected": "best=12 score=91\n",
+      "stdout": "best=12 score=91\n"
+    },
+    {
+      "name": "ch01_1_39_A_variant",
+      "compiler": "gcc",
+      "compile_ok": true,
+      "run_ok": true,
+      "expected": "best=13 score=93\n",
+      "stdout": "best=13 score=93\n"
+    },
+    {
+      "name": "ch01_1_39_A_variant",
+      "compiler": "clang",
+      "compile_ok": true,
+      "run_ok": true,
+      "expected": "best=13 score=93\n",
+      "stdout": "best=13 score=93\n"
+    },
+    {
+      "name": "ch01_1_39_B_main",
+      "compiler": "gcc",
+      "compile_ok": true,
+      "run_ok": true,
+      "expected": "original=70 result=80\n",
+      "stdout": "original=70 result=80\n"
+    },
+    {
+      "name": "ch01_1_39_B_main",
+      "compiler": "clang",
+      "compile_ok": true,
+      "run_ok": true,
+      "expected": "original=70 result=80\n",
+      "stdout": "original=70 result=80\n"
+    },
+    {
+      "name": "ch01_1_39_B_variant",
+      "compiler": "gcc",
+      "compile_ok": true,
+      "run_ok": true,
+      "expected": "original=70 result=90\n",
+      "stdout": "original=70 result=90\n"
+    },
+    {
+      "name": "ch01_1_39_B_variant",
+      "compiler": "clang",
+      "compile_ok": true,
+      "run_ok": true,
+      "expected": "original=70 result=90\n",
+      "stdout": "original=70 result=90\n"
+    },
+    {
+      "name": "ch01_1_39_C_main",
+      "compiler": "gcc",
+      "compile_ok": true,
+      "run_ok": true,
+      "expected": "id=8 score=88\n",
+      "stdout": "id=8 score=88\n"
+    },
+    {
+      "name": "ch01_1_39_C_main",
+      "compiler": "clang",
+      "compile_ok": true,
+      "run_ok": true,
+      "expected": "id=8 score=88\n",
+      "stdout": "id=8 score=88\n"
+    },
+    {
+      "name": "ch01_1_39_C_variant",
+      "compiler": "gcc",
+      "compile_ok": true,
+      "run_ok": true,
+      "expected": "id=8 score=96\n",
+      "stdout": "id=8 score=96\n"
+    },
+    {
+      "name": "ch01_1_39_C_variant",
+      "compiler": "clang",
+      "compile_ok": true,
+      "run_ok": true,
+      "expected": "id=8 score=96\n",
+      "stdout": "id=8 score=96\n"
+    },
+    {
+      "name": "ch01_1_39_D_main",
+      "compiler": "gcc",
+      "compile_ok": true,
+      "run_ok": true,
+      "expected": "2:90\n3:70\n1:50\n",
+      "stdout": "2:90\n3:70\n1:50\n"
+    },
+    {
+      "name": "ch01_1_39_D_main",
+      "compiler": "clang",
+      "compile_ok": true,
+      "run_ok": true,
+      "expected": "2:90\n3:70\n1:50\n",
+      "stdout": "2:90\n3:70\n1:50\n"
+    },
+    {
+      "name": "ch01_1_39_D_variant",
+      "compiler": "gcc",
+      "compile_ok": true,
+      "run_ok": true,
+      "expected": "3:80\n1:60\n2:40\n",
+      "stdout": "3:80\n1:60\n2:40\n"
+    },
+    {
+      "name": "ch01_1_39_D_variant",
+      "compiler": "clang",
+      "compile_ok": true,
+      "run_ok": true,
+      "expected": "3:80\n1:60\n2:40\n",
+      "stdout": "3:80\n1:60\n2:40\n"
+    },
+    {
+      "name": "ch01_1_40_A_main",
+      "compiler": "gcc",
+      "compile_ok": true,
+      "run_ok": true,
+      "expected": "running\ncode=1\n",
+      "stdout": "running\ncode=1\n"
+    },
+    {
+      "name": "ch01_1_40_A_main",
+      "compiler": "clang",
+      "compile_ok": true,
+      "run_ok": true,
+      "expected": "running\ncode=1\n",
+      "stdout": "running\ncode=1\n"
+    },
+    {
+      "name": "ch01_1_40_A_variant",
+      "compiler": "gcc",
+      "compile_ok": true,
+      "run_ok": true,
+      "expected": "done\ncode=2\n",
+      "stdout": "done\ncode=2\n"
+    },
+    {
+      "name": "ch01_1_40_A_variant",
+      "compiler": "clang",
+      "compile_ok": true,
+      "run_ok": true,
+      "expected": "done\ncode=2\n",
+      "stdout": "done\ncode=2\n"
+    },
+    {
+      "name": "ch01_1_40_B_main",
+      "compiler": "gcc",
+      "compile_ok": true,
+      "run_ok": true,
+      "expected": "2 3 8\n",
+      "stdout": "2 3 8\n"
+    },
+    {
+      "name": "ch01_1_40_B_main",
+      "compiler": "clang",
+      "compile_ok": true,
+      "run_ok": true,
+      "expected": "2 3 8\n",
+      "stdout": "2 3 8\n"
+    },
+    {
+      "name": "ch01_1_40_B_variant",
+      "compiler": "gcc",
+      "compile_ok": true,
+      "run_ok": true,
+      "expected": "2 3 10\n",
+      "stdout": "2 3 10\n"
+    },
+    {
+      "name": "ch01_1_40_B_variant",
+      "compiler": "clang",
+      "compile_ok": true,
+      "run_ok": true,
+      "expected": "2 3 10\n",
+      "stdout": "2 3 10\n"
+    },
+    {
+      "name": "ch01_1_40_C_main",
+      "compiler": "gcc",
+      "compile_ok": true,
+      "run_ok": true,
+      "expected": "number=12\nreal=2.5\n",
+      "stdout": "number=12\nreal=2.5\n"
+    },
+    {
+      "name": "ch01_1_40_C_main",
+      "compiler": "clang",
+      "compile_ok": true,
+      "run_ok": true,
+      "expected": "number=12\nreal=2.5\n",
+      "stdout": "number=12\nreal=2.5\n"
+    },
+    {
+      "name": "ch01_1_40_C_variant",
+      "compiler": "gcc",
+      "compile_ok": true,
+      "run_ok": true,
+      "expected": "number=30\nreal=1.25\n",
+      "stdout": "number=30\nreal=1.25\n"
+    },
+    {
+      "name": "ch01_1_40_C_variant",
+      "compiler": "clang",
+      "compile_ok": true,
+      "run_ok": true,
+      "expected": "number=30\nreal=1.25\n",
+      "stdout": "number=30\nreal=1.25\n"
+    },
+    {
+      "name": "ch01_1_40_D_main",
+      "compiler": "gcc",
+      "compile_ok": true,
+      "run_ok": true,
+      "expected": "active=1 level=5\n",
+      "stdout": "active=1 level=5\n"
+    },
+    {
+      "name": "ch01_1_40_D_main",
+      "compiler": "clang",
+      "compile_ok": true,
+      "run_ok": true,
+      "expected": "active=1 level=5\n",
+      "stdout": "active=1 level=5\n"
+    },
+    {
+      "name": "ch01_1_40_D_variant",
+      "compiler": "gcc",
+      "compile_ok": true,
+      "run_ok": true,
+      "expected": "active=0 level=7\n",
+      "stdout": "active=0 level=7\n"
+    },
+    {
+      "name": "ch01_1_40_D_variant",
+      "compiler": "clang",
+      "compile_ok": true,
+      "run_ok": true,
+      "expected": "active=0 level=7\n",
+      "stdout": "active=0 level=7\n"
+    }
+  ]
+}

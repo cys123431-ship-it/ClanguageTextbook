@@ -1,0 +1,25 @@
+{
+  "full_audit_complete": false,
+  "primary_sources": {
+    "Express": "original scanned PDF; individual objectives not exhaustively inspected",
+    "K&R": "original scanned PDF; individual objectives not exhaustively inspected",
+    "K&R OCR": "TOC verified; chapter 6 relevant"
+  },
+  "new_sections": [
+    {
+      "section": "1.38",
+      "topics": "구조체의 탄생 — 서로 관련된 값을 하나의 기록으로 묶기",
+      "status": "original new content compiled and tested; source-by-source objective mapping pending"
+    },
+    {
+      "section": "1.39",
+      "topics": "구조체를 활용하는 함수와 배열 — 기록을 안전하게 전달하기",
+      "status": "original new content compiled and tested; source-by-source objective mapping pending"
+    },
+    {
+      "section": "1.40",
+      "topics": "열거형·공용체·typedef·비트 필드 — 자료 표현의 의도를 드러내기",
+      "status": "original new content compiled and tested; source-by-source objective mapping pending"
+    }
+  ]
+}

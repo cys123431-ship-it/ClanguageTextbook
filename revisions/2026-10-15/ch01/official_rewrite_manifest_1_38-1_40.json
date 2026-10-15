@@ -1,0 +1,49 @@
+{
+  "run": "chapter01_1.38-1.40",
+  "generated_at": "2026-10-16T00:02:16+09:00",
+  "files": [
+    {
+      "name": "C언어_종합교과서_이해중심_정식개정판_제1장_1.38-1.40.docx",
+      "sha256": "be30acbfdfe1ef14f8f9bdb74e1e14a8f455cbe2cf43d0a357eacbbad30e1e3c",
+      "size": 47748
+    },
+    {
+      "name": "official_rewrite_progress_1_1-1_40.json",
+      "sha256": "167b4333e5844bbb74d457900c3f2d56b1438e50e27000e1d75f40cbefb47c44",
+      "size": 649
+    },
+    {
+      "name": "official_ch01_1_38-1_40_source_inspection.json",
+      "sha256": "bda90d46596f955a30a3651a3965f33ae971999380cede1e915c5bd3197e0c27",
+      "size": 431
+    },
+    {
+      "name": "build_ch01_1_38_to_1_40.py",
+      "sha256": "409c7e23014ea9223272d79cf50c895dd7a8a71c01bb8708142f8bd822bf47bc",
+      "size": 38207
+    },
+    {
+      "name": "official_ch01_1_38-1_40_sources.zip",
+      "sha256": "d78c366492baa9220988f0ff2d98ff2f5afecbfd65ba06baddcb6063f1afc92c",
+      "size": 7294
+    },
+    {
+      "name": "official_ch01_1_38-1_40_c11_verification.json",
+      "sha256": "140b9ba1f53c4411a7941dbcbb5d214b0395988753e786a8078ddfd49c56d5b3",
+      "size": 9840
+    },
+    {
+      "name": "official_rewrite_objective_tracking_1_1-1_40.json",
+      "sha256": "e30a13d13608637e46a6ebd5a053dd2bf46f9579f09e2f7894e9b3ce9563ad2c",
+      "size": 1040
+    },
+    {
+      "name": "official_ch01_1_38-1_40_page_qa.json",
+      "sha256": "074d64f55db2e5ce9abd952684eac082c309ab2fc6d935469b8842aefa6c22b5",
+      "size": 354
+    }
+  ],
+  "github_status": "pending",
+  "library_status": "pending",
+  "pages": 18
+}
