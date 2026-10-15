@@ -1,0 +1,24 @@
+{
+  "run": "ch01_1.44-1.46",
+  "checked_at": "2026-10-16T02:09:59.542933+09:00",
+  "github_main_commit": "9f79e7bbaf83b1a9e3165f28fc81d7844fd2588f",
+  "docx_blob_sha": "0860ae9bafd8dfe570f116f58f3fa23324f151c3",
+  "github_verified_paths": [
+    "revisions/2026-10-16/ch01/C언어_종합교과서_이해중심_정식개정판_제1장_1.44-1.46.docx",
+    "revisions/2026-10-16/ch01/official_ch01_1_44-1_46_c11_verification.json",
+    "revisions/2026-10-16/ch01/official_ch01_1_44-1_46_code_match.json",
+    "revisions/2026-10-16/ch01/official_ch01_1_44-1_46_page_qa.json",
+    "revisions/2026-10-16/ch01/official_rewrite_progress_1_1-1_46.json",
+    "revisions/2026-10-16/ch01/official_rewrite_objective_tracking_1_1-1_46.json",
+    "progress.json",
+    "README.md"
+  ],
+  "pending_github_files": [
+    "official_ch01_1_44-1_46_sources.zip",
+    "build_ch01_1_44_to_1_46.py"
+  ],
+  "pending_reason": "GitHub connector safety check blocked create_blob of ZIP and create_file/create_blob of full Python script. No false success claimed.",
+  "library_delivery": "9 core files uploaded and listed",
+  "source_audit_complete": false,
+  "next_section": "1.47"
+}
