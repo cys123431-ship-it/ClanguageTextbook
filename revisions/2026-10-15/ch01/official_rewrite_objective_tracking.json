@@ -1,0 +1,181 @@
+{
+  "edition": "이해 중심 정식 개정판 — 독립 재집필",
+  "edition_id": "official-rewrite-20261015-1300",
+  "source_policy": "이전 거부 원고와 기존 제1~11장 초안은 기록으로만 보존; 본문 재사용하지 않음",
+  "current_completed": [
+    "1.1",
+    "1.2",
+    "1.3",
+    "1.4",
+    "1.5"
+  ],
+  "next_section": "1.6",
+  "originals": {
+    "Express": "c언어 압축 (1)(1).pdf",
+    "K&R": "C_Programming.pdf",
+    "OCR_assist": "C Programming Language - 2nd Edition (OCR).pdf"
+  },
+  "source_objectives": [
+    {
+      "id": "EXP-CH01-1.1",
+      "source": "Express",
+      "location": "PDF 20~27 / 인쇄 18~25",
+      "objective": "프로그램의 역할, 소프트웨어와 하드웨어의 관계",
+      "target": "1.1",
+      "status": "부분 반영",
+      "evidence": "PDF 20, 22, 24, 26 이미지 육안 확인"
+    },
+    {
+      "id": "EXP-CH01-1.2",
+      "source": "Express",
+      "location": "PDF 27~32 / 인쇄 25~30",
+      "objective": "프로그래밍 언어·명령 실행·컴퓨터가 수행하는 처리의 범위",
+      "target": "1.1~1.3",
+      "status": "부분 반영",
+      "evidence": "PDF 28, 30 이미지 확인; 세부 문항 전수 확인 미완료"
+    },
+    {
+      "id": "EXP-CH01-1.3",
+      "source": "Express",
+      "location": "PDF 32~36 / 인쇄 30~34",
+      "objective": "C언어의 역사·특성·표준 변천",
+      "target": "후속 표준 이력 장",
+      "status": "미반영",
+      "evidence": "PDF 34 이미지 확인"
+    },
+    {
+      "id": "EXP-CH01-1.4",
+      "source": "Express",
+      "location": "PDF 36~42 / 인쇄 34~40",
+      "objective": "알고리즘·순서도·의사코드·문제 분해",
+      "target": "1.5 및 후속 설계 장",
+      "status": "부분 반영",
+      "evidence": "PDF 40~42 이미지 확인"
+    },
+    {
+      "id": "EXP-CH01-LAB-A",
+      "source": "Express",
+      "location": "PDF 43 / 인쇄 41",
+      "objective": "비컴퓨터 일상 문제를 조건 판단 순서로 기술",
+      "target": "1.4, 1.5 누적 적용",
+      "status": "학습목표 일부 반영",
+      "evidence": "PDF 43 이미지 확인; 새 사례 사용"
+    },
+    {
+      "id": "EXP-CH01-LAB-B",
+      "source": "Express",
+      "location": "PDF 44 / 인쇄 42",
+      "objective": "여러 값의 평균 계산과 합격 기준 판정 알고리즘",
+      "target": "1.2~1.4 및 후속 실습",
+      "status": "부분 반영",
+      "evidence": "PDF 44 이미지 확인; 입력·평균 계산 확장 미완료"
+    },
+    {
+      "id": "EXP-CH01-MINI",
+      "source": "Express",
+      "location": "PDF 45 / 인쇄 43",
+      "objective": "여러 값에서 최댓값을 찾는 단계적 알고리즘",
+      "target": "1.5",
+      "status": "학습목표 반영",
+      "evidence": "PDF 45 이미지 확인; 독립 새 측정값 사례"
+    },
+    {
+      "id": "EXP-CH01-QA",
+      "source": "Express",
+      "location": "PDF 46 / 인쇄 44",
+      "objective": "이진 표현·C의 위치와 역사 관련 질문",
+      "target": "후속 표현·표준 장",
+      "status": "미반영",
+      "evidence": "PDF 46 이미지 확인"
+    },
+    {
+      "id": "EXP-CH01-EX",
+      "source": "Express",
+      "location": "PDF 47~49 / 인쇄 45~47",
+      "objective": "용어·순서도·기초 알고리즘·프로그래밍 역사 등 연습 전체",
+      "target": "1.1~1.5 및 후속 연습",
+      "status": "문항별 미대조",
+      "evidence": "PDF 47~49 페이지 확인, 개별 25개 문항 전수 목표 분해 미완료"
+    },
+    {
+      "id": "KNR-CH01-1.1",
+      "source": "K&R OCR 보조",
+      "location": "OCR 목차 1.1, 본문 9~10",
+      "objective": "최초 프로그램, 표준 출력, main, 함수 호출, 개행",
+      "target": "1.1",
+      "status": "학습목표 반영",
+      "evidence": "K&R 원본 스캔 PDF 19쪽에서 제1장 1.1 시작 직접 확인; OCR 보조 목차·본문 일부 확인"
+    },
+    {
+      "id": "KNR-CH01-1.2",
+      "source": "K&R OCR 보조",
+      "location": "OCR 목차 1.2, 본문 11~15",
+      "objective": "변수·산술식·형식 출력·계산 추적",
+      "target": "1.2~1.3",
+      "status": "학습목표 일부 반영",
+      "evidence": "K&R 원본 스캔 PDF 7~9쪽 목차 확인; OCR 보조 목차 1.2 및 일부 본문 확인; 개별 연습 전수 미대조"
+    },
+    {
+      "id": "KNR-CH01-1.3-1.10",
+      "source": "K&R OCR 보조",
+      "location": "OCR 목차 1.3~1.10",
+      "objective": "반복·상수·문자 입출력·배열·함수·문자 배열·범위",
+      "target": "후속 반복·배열·함수·입출력 장",
+      "status": "미반영",
+      "evidence": "OCR PDF 목차 확인"
+    }
+  ],
+  "first_introduction": [
+    {
+      "concept": "프로그램·소스 코드·컴파일러",
+      "first": "1.1 필요성 문단",
+      "formal": "제2장 빌드·컴파일러"
+    },
+    {
+      "concept": "헤더·#include·stdio.h",
+      "first": "1.1 코드 전 준비",
+      "formal": "전처리기/표준 입출력 장"
+    },
+    {
+      "concept": "main·함수·int·void·return",
+      "first": "1.1 코드 전 준비",
+      "formal": "함수·자료형·프로그램 종료 장"
+    },
+    {
+      "concept": "printf·문자열 리터럴·\\n·세미콜론",
+      "first": "1.1 코드 전 준비",
+      "formal": "문자열·표준 입출력·기본문법 장"
+    },
+    {
+      "concept": "정수 상수·덧셈 연산자·%d",
+      "first": "1.2 코드 전 준비",
+      "formal": "연산자·서식 입출력 장"
+    },
+    {
+      "concept": "변수·int 객체·선언·초기화·대입",
+      "first": "1.3 코드 전 준비",
+      "formal": "자료형·범위·표현식 장"
+    },
+    {
+      "concept": "if·else·<=·비교 결과",
+      "first": "1.4 코드 전 준비",
+      "formal": "조건문 장"
+    },
+    {
+      "concept": ">·<·최댓값 후보·불변식·순서도",
+      "first": "1.5 코드 전 준비",
+      "formal": "제어 흐름·알고리즘 장"
+    }
+  ],
+  "unverified": [
+    "Express 제1장 Exercise 25개 문항별 학습 목표 전수 분해",
+    "Express 제2~17장 및 LAB/Programming/Advanced Topic 전수 대조",
+    "K&R 제1장 나머지 1.3~1.10 및 제2~8장 연습/부록 A~C 전수 대조",
+    "C23 라이브러리 API 전체 검증",
+    "전체 장 완성·최종 합본 QA"
+  ],
+  "code_verification": {
+    "pass_count": 20,
+    "case_count": 20
+  }
+}
