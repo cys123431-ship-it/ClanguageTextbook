@@ -1,0 +1,11 @@
+{
+  "pages": 18,
+  "all_pages_text_nonempty": true,
+  "minimum_page_characters": 1180,
+  "source_programs_in_docx": 24,
+  "exact_source_programs_matched": 24,
+  "visual_contact_sheet_inspected": true,
+  "last_page_inspected": true,
+  "no_detected_blank_pages": true,
+  "limitations": "No full two-source textbook objective audit, no MSVC test"
+}
