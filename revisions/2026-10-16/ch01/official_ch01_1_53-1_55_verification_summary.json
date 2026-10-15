@@ -1,0 +1,236 @@
+{
+  "timestamp": "2026-10-16T05:05:12+09:00",
+  "flags": [
+    "-std=c11",
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-Werror",
+    "-O0"
+  ],
+  "link_libraries": [
+    "m"
+  ],
+  "programs": 18,
+  "compiler_runs": 36,
+  "passed": 36,
+  "failed": 0,
+  "checks": [
+    {
+      "source": "ch1_53_a_main.c",
+      "compiler": "gcc",
+      "stdout": "root=9.0 distance=5.0\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_53_a_main.c",
+      "compiler": "clang",
+      "stdout": "root=9.0 distance=5.0\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_53_a_variation.c",
+      "compiler": "gcc",
+      "stdout": "root=7.0 distance=13.0\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_53_a_variation.c",
+      "compiler": "clang",
+      "stdout": "root=7.0 distance=13.0\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_53_b_main.c",
+      "compiler": "gcc",
+      "stdout": "floor=-3 ceil=-2 trunc=-2\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_53_b_main.c",
+      "compiler": "clang",
+      "stdout": "floor=-3 ceil=-2 trunc=-2\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_53_b_variation.c",
+      "compiler": "gcc",
+      "stdout": "floor=-4 ceil=-3 trunc=-3\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_53_b_variation.c",
+      "compiler": "clang",
+      "stdout": "floor=-4 ceil=-3 trunc=-3\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_53_c_main.c",
+      "compiler": "gcc",
+      "stdout": "power=32.0 magnitude=3.5\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_53_c_main.c",
+      "compiler": "clang",
+      "stdout": "power=32.0 magnitude=3.5\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_53_c_variation.c",
+      "compiler": "gcc",
+      "stdout": "power=27.0 magnitude=4.25\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_53_c_variation.c",
+      "compiler": "clang",
+      "stdout": "power=27.0 magnitude=4.25\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_54_a_main.c",
+      "compiler": "gcc",
+      "stdout": "2026-10-16\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_54_a_main.c",
+      "compiler": "clang",
+      "stdout": "2026-10-16\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_54_a_variation.c",
+      "compiler": "gcc",
+      "stdout": "2024-03-01\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_54_a_variation.c",
+      "compiler": "clang",
+      "stdout": "2024-03-01\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_54_b_main.c",
+      "compiler": "gcc",
+      "stdout": "clock=14:07:05\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_54_b_main.c",
+      "compiler": "clang",
+      "stdout": "clock=14:07:05\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_54_b_variation.c",
+      "compiler": "gcc",
+      "stdout": "clock=09:03:12\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_54_b_variation.c",
+      "compiler": "clang",
+      "stdout": "clock=09:03:12\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_54_c_main.c",
+      "compiler": "gcc",
+      "stdout": "elapsed=90 seconds\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_54_c_main.c",
+      "compiler": "clang",
+      "stdout": "elapsed=90 seconds\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_54_c_variation.c",
+      "compiler": "gcc",
+      "stdout": "elapsed=150 seconds\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_54_c_variation.c",
+      "compiler": "clang",
+      "stdout": "elapsed=150 seconds\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_55_a_main.c",
+      "compiler": "gcc",
+      "stdout": "invalid\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_55_a_main.c",
+      "compiler": "clang",
+      "stdout": "invalid\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_55_a_variation.c",
+      "compiler": "gcc",
+      "stdout": "value=120\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_55_a_variation.c",
+      "compiler": "clang",
+      "stdout": "value=120\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_55_b_main.c",
+      "compiler": "gcc",
+      "stdout": "out of range\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_55_b_main.c",
+      "compiler": "clang",
+      "stdout": "out of range\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_55_b_variation.c",
+      "compiler": "gcc",
+      "stdout": "within range\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_55_b_variation.c",
+      "compiler": "clang",
+      "stdout": "within range\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_55_c_main.c",
+      "compiler": "gcc",
+      "stdout": "sum=6\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_55_c_main.c",
+      "compiler": "clang",
+      "stdout": "sum=6\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_55_c_variation.c",
+      "compiler": "gcc",
+      "stdout": "sum=12\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_55_c_variation.c",
+      "compiler": "clang",
+      "stdout": "sum=12\n",
+      "passed": true
+    }
+  ]
+}
