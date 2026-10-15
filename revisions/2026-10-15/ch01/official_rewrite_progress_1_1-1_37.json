@@ -1,0 +1,12 @@
+{
+  "completed_range_reported": "1.1-1.37",
+  "new_sections": [
+    "1.35",
+    "1.36",
+    "1.37"
+  ],
+  "next_section": "1.38",
+  "percent": null,
+  "source_exhaustive_audit": "pending",
+  "github_main": "pending"
+}
