@@ -1,0 +1,110 @@
+[
+  {
+    "section": "1.47",
+    "example": "A",
+    "kind": "code",
+    "exact_code_block_present": true
+  },
+  {
+    "section": "1.47",
+    "example": "A",
+    "kind": "variation",
+    "exact_code_block_present": true
+  },
+  {
+    "section": "1.47",
+    "example": "B",
+    "kind": "code",
+    "exact_code_block_present": true
+  },
+  {
+    "section": "1.47",
+    "example": "B",
+    "kind": "variation",
+    "exact_code_block_present": true
+  },
+  {
+    "section": "1.47",
+    "example": "C",
+    "kind": "code",
+    "exact_code_block_present": true
+  },
+  {
+    "section": "1.47",
+    "example": "C",
+    "kind": "variation",
+    "exact_code_block_present": true
+  },
+  {
+    "section": "1.48",
+    "example": "A",
+    "kind": "code",
+    "exact_code_block_present": true
+  },
+  {
+    "section": "1.48",
+    "example": "A",
+    "kind": "variation",
+    "exact_code_block_present": true
+  },
+  {
+    "section": "1.48",
+    "example": "B",
+    "kind": "code",
+    "exact_code_block_present": true
+  },
+  {
+    "section": "1.48",
+    "example": "B",
+    "kind": "variation",
+    "exact_code_block_present": true
+  },
+  {
+    "section": "1.48",
+    "example": "C",
+    "kind": "code",
+    "exact_code_block_present": true
+  },
+  {
+    "section": "1.48",
+    "example": "C",
+    "kind": "variation",
+    "exact_code_block_present": true
+  },
+  {
+    "section": "1.49",
+    "example": "A",
+    "kind": "code",
+    "exact_code_block_present": true
+  },
+  {
+    "section": "1.49",
+    "example": "A",
+    "kind": "variation",
+    "exact_code_block_present": true
+  },
+  {
+    "section": "1.49",
+    "example": "B",
+    "kind": "code",
+    "exact_code_block_present": true
+  },
+  {
+    "section": "1.49",
+    "example": "B",
+    "kind": "variation",
+    "exact_code_block_present": true
+  },
+  {
+    "section": "1.49",
+    "example": "C",
+    "kind": "code",
+    "exact_code_block_present": true
+  },
+  {
+    "section": "1.49",
+    "example": "C",
+    "kind": "variation",
+    "exact_code_block_present": true
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "completed_range_reported": "1.1~1.49",
+  "new_sections": [
+    "1.47",
+    "1.48",
+    "1.49"
+  ],
+  "next_section": "1.50",
+  "progress_percent": null,
+  "source_objective_full_audit": false,
+  "stage": "스트림 오류·형식 입출력·문자열 메모리 처리 집필 및 검증",
+  "note": "이전 1.1~1.46절은 선행 회차 보고를 참조하며, 이번에는 새 1.47~1.49절만 코드/문서 검증"
+}

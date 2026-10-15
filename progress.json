@@ -50,10 +50,13 @@
     "1.43",
     "1.44",
     "1.45",
-    "1.46"
+    "1.46",
+    "1.47",
+    "1.48",
+    "1.49"
   ],
-  "last_completed_section": "1.46",
-  "last_verified_at": "2026-10-16T02:08:40+09:00",
+  "last_completed_section": "1.49",
+  "last_verified_at": "2026-10-16T03:14:16.794+09:00",
   "stages": [
     {
       "id": "draft",
@@ -90,11 +93,12 @@
     "revisions/2026-10-15/ch01/C언어_종합교과서_이해중심_정식개정판_제1장_1.35-1.37.docx",
     "revisions/2026-10-15/ch01/C언어_종합교과서_이해중심_정식개정판_제1장_1.38-1.40.docx",
     "revisions/2026-10-16/ch01/C언어_종합교과서_이해중심_정식개정판_제1장_1.41-1.43.docx",
-    "revisions/2026-10-16/ch01/C언어_종합교과서_이해중심_정식개정판_제1장_1.44-1.46.docx"
+    "revisions/2026-10-16/ch01/C언어_종합교과서_이해중심_정식개정판_제1장_1.44-1.46.docx",
+    "revisions/2026-10-16/ch01/C언어_종합교과서_이해중심_정식개정판_제1장_1.47-1.49.docx"
   ],
-  "github_delivery_status": "DOCX 1.44-1.46 publishing; C source ZIP and full build script pending",
+  "github_delivery_status": "DOCX, script and JSON on main; source ZIP pending (tool safety check blocked)",
   "latest_github_file_links": {
-    "docx": "https://github.com/cys123431-ship-it/ClanguageTextbook/blob/main/revisions/2026-10-16/ch01/C언어_종합교과서_이해중심_정식개정판_제1장_1.44-1.46.docx",
-    "verification": "https://github.com/cys123431-ship-it/ClanguageTextbook/blob/main/revisions/2026-10-16/ch01/official_ch01_1_44-1_46_c11_verification.json"
+    "docx": "https://github.com/cys123431-ship-it/ClanguageTextbook/blob/main/revisions/2026-10-16/ch01/C언어_종합교과서_이해중심_정식개정판_제1장_1.47-1.49.docx",
+    "verification": "https://github.com/cys123431-ship-it/ClanguageTextbook/blob/main/revisions/2026-10-16/ch01/official_ch01_1_47-1_49_c11_verification.json"
   }
 }

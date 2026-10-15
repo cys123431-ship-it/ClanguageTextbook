@@ -1,0 +1,37 @@
+{
+  "checked_at": "2026-10-16T03:00:00+09:00",
+  "sources": [
+    {
+      "name": "c언어 압축 (1)(1).pdf",
+      "pages_checked": [
+        7
+      ],
+      "confirmed": "제15장 파일 스트림 구성표 이미지",
+      "exhaustive_audit": false
+    },
+    {
+      "name": "C_Programming.pdf",
+      "pages_checked": [
+        3
+      ],
+      "confirmed": "K&R 2판 원본 표지",
+      "exhaustive_audit": false
+    },
+    {
+      "name": "C Programming Language - 2nd Edition (OCR).pdf",
+      "pages_checked": [
+        2,
+        3,
+        4
+      ],
+      "confirmed": "K&R 목차 7.2,7.4,7.6,7.7,7.8.1,7.8.3",
+      "exhaustive_audit": false
+    },
+    {
+      "name": "C언어_통합교과서_전체수록범위_확정안.md",
+      "confirmed": "편집 단위 12,18,19,20,25,36 대조",
+      "exhaustive_audit": false
+    }
+  ],
+  "coverage_complete": false
+}

@@ -1,0 +1,668 @@
+{
+  "sections": [
+    "1.47",
+    "1.48",
+    "1.49"
+  ],
+  "source_count": 18,
+  "compile_run_count": 36,
+  "passed": true,
+  "results": [
+    {
+      "source": "ch1_47_a_main.c",
+      "compiler": "gcc",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "args": [
+        "C언어"
+      ],
+      "returncode": 0,
+      "stdout": "안녕하세요, C언어\n",
+      "stderr": "",
+      "expected_stdout": "안녕하세요, C언어\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_47_a_main.c",
+      "compiler": "clang",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "args": [
+        "C언어"
+      ],
+      "returncode": 0,
+      "stdout": "안녕하세요, C언어\n",
+      "stderr": "",
+      "expected_stdout": "안녕하세요, C언어\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_47_a_variation.c",
+      "compiler": "gcc",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "args": [
+        "C11"
+      ],
+      "returncode": 0,
+      "stdout": "학습 과목: C11\n",
+      "stderr": "",
+      "expected_stdout": "학습 과목: C11\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_47_a_variation.c",
+      "compiler": "clang",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "args": [
+        "C11"
+      ],
+      "returncode": 0,
+      "stdout": "학습 과목: C11\n",
+      "stderr": "",
+      "expected_stdout": "학습 과목: C11\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_47_b_main.c",
+      "compiler": "gcc",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "args": [],
+      "returncode": 0,
+      "stdout": "읽은 문자=3 파일끝=1\n",
+      "stderr": "",
+      "expected_stdout": "읽은 문자=3 파일끝=1\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_47_b_main.c",
+      "compiler": "clang",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "args": [],
+      "returncode": 0,
+      "stdout": "읽은 문자=3 파일끝=1\n",
+      "stderr": "",
+      "expected_stdout": "읽은 문자=3 파일끝=1\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_47_b_variation.c",
+      "compiler": "gcc",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "args": [],
+      "returncode": 0,
+      "stdout": "읽은 문자=5 파일끝=1\n",
+      "stderr": "",
+      "expected_stdout": "읽은 문자=5 파일끝=1\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_47_b_variation.c",
+      "compiler": "clang",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "args": [],
+      "returncode": 0,
+      "stdout": "읽은 문자=5 파일끝=1\n",
+      "stderr": "",
+      "expected_stdout": "읽은 문자=5 파일끝=1\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_47_c_main.c",
+      "compiler": "gcc",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "args": [],
+      "returncode": 0,
+      "stdout": "처음=7 다시=, 끝=8\n",
+      "stderr": "",
+      "expected_stdout": "처음=7 다시=, 끝=8\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_47_c_main.c",
+      "compiler": "clang",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "args": [],
+      "returncode": 0,
+      "stdout": "처음=7 다시=, 끝=8\n",
+      "stderr": "",
+      "expected_stdout": "처음=7 다시=, 끝=8\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_47_c_variation.c",
+      "compiler": "gcc",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "args": [],
+      "returncode": 0,
+      "stdout": "처음=9 다시=; 끝=4\n",
+      "stderr": "",
+      "expected_stdout": "처음=9 다시=; 끝=4\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_47_c_variation.c",
+      "compiler": "clang",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "args": [],
+      "returncode": 0,
+      "stdout": "처음=9 다시=; 끝=4\n",
+      "stderr": "",
+      "expected_stdout": "처음=9 다시=; 끝=4\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_48_a_main.c",
+      "compiler": "gcc",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "args": [],
+      "returncode": 0,
+      "stdout": "결과=ID-0023 길이=7\n",
+      "stderr": "",
+      "expected_stdout": "결과=ID-0023 길이=7\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_48_a_main.c",
+      "compiler": "clang",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "args": [],
+      "returncode": 0,
+      "stdout": "결과=ID-0023 길이=7\n",
+      "stderr": "",
+      "expected_stdout": "결과=ID-0023 길이=7\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_48_a_variation.c",
+      "compiler": "gcc",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "args": [],
+      "returncode": 0,
+      "stdout": "결과=ID-00007 길이=8\n",
+      "stderr": "",
+      "expected_stdout": "결과=ID-00007 길이=8\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_48_a_variation.c",
+      "compiler": "clang",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "args": [],
+      "returncode": 0,
+      "stdout": "결과=ID-00007 길이=8\n",
+      "stderr": "",
+      "expected_stdout": "결과=ID-00007 길이=8\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_48_b_main.c",
+      "compiler": "gcc",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "args": [],
+      "returncode": 0,
+      "stdout": "필요=9 저장=ABCDE 잘림=1\n",
+      "stderr": "",
+      "expected_stdout": "필요=9 저장=ABCDE 잘림=1\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_48_b_main.c",
+      "compiler": "clang",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "args": [],
+      "returncode": 0,
+      "stdout": "필요=9 저장=ABCDE 잘림=1\n",
+      "stderr": "",
+      "expected_stdout": "필요=9 저장=ABCDE 잘림=1\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_48_b_variation.c",
+      "compiler": "gcc",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "args": [],
+      "returncode": 0,
+      "stdout": "필요=6 저장=MOND 잘림=1\n",
+      "stderr": "",
+      "expected_stdout": "필요=6 저장=MOND 잘림=1\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_48_b_variation.c",
+      "compiler": "clang",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "args": [],
+      "returncode": 0,
+      "stdout": "필요=6 저장=MOND 잘림=1\n",
+      "stderr": "",
+      "expected_stdout": "필요=6 저장=MOND 잘림=1\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_48_c_main.c",
+      "compiler": "gcc",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "args": [],
+      "returncode": 0,
+      "stdout": "품목=APPLE 수량=17\n",
+      "stderr": "",
+      "expected_stdout": "품목=APPLE 수량=17\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_48_c_main.c",
+      "compiler": "clang",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "args": [],
+      "returncode": 0,
+      "stdout": "품목=APPLE 수량=17\n",
+      "stderr": "",
+      "expected_stdout": "품목=APPLE 수량=17\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_48_c_variation.c",
+      "compiler": "gcc",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "args": [],
+      "returncode": 0,
+      "stdout": "품목=BREAD 수량=4\n",
+      "stderr": "",
+      "expected_stdout": "품목=BREAD 수량=4\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_48_c_variation.c",
+      "compiler": "clang",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "args": [],
+      "returncode": 0,
+      "stdout": "품목=BREAD 수량=4\n",
+      "stderr": "",
+      "expected_stdout": "품목=BREAD 수량=4\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_49_a_main.c",
+      "compiler": "gcc",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "args": [],
+      "returncode": 0,
+      "stdout": "배열=12 문자열=3 널위치=3\n",
+      "stderr": "",
+      "expected_stdout": "배열=12 문자열=3 널위치=3\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_49_a_main.c",
+      "compiler": "clang",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "args": [],
+      "returncode": 0,
+      "stdout": "배열=12 문자열=3 널위치=3\n",
+      "stderr": "",
+      "expected_stdout": "배열=12 문자열=3 널위치=3\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_49_a_variation.c",
+      "compiler": "gcc",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "args": [],
+      "returncode": 0,
+      "stdout": "배열=12 문자열=4 널위치=4\n",
+      "stderr": "",
+      "expected_stdout": "배열=12 문자열=4 널위치=4\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_49_a_variation.c",
+      "compiler": "clang",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "args": [],
+      "returncode": 0,
+      "stdout": "배열=12 문자열=4 널위치=4\n",
+      "stderr": "",
+      "expected_stdout": "배열=12 문자열=4 널위치=4\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_49_b_main.c",
+      "compiler": "gcc",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "args": [],
+      "returncode": 0,
+      "stdout": "변경=AABCDE 길이=6\n",
+      "stderr": "",
+      "expected_stdout": "변경=AABCDE 길이=6\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_49_b_main.c",
+      "compiler": "clang",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "args": [],
+      "returncode": 0,
+      "stdout": "변경=AABCDE 길이=6\n",
+      "stderr": "",
+      "expected_stdout": "변경=AABCDE 길이=6\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_49_b_variation.c",
+      "compiler": "gcc",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "args": [],
+      "returncode": 0,
+      "stdout": "변경=XXYZ 길이=4\n",
+      "stderr": "",
+      "expected_stdout": "변경=XXYZ 길이=4\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_49_b_variation.c",
+      "compiler": "clang",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "args": [],
+      "returncode": 0,
+      "stdout": "변경=XXYZ 길이=4\n",
+      "stderr": "",
+      "expected_stdout": "변경=XXYZ 길이=4\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_49_c_main.c",
+      "compiler": "gcc",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "args": [],
+      "returncode": 0,
+      "stdout": "첫 항목 길이=4 검색=1\n",
+      "stderr": "",
+      "expected_stdout": "첫 항목 길이=4 검색=1\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_49_c_main.c",
+      "compiler": "clang",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "args": [],
+      "returncode": 0,
+      "stdout": "첫 항목 길이=4 검색=1\n",
+      "stderr": "",
+      "expected_stdout": "첫 항목 길이=4 검색=1\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_49_c_variation.c",
+      "compiler": "gcc",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "args": [],
+      "returncode": 0,
+      "stdout": "첫 항목 길이=3 검색=1\n",
+      "stderr": "",
+      "expected_stdout": "첫 항목 길이=3 검색=1\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_49_c_variation.c",
+      "compiler": "clang",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "args": [],
+      "returncode": 0,
+      "stdout": "첫 항목 길이=3 검색=1\n",
+      "stderr": "",
+      "expected_stdout": "첫 항목 길이=3 검색=1\n",
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "full_audit_complete": false,
+  "sources": [
+    {
+      "name": "c언어 압축 (1)(1).pdf",
+      "status": "원본 스캔 PDF 7쪽 구성표 확인, 15장 파일 스트림 범위 연관. 장·절·LAB 전수 대조 미완료"
+    },
+    {
+      "name": "C_Programming.pdf",
+      "status": "원본 스캔 PDF 3쪽 표지 확인, 개별 학습목표 전수 대조 미완료"
+    },
+    {
+      "name": "C Programming Language - 2nd Edition (OCR).pdf",
+      "status": "OCR 목차의 K&R 7.2, 7.4, 7.6, 7.7, 7.8.1, 7.8.3 관련 절 확인. 본문·연습문제 전수 대조 미완료"
+    }
+  ],
+  "new_sections": [
+    {
+      "section": "1.47",
+      "objectives": "stderr와 종료 상태, EOF와 feof/ferror, ungetc와 tmpfile",
+      "original_pdf_item_by_item": "partial: K&R OCR 7.6/7.7/7.8.3"
+    },
+    {
+      "section": "1.48",
+      "objectives": "snprintf 버퍼 한계, 서식 폭·반환값, sscanf 변환 개수와 입력 폭",
+      "original_pdf_item_by_item": "partial: K&R OCR 7.2/7.4"
+    },
+    {
+      "section": "1.49",
+      "objectives": "strlen/sizeof, memmove 겹침, strcspn/strchr/strstr 검색",
+      "original_pdf_item_by_item": "partial: K&R OCR 7.8.1"
+    }
+  ],
+  "verified_compiler_runs": 36,
+  "source_audit_status": "partial"
+}
