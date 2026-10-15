@@ -29,8 +29,8 @@
     },
     {
       "name": "official_rewrite_objective_tracking_1_1-1_46.json",
-      "bytes": 1355,
-      "sha256": "727f1a1d8cd920a5f69b149b24d6d6d17e7af2b284ea8ee9649491ef1e0e217b"
+      "bytes": 1674,
+      "sha256": "f9901c6553519d9b5594f47239196bc386f97fa03426bcd1540be71bdd3b7dd4"
     },
     {
       "name": "build_ch01_1_44_to_1_46.py",
@@ -41,6 +41,11 @@
       "name": "official_ch01_1_44-1_46_page_qa.json",
       "bytes": 2508,
       "sha256": "2310c733515b02521decf25ff7d5f811eb55766fad44bace30152915272cb4c7"
+    },
+    {
+      "name": "official_ch01_1_44-1_46_source_inspection.json",
+      "bytes": 950,
+      "sha256": "d99331732985352fd1c290714621f0154ef15a765136b0703839fd4e6161a5bb"
     }
   ],
   "github_delivery": "partial: DOCX and six JSON snapshots on main, README/progress verified; ZIP and full build script blocked",
@@ -51,5 +56,6 @@
   "pending_github_files": [
     "official_ch01_1_44-1_46_sources.zip",
     "build_ch01_1_44_to_1_46.py"
-  ]
+  ],
+  "source_access": "Express and K&R scanned originals, OCR and scope MD opened; exhaustive item-by-item audit pending"
 }
