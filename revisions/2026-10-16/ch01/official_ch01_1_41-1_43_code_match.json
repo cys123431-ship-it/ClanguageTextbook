@@ -1,0 +1,110 @@
+[
+  {
+    "key": "A",
+    "section": "1.41",
+    "variant": "code",
+    "all_lines_present": true
+  },
+  {
+    "key": "A",
+    "section": "1.41",
+    "variant": "variant_code",
+    "all_lines_present": true
+  },
+  {
+    "key": "B",
+    "section": "1.41",
+    "variant": "code",
+    "all_lines_present": true
+  },
+  {
+    "key": "B",
+    "section": "1.41",
+    "variant": "variant_code",
+    "all_lines_present": true
+  },
+  {
+    "key": "C",
+    "section": "1.41",
+    "variant": "code",
+    "all_lines_present": true
+  },
+  {
+    "key": "C",
+    "section": "1.41",
+    "variant": "variant_code",
+    "all_lines_present": true
+  },
+  {
+    "key": "A",
+    "section": "1.42",
+    "variant": "code",
+    "all_lines_present": true
+  },
+  {
+    "key": "A",
+    "section": "1.42",
+    "variant": "variant_code",
+    "all_lines_present": true
+  },
+  {
+    "key": "B",
+    "section": "1.42",
+    "variant": "code",
+    "all_lines_present": true
+  },
+  {
+    "key": "B",
+    "section": "1.42",
+    "variant": "variant_code",
+    "all_lines_present": true
+  },
+  {
+    "key": "C",
+    "section": "1.42",
+    "variant": "code",
+    "all_lines_present": true
+  },
+  {
+    "key": "C",
+    "section": "1.42",
+    "variant": "variant_code",
+    "all_lines_present": true
+  },
+  {
+    "key": "A",
+    "section": "1.43",
+    "variant": "code",
+    "all_lines_present": true
+  },
+  {
+    "key": "A",
+    "section": "1.43",
+    "variant": "variant_code",
+    "all_lines_present": true
+  },
+  {
+    "key": "B",
+    "section": "1.43",
+    "variant": "code",
+    "all_lines_present": true
+  },
+  {
+    "key": "B",
+    "section": "1.43",
+    "variant": "variant_code",
+    "all_lines_present": true
+  },
+  {
+    "key": "C",
+    "section": "1.43",
+    "variant": "code",
+    "all_lines_present": true
+  },
+  {
+    "key": "C",
+    "section": "1.43",
+    "variant": "variant_code",
+    "all_lines_present": true
+  }
+]

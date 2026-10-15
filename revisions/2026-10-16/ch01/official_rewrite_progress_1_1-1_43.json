@@ -1,0 +1,13 @@
+{
+  "completed_range_reported": "1.1~1.43",
+  "new_sections": [
+    "1.41",
+    "1.42",
+    "1.43"
+  ],
+  "source_objective_full_audit": false,
+  "progress_percent": null,
+  "next_section": "1.44",
+  "stage": "동적 메모리와 소유권 집필 중",
+  "note": "이전 1.1~1.40절은 이전 회차 보고에 근거하며 이번 회차에서는 새 1.41~1.43절만 컴파일·렌더링 검증"
+}

@@ -1,0 +1,37 @@
+{
+  "full_audit_complete": false,
+  "sources": [
+    {
+      "name": "c언어 압축 (1)(1).pdf",
+      "status": "목차 페이지 부분 열람; 17장 동적 메모리 학습목표별 전수 대조 미완료"
+    },
+    {
+      "name": "C_Programming.pdf",
+      "status": "스캔 페이지 부분 열람; 제7~8장 및 부록 B 학습목표별 전수 대조 미완료"
+    },
+    {
+      "name": "C Programming Language - 2nd Edition (OCR).pdf",
+      "status": "보조 목차와 일부 페이지 확인; 전체 대조 미완료"
+    }
+  ],
+  "new_sections": [
+    {
+      "section": "1.41",
+      "objectives": "동적 할당과 소유권",
+      "verification": "C11 GCC/Clang compiled and stdout matched",
+      "original_pdf_item_by_item": "not verified"
+    },
+    {
+      "section": "1.42",
+      "objectives": "calloc·크기 안전·동적 배열과 문자열",
+      "verification": "C11 GCC/Clang compiled and stdout matched",
+      "original_pdf_item_by_item": "not verified"
+    },
+    {
+      "section": "1.43",
+      "objectives": "realloc·실패 복구·동적 배열",
+      "verification": "C11 GCC/Clang compiled and stdout matched",
+      "original_pdf_item_by_item": "not verified"
+    }
+  ]
+}
