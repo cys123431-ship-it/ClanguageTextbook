@@ -1,0 +1,13 @@
+{
+  "completed_range_reported": "1.1~1.46",
+  "new_sections": [
+    "1.44",
+    "1.45",
+    "1.46"
+  ],
+  "source_objective_full_audit": false,
+  "progress_percent": null,
+  "next_section": "1.47",
+  "stage": "명령행 인수·파일 스트림 및 파일 검증 집필",
+  "note": "이전 1.1~1.43절은 이전 회차 기록에 근거하며 이번 회차에서 새 1.44~1.46절만 컴파일·실행·문서 검증"
+}

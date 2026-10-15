@@ -1,0 +1,110 @@
+[
+  {
+    "section": "1.44",
+    "example": "A",
+    "kind": "code",
+    "exact_code_block_present": true
+  },
+  {
+    "section": "1.44",
+    "example": "A",
+    "kind": "variant_code",
+    "exact_code_block_present": true
+  },
+  {
+    "section": "1.44",
+    "example": "B",
+    "kind": "code",
+    "exact_code_block_present": true
+  },
+  {
+    "section": "1.44",
+    "example": "B",
+    "kind": "variant_code",
+    "exact_code_block_present": true
+  },
+  {
+    "section": "1.44",
+    "example": "C",
+    "kind": "code",
+    "exact_code_block_present": true
+  },
+  {
+    "section": "1.44",
+    "example": "C",
+    "kind": "variant_code",
+    "exact_code_block_present": true
+  },
+  {
+    "section": "1.45",
+    "example": "A",
+    "kind": "code",
+    "exact_code_block_present": true
+  },
+  {
+    "section": "1.45",
+    "example": "A",
+    "kind": "variant_code",
+    "exact_code_block_present": true
+  },
+  {
+    "section": "1.45",
+    "example": "B",
+    "kind": "code",
+    "exact_code_block_present": true
+  },
+  {
+    "section": "1.45",
+    "example": "B",
+    "kind": "variant_code",
+    "exact_code_block_present": true
+  },
+  {
+    "section": "1.45",
+    "example": "C",
+    "kind": "code",
+    "exact_code_block_present": true
+  },
+  {
+    "section": "1.45",
+    "example": "C",
+    "kind": "variant_code",
+    "exact_code_block_present": true
+  },
+  {
+    "section": "1.46",
+    "example": "A",
+    "kind": "code",
+    "exact_code_block_present": true
+  },
+  {
+    "section": "1.46",
+    "example": "A",
+    "kind": "variant_code",
+    "exact_code_block_present": true
+  },
+  {
+    "section": "1.46",
+    "example": "B",
+    "kind": "code",
+    "exact_code_block_present": true
+  },
+  {
+    "section": "1.46",
+    "example": "B",
+    "kind": "variant_code",
+    "exact_code_block_present": true
+  },
+  {
+    "section": "1.46",
+    "example": "C",
+    "kind": "code",
+    "exact_code_block_present": true
+  },
+  {
+    "section": "1.46",
+    "example": "C",
+    "kind": "variant_code",
+    "exact_code_block_present": true
+  }
+]

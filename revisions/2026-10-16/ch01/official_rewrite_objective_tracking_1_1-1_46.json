@@ -1,0 +1,37 @@
+{
+  "full_audit_complete": false,
+  "sources": [
+    {
+      "name": "c언어 압축 (1)(1).pdf",
+      "status": "이번 회차 원본 PDF 파일 접근 미확인; 원서 항목별 대조 미완료"
+    },
+    {
+      "name": "C_Programming.pdf",
+      "status": "이번 회차 원본 PDF 파일 접근 미확인; 원서 항목별 대조 미완료"
+    },
+    {
+      "name": "C Programming Language - 2nd Edition (OCR).pdf",
+      "status": "목차 페이지 2~4 열람, K&R 5.10 및 7장 파일 입출력 목표 확인; 전체 대조 미완료"
+    }
+  ],
+  "new_sections": [
+    {
+      "section": "1.44",
+      "objectives": "명령행 argc/argv, 옵션 처리, 숫자 문자열 변환 검증",
+      "verification": "GCC/Clang C11 compile-run-stdout passed",
+      "original_pdf_item_by_item": "partial: K&R OCR 5.10"
+    },
+    {
+      "section": "1.45",
+      "objectives": "FILE 스트림, fopen/fclose, 텍스트 문자·행 단위 입출력",
+      "verification": "GCC/Clang C11 compile-run-stdout passed",
+      "original_pdf_item_by_item": "partial: K&R OCR 7.1/7.5/7.7"
+    },
+    {
+      "section": "1.46",
+      "objectives": "fscanf, fseek, fwrite/fread, 이진 파일 위치와 항목 수 검증",
+      "verification": "GCC/Clang C11 compile-run-stdout passed",
+      "original_pdf_item_by_item": "partial: K&R OCR 7.4/7.5"
+    }
+  ]
+}

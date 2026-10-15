@@ -1,0 +1,696 @@
+{
+  "sections": [
+    "1.44",
+    "1.45",
+    "1.46"
+  ],
+  "source_count": 18,
+  "compile_run_count": 36,
+  "passed": true,
+  "results": [
+    {
+      "source": "ch1_44_a_main.c",
+      "compiler": "gcc",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "args": [
+        "red",
+        "blue"
+      ],
+      "returncode": 0,
+      "stdout": "인수=2\n1:red\n2:blue\n",
+      "stderr": "",
+      "expected": "인수=2\n1:red\n2:blue\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_44_a_main.c",
+      "compiler": "clang",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "args": [
+        "red",
+        "blue"
+      ],
+      "returncode": 0,
+      "stdout": "인수=2\n1:red\n2:blue\n",
+      "stderr": "",
+      "expected": "인수=2\n1:red\n2:blue\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_44_a_variation.c",
+      "compiler": "gcc",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "args": [
+        "sun",
+        "moon"
+      ],
+      "returncode": 0,
+      "stdout": "인수=2\n[1]=sun\n[2]=moon\n",
+      "stderr": "",
+      "expected": "인수=2\n[1]=sun\n[2]=moon\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_44_a_variation.c",
+      "compiler": "clang",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "args": [
+        "sun",
+        "moon"
+      ],
+      "returncode": 0,
+      "stdout": "인수=2\n[1]=sun\n[2]=moon\n",
+      "stderr": "",
+      "expected": "인수=2\n[1]=sun\n[2]=moon\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_44_b_main.c",
+      "compiler": "gcc",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "args": [
+        "12",
+        "30"
+      ],
+      "returncode": 0,
+      "stdout": "합=42\n",
+      "stderr": "",
+      "expected": "합=42\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_44_b_main.c",
+      "compiler": "clang",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "args": [
+        "12",
+        "30"
+      ],
+      "returncode": 0,
+      "stdout": "합=42\n",
+      "stderr": "",
+      "expected": "합=42\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_44_b_variation.c",
+      "compiler": "gcc",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "args": [
+        "7",
+        "8"
+      ],
+      "returncode": 0,
+      "stdout": "총합=15\n",
+      "stderr": "",
+      "expected": "총합=15\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_44_b_variation.c",
+      "compiler": "clang",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "args": [
+        "7",
+        "8"
+      ],
+      "returncode": 0,
+      "stdout": "총합=15\n",
+      "stderr": "",
+      "expected": "총합=15\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_44_c_main.c",
+      "compiler": "gcc",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "args": [
+        "--mode",
+        "fast"
+      ],
+      "returncode": 0,
+      "stdout": "모드=빠름\n",
+      "stderr": "",
+      "expected": "모드=빠름\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_44_c_main.c",
+      "compiler": "clang",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "args": [
+        "--mode",
+        "fast"
+      ],
+      "returncode": 0,
+      "stdout": "모드=빠름\n",
+      "stderr": "",
+      "expected": "모드=빠름\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_44_c_variation.c",
+      "compiler": "gcc",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "args": [
+        "--mode",
+        "slow"
+      ],
+      "returncode": 0,
+      "stdout": "모드=느림\n",
+      "stderr": "",
+      "expected": "모드=느림\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_44_c_variation.c",
+      "compiler": "clang",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "args": [
+        "--mode",
+        "slow"
+      ],
+      "returncode": 0,
+      "stdout": "모드=느림\n",
+      "stderr": "",
+      "expected": "모드=느림\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_45_a_main.c",
+      "compiler": "gcc",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "args": [],
+      "returncode": 0,
+      "stdout": "첫 줄:10\n",
+      "stderr": "",
+      "expected": "첫 줄:10\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_45_a_main.c",
+      "compiler": "clang",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "args": [],
+      "returncode": 0,
+      "stdout": "첫 줄:10\n",
+      "stderr": "",
+      "expected": "첫 줄:10\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_45_a_variation.c",
+      "compiler": "gcc",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "args": [],
+      "returncode": 0,
+      "stdout": "첫 줄:25\n",
+      "stderr": "",
+      "expected": "첫 줄:25\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_45_a_variation.c",
+      "compiler": "clang",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "args": [],
+      "returncode": 0,
+      "stdout": "첫 줄:25\n",
+      "stderr": "",
+      "expected": "첫 줄:25\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_45_b_main.c",
+      "compiler": "gcc",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "args": [],
+      "returncode": 0,
+      "stdout": "1:사과\n2:배\n",
+      "stderr": "",
+      "expected": "1:사과\n2:배\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_45_b_main.c",
+      "compiler": "clang",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "args": [],
+      "returncode": 0,
+      "stdout": "1:사과\n2:배\n",
+      "stderr": "",
+      "expected": "1:사과\n2:배\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_45_b_variation.c",
+      "compiler": "gcc",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "args": [],
+      "returncode": 0,
+      "stdout": "1:하늘\n2:바다\n",
+      "stderr": "",
+      "expected": "1:하늘\n2:바다\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_45_b_variation.c",
+      "compiler": "clang",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "args": [],
+      "returncode": 0,
+      "stdout": "1:하늘\n2:바다\n",
+      "stderr": "",
+      "expected": "1:하늘\n2:바다\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_45_c_main.c",
+      "compiler": "gcc",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "args": [],
+      "returncode": 0,
+      "stdout": "읽음=ABC\n",
+      "stderr": "",
+      "expected": "읽음=ABC\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_45_c_main.c",
+      "compiler": "clang",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "args": [],
+      "returncode": 0,
+      "stdout": "읽음=ABC\n",
+      "stderr": "",
+      "expected": "읽음=ABC\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_45_c_variation.c",
+      "compiler": "gcc",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "args": [],
+      "returncode": 0,
+      "stdout": "읽음=XYZ\n",
+      "stderr": "",
+      "expected": "읽음=XYZ\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_45_c_variation.c",
+      "compiler": "clang",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "args": [],
+      "returncode": 0,
+      "stdout": "읽음=XYZ\n",
+      "stderr": "",
+      "expected": "읽음=XYZ\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_46_a_main.c",
+      "compiler": "gcc",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "args": [],
+      "returncode": 0,
+      "stdout": "합=38\n",
+      "stderr": "",
+      "expected": "합=38\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_46_a_main.c",
+      "compiler": "clang",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "args": [],
+      "returncode": 0,
+      "stdout": "합=38\n",
+      "stderr": "",
+      "expected": "합=38\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_46_a_variation.c",
+      "compiler": "gcc",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "args": [],
+      "returncode": 0,
+      "stdout": "합=10\n",
+      "stderr": "",
+      "expected": "합=10\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_46_a_variation.c",
+      "compiler": "clang",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "args": [],
+      "returncode": 0,
+      "stdout": "합=10\n",
+      "stderr": "",
+      "expected": "합=10\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_46_b_main.c",
+      "compiler": "gcc",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "args": [],
+      "returncode": 0,
+      "stdout": "세 번째=C\n",
+      "stderr": "",
+      "expected": "세 번째=C\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_46_b_main.c",
+      "compiler": "clang",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "args": [],
+      "returncode": 0,
+      "stdout": "세 번째=C\n",
+      "stderr": "",
+      "expected": "세 번째=C\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_46_b_variation.c",
+      "compiler": "gcc",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "args": [],
+      "returncode": 0,
+      "stdout": "세 번째=M\n",
+      "stderr": "",
+      "expected": "세 번째=M\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_46_b_variation.c",
+      "compiler": "clang",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "args": [],
+      "returncode": 0,
+      "stdout": "세 번째=M\n",
+      "stderr": "",
+      "expected": "세 번째=M\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_46_c_main.c",
+      "compiler": "gcc",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "args": [],
+      "returncode": 0,
+      "stdout": "바이트=1,2,10,255\n",
+      "stderr": "",
+      "expected": "바이트=1,2,10,255\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_46_c_main.c",
+      "compiler": "clang",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "args": [],
+      "returncode": 0,
+      "stdout": "바이트=1,2,10,255\n",
+      "stderr": "",
+      "expected": "바이트=1,2,10,255\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_46_c_variation.c",
+      "compiler": "gcc",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "args": [],
+      "returncode": 0,
+      "stdout": "바이트=9,8,7,6\n",
+      "stderr": "",
+      "expected": "바이트=9,8,7,6\n",
+      "passed": true
+    },
+    {
+      "source": "ch1_46_c_variation.c",
+      "compiler": "clang",
+      "flags": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0"
+      ],
+      "args": [],
+      "returncode": 0,
+      "stdout": "바이트=9,8,7,6\n",
+      "stderr": "",
+      "expected": "바이트=9,8,7,6\n",
+      "passed": true
+    }
+  ]
+}

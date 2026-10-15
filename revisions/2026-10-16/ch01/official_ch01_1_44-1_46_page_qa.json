@@ -1,0 +1,152 @@
+{
+  "pages": 16,
+  "all_nonblank": true,
+  "rendered_and_contact_sheet_inspected": true,
+  "page_details": [
+    {
+      "page": 1,
+      "dark_pixels": 148487,
+      "nonblank": true,
+      "dimensions": [
+        1547,
+        2002
+      ]
+    },
+    {
+      "page": 2,
+      "dark_pixels": 95728,
+      "nonblank": true,
+      "dimensions": [
+        1547,
+        2002
+      ]
+    },
+    {
+      "page": 3,
+      "dark_pixels": 94442,
+      "nonblank": true,
+      "dimensions": [
+        1547,
+        2002
+      ]
+    },
+    {
+      "page": 4,
+      "dark_pixels": 75095,
+      "nonblank": true,
+      "dimensions": [
+        1547,
+        2002
+      ]
+    },
+    {
+      "page": 5,
+      "dark_pixels": 87368,
+      "nonblank": true,
+      "dimensions": [
+        1547,
+        2002
+      ]
+    },
+    {
+      "page": 6,
+      "dark_pixels": 122589,
+      "nonblank": true,
+      "dimensions": [
+        1547,
+        2002
+      ]
+    },
+    {
+      "page": 7,
+      "dark_pixels": 93801,
+      "nonblank": true,
+      "dimensions": [
+        1547,
+        2002
+      ]
+    },
+    {
+      "page": 8,
+      "dark_pixels": 93343,
+      "nonblank": true,
+      "dimensions": [
+        1547,
+        2002
+      ]
+    },
+    {
+      "page": 9,
+      "dark_pixels": 81945,
+      "nonblank": true,
+      "dimensions": [
+        1547,
+        2002
+      ]
+    },
+    {
+      "page": 10,
+      "dark_pixels": 98449,
+      "nonblank": true,
+      "dimensions": [
+        1547,
+        2002
+      ]
+    },
+    {
+      "page": 11,
+      "dark_pixels": 123854,
+      "nonblank": true,
+      "dimensions": [
+        1547,
+        2002
+      ]
+    },
+    {
+      "page": 12,
+      "dark_pixels": 95158,
+      "nonblank": true,
+      "dimensions": [
+        1547,
+        2002
+      ]
+    },
+    {
+      "page": 13,
+      "dark_pixels": 97171,
+      "nonblank": true,
+      "dimensions": [
+        1547,
+        2002
+      ]
+    },
+    {
+      "page": 14,
+      "dark_pixels": 99460,
+      "nonblank": true,
+      "dimensions": [
+        1547,
+        2002
+      ]
+    },
+    {
+      "page": 15,
+      "dark_pixels": 106163,
+      "nonblank": true,
+      "dimensions": [
+        1547,
+        2002
+      ]
+    },
+    {
+      "page": 16,
+      "dark_pixels": 123597,
+      "nonblank": true,
+      "dimensions": [
+        1547,
+        2002
+      ]
+    }
+  ],
+  "note": "16쪽 렌더링, 마지막 16쪽에 종합 정리 포함. 페이지 밖 잘림/빈 페이지 없음. 글꼴/줄바꿈은 실제 이미지 확인."
+}
