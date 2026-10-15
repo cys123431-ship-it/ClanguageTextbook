@@ -4,9 +4,19 @@
   "status": "집필 진행 중",
   "progress_percent": null,
   "progress_basis": "새 개정판의 확정 전체 절 수와 검증 완료 절 수를 확인하기 전까지 백분율 미표시",
-  "completed_sections": [],
-  "last_completed_section": null,
-  "last_verified_at": null,
+  "completed_sections": [
+    "1.1",
+    "1.2",
+    "1.3",
+    "1.4",
+    "1.5",
+    "1.6",
+    "1.7",
+    "1.8",
+    "1.9"
+  ],
+  "last_completed_section": "1.9",
+  "last_verified_at": "2026-10-15T14:00:00+09:00",
   "stages": [
     {
       "id": "draft",
@@ -28,5 +38,9 @@
       "label": "최종 산출물 GitHub 업로드 및 재확인",
       "completed": false
     }
+  ],
+  "latest_docx_paths": [
+    "revisions/2026-10-15/ch01/C언어_종합교과서_이해중심_정식개정판_제1장_1.1-1.5.docx",
+    "revisions/2026-10-15/ch01/C언어_종합교과서_이해중심_정식개정판_제1장_1.6-1.9.docx"
   ]
 }
