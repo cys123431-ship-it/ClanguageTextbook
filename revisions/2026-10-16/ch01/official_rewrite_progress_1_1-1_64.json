@@ -11,6 +11,6 @@
   "source_objective_full_audit": false,
   "stage": "ISO C11 locale/wchar/wctype/uchar manuscript + strict tests",
   "library_delivery": "succeeded",
-  "github_delivery": "partial: DOCX + selected QA + README/progress on publish/ch01-1-62-1-64 branch; main pending; ZIP blocked",
-  "timestamp": "2026-10-16T08:19:21+09:00"
+  "github_delivery": "partial: verified DOCX, build script and selected QA on main; source ZIP and verify_delivery.py pending",
+  "timestamp": "2026-10-16T08:21:02+09:00"
 }

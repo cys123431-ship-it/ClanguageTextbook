@@ -1,6 +1,6 @@
 {
   "run": "ch01_1.62-1.64",
-  "timestamp": "2026-10-16T08:19:21+09:00",
+  "timestamp": "2026-10-16T08:21:02+09:00",
   "files": [
     {
       "name": "C언어_종합교과서_이해중심_정식개정판_제1장_1.62-1.64.docx",
@@ -54,12 +54,12 @@
     },
     {
       "name": "official_rewrite_progress_1_1-1_64.json",
-      "bytes": 590,
-      "sha256": "561998f760771d9107348e7cde29360925dc618bbf7f808b473e7c5a9292b17d"
+      "bytes": 588,
+      "sha256": "9a1ed1fd38c4d78225ec803b2c1eb40e9023463d5d71cea4ecfe4d14f2149b6f"
     }
   ],
   "source_full_audit_complete": false,
-  "github_delivery": "partial: publish branch, main pending; source ZIP blocked",
+  "github_delivery": "partial: DOCX, build script and selected QA on main; ZIP and verify_delivery.py pending",
   "library_delivery": "succeeded",
   "next_section": "1.65"
 }
