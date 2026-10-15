@@ -1,0 +1,24 @@
+{
+  "sections": [
+    "1.35",
+    "1.36",
+    "1.37"
+  ],
+  "standard": "ISO C11",
+  "flags": "-std=c11 -Wall -Wextra -Wpedantic -Werror -O0",
+  "programs": 24,
+  "compilers": [
+    "gcc",
+    "clang"
+  ],
+  "compile_and_execution_checks": 48,
+  "passed": 48,
+  "docx_pages": 18,
+  "docx_source_exact_matches": 24,
+  "full_log": "Saved in Library: official_ch01_1_35-1_37_c11_verification.json",
+  "limitations": [
+    "Source ZIP not uploaded to GitHub",
+    "Full baseline learning-objective audit pending",
+    "MSVC not tested"
+  ]
+}
