@@ -1,0 +1,107 @@
+{
+  "pages": 20,
+  "page_metrics": [
+    {
+      "page": 1,
+      "characters": 1980,
+      "last_text_y": 756.0
+    },
+    {
+      "page": 2,
+      "characters": 1242,
+      "last_text_y": 756.0
+    },
+    {
+      "page": 3,
+      "characters": 1219,
+      "last_text_y": 756.0
+    },
+    {
+      "page": 4,
+      "characters": 1320,
+      "last_text_y": 756.0
+    },
+    {
+      "page": 5,
+      "characters": 1279,
+      "last_text_y": 756.0
+    },
+    {
+      "page": 6,
+      "characters": 1293,
+      "last_text_y": 756.0
+    },
+    {
+      "page": 7,
+      "characters": 1811,
+      "last_text_y": 756.0
+    },
+    {
+      "page": 8,
+      "characters": 1346,
+      "last_text_y": 756.0
+    },
+    {
+      "page": 9,
+      "characters": 1310,
+      "last_text_y": 756.0
+    },
+    {
+      "page": 10,
+      "characters": 1236,
+      "last_text_y": 756.0
+    },
+    {
+      "page": 11,
+      "characters": 1395,
+      "last_text_y": 756.0
+    },
+    {
+      "page": 12,
+      "characters": 1342,
+      "last_text_y": 756.0
+    },
+    {
+      "page": 13,
+      "characters": 1814,
+      "last_text_y": 756.0
+    },
+    {
+      "page": 14,
+      "characters": 1223,
+      "last_text_y": 756.0
+    },
+    {
+      "page": 15,
+      "characters": 1083,
+      "last_text_y": 756.0
+    },
+    {
+      "page": 16,
+      "characters": 1222,
+      "last_text_y": 756.0
+    },
+    {
+      "page": 17,
+      "characters": 1342,
+      "last_text_y": 756.0
+    },
+    {
+      "page": 18,
+      "characters": 1199,
+      "last_text_y": 756.0
+    },
+    {
+      "page": 19,
+      "characters": 1249,
+      "last_text_y": 756.0
+    },
+    {
+      "page": 20,
+      "characters": 1748,
+      "last_text_y": 756.0
+    }
+  ],
+  "blank_pages": [],
+  "qa": "rendered and contact sheet inspected; no blank pages"
+}
