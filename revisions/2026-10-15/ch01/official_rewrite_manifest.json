@@ -1,0 +1,23 @@
+{
+  "edition": "이해 중심 정식 개정판",
+  "edition_id": "official-rewrite-20261015-1300",
+  "created_at_kst": "2026-10-15 13:00 KST",
+  "last_completed": "1.1~1.5",
+  "next": "1.6",
+  "latest_docx": "C언어_종합교과서_이해중심_정식개정판_제1장_1.1-1.5.docx",
+  "code_cases": 20,
+  "code_pass": 20,
+  "source_zip": "official_ch01_C_sources_10.zip",
+  "builder_script": "build_official_ch01.py",
+  "verification_json": "official_ch01_c11_verification.json",
+  "coverage_tracking": "official_rewrite_objective_tracking.json",
+  "progress": "official_rewrite_progress.md",
+  "page_qa": "official_ch01_page_qa.json",
+  "source_audit_complete": false,
+  "full_book_complete": false,
+  "source_policy": "Previous chapter 1-11 drafts are historical only and not copied into official manuscript",
+  "sha256_docx": "4ee3f4078532f5b98ee3a95b36fe7a5b51b6cf6c2586a7b787553c233bfdb712",
+  "page_count": 15,
+  "code_exact_match": true,
+  "page_qa_issues": []
+}
