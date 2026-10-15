@@ -1,0 +1,30 @@
+{
+  "docx_code_blocks": 39,
+  "verified_source_count": 19,
+  "source_match_count": 19,
+  "unmatched_sources": [],
+  "page_count": 20,
+  "page_text_lengths": [
+    1437,
+    1318,
+    1109,
+    1339,
+    1249,
+    1100,
+    1402,
+    1357,
+    1377,
+    1000,
+    1353,
+    1369,
+    1332,
+    1123,
+    1463,
+    959,
+    1267,
+    1251,
+    1491,
+    1447
+  ],
+  "qa": "All 20 pages rendered; final page visually inspected; source code exact text matches verified files."
+}
