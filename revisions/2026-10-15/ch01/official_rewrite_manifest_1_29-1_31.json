@@ -1,0 +1,14 @@
+{
+  "edition": "이해 중심 정식 개정판",
+  "range": "1.29–1.31",
+  "generated_at": "2026-10-15T21:01:41+09:00",
+  "docx": "C언어_종합교과서_이해중심_정식개정판_제1장_1.29-1.31.docx",
+  "sha256": "112b367b8e6dd2fbe72aa5209dbc9bd6842b344ffaae5c8858102e539ea62600",
+  "source_zip": "official_ch01_1_29-1_31_sources.zip",
+  "script": "build_ch01_1_29_to_1_31.py",
+  "verification": "official_ch01_1_29-1_31_c11_verification.json",
+  "progress": "official_rewrite_progress_1_1-1_31.json",
+  "objectives": "official_rewrite_objective_tracking_1_1-1_31.json",
+  "originals_audit": "incomplete",
+  "github_status": "pending"
+}
