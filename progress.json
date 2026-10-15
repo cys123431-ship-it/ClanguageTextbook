@@ -13,10 +13,17 @@
     "1.6",
     "1.7",
     "1.8",
-    "1.9"
+    "1.9",
+    "1.10",
+    "1.11",
+    "1.12",
+    "1.13",
+    "1.14",
+    "1.15",
+    "1.16"
   ],
-  "last_completed_section": "1.9",
-  "last_verified_at": "2026-10-15T14:00:00+09:00",
+  "last_completed_section": "1.16",
+  "last_verified_at": "2026-10-15T16:00:00+09:00",
   "stages": [
     {
       "id": "draft",
@@ -41,6 +48,9 @@
   ],
   "latest_docx_paths": [
     "revisions/2026-10-15/ch01/C언어_종합교과서_이해중심_정식개정판_제1장_1.1-1.5.docx",
-    "revisions/2026-10-15/ch01/C언어_종합교과서_이해중심_정식개정판_제1장_1.6-1.9.docx"
-  ]
+    "revisions/2026-10-15/ch01/C언어_종합교과서_이해중심_정식개정판_제1장_1.6-1.9.docx",
+    "revisions/2026-10-15/ch01/C언어_종합교과서_이해중심_정식개정판_제1장_1.10-1.12.docx",
+    "revisions/2026-10-15/ch01/C언어_종합교과서_이해중심_정식개정판_제1장_1.13-1.16.docx"
+  ],
+  "github_delivery_status": "PR #1 branch verified; main merge pending"
 }
