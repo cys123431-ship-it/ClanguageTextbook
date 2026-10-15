@@ -1,0 +1,118 @@
+{
+  "pages": [
+    {
+      "page": 1,
+      "text_characters": 1495,
+      "out_of_page_blocks": []
+    },
+    {
+      "page": 2,
+      "text_characters": 1336,
+      "out_of_page_blocks": []
+    },
+    {
+      "page": 3,
+      "text_characters": 1305,
+      "out_of_page_blocks": []
+    },
+    {
+      "page": 4,
+      "text_characters": 1252,
+      "out_of_page_blocks": []
+    },
+    {
+      "page": 5,
+      "text_characters": 1294,
+      "out_of_page_blocks": []
+    },
+    {
+      "page": 6,
+      "text_characters": 1180,
+      "out_of_page_blocks": []
+    },
+    {
+      "page": 7,
+      "text_characters": 1436,
+      "out_of_page_blocks": []
+    },
+    {
+      "page": 8,
+      "text_characters": 1248,
+      "out_of_page_blocks": []
+    },
+    {
+      "page": 9,
+      "text_characters": 1231,
+      "out_of_page_blocks": []
+    },
+    {
+      "page": 10,
+      "text_characters": 1359,
+      "out_of_page_blocks": []
+    },
+    {
+      "page": 11,
+      "text_characters": 1143,
+      "out_of_page_blocks": []
+    },
+    {
+      "page": 12,
+      "text_characters": 1368,
+      "out_of_page_blocks": []
+    },
+    {
+      "page": 13,
+      "text_characters": 1270,
+      "out_of_page_blocks": []
+    },
+    {
+      "page": 14,
+      "text_characters": 1338,
+      "out_of_page_blocks": []
+    },
+    {
+      "page": 15,
+      "text_characters": 1423,
+      "out_of_page_blocks": []
+    },
+    {
+      "page": 16,
+      "text_characters": 1295,
+      "out_of_page_blocks": []
+    },
+    {
+      "page": 17,
+      "text_characters": 1378,
+      "out_of_page_blocks": []
+    },
+    {
+      "page": 18,
+      "text_characters": 1053,
+      "out_of_page_blocks": []
+    },
+    {
+      "page": 19,
+      "text_characters": 1393,
+      "out_of_page_blocks": []
+    },
+    {
+      "page": 20,
+      "text_characters": 1382,
+      "out_of_page_blocks": []
+    },
+    {
+      "page": 21,
+      "text_characters": 1325,
+      "out_of_page_blocks": []
+    },
+    {
+      "page": 22,
+      "text_characters": 1303,
+      "out_of_page_blocks": []
+    }
+  ],
+  "total_pages": 22,
+  "empty_pages": 0,
+  "visual_contact_sheet_reviewed": true,
+  "render_pdf_sha256": "b254e5877a0de1a628284d9f8ea0864ff371e01f137f896204083cbc6ffc81aa"
+}

@@ -1,0 +1,457 @@
+{
+  "standard": "ISO C11",
+  "flags": [
+    "-std=c11",
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-Werror",
+    "-O0"
+  ],
+  "compilers": [
+    "gcc",
+    "clang"
+  ],
+  "program_count": 24,
+  "compile_count": 48,
+  "execution_count": 48,
+  "all_passed": true,
+  "results": [
+    {
+      "id": "a",
+      "kind": "main",
+      "source": "sources/1_32_a/main/main.c",
+      "sha256": "2b8a26f771d2cc99f8d8a3d2a9e7c3ad57c03c7be9057333f40e461ddb089f50",
+      "outputs": [
+        {
+          "compiler": "gcc",
+          "stdout": "before=7 through=7\nafter=12 through=12\n",
+          "returncode": 0
+        },
+        {
+          "compiler": "clang",
+          "stdout": "before=7 through=7\nafter=12 through=12\n",
+          "returncode": 0
+        }
+      ]
+    },
+    {
+      "id": "a",
+      "kind": "variant",
+      "source": "sources/1_32_a/variant/main.c",
+      "sha256": "7e2e106071337da6206affbb33b44dad7b0fe4f5ff607d76ee4a6d3d283b4a6b",
+      "outputs": [
+        {
+          "compiler": "gcc",
+          "stdout": "score=12\n",
+          "returncode": 0
+        },
+        {
+          "compiler": "clang",
+          "stdout": "score=12\n",
+          "returncode": 0
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "kind": "main",
+      "source": "sources/1_32_b/main/main.c",
+      "sha256": "7336c32d3c176d2101bacf8d3935521aa99f1ce0522c1704f9e37cc862805929",
+      "outputs": [
+        {
+          "compiler": "gcc",
+          "stdout": "first=15 second=10\n",
+          "returncode": 0
+        },
+        {
+          "compiler": "clang",
+          "stdout": "first=15 second=10\n",
+          "returncode": 0
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "kind": "variant",
+      "source": "sources/1_32_b/variant/main.c",
+      "sha256": "f8075c297dfc6d7f16062548c2bf982257b1f6c0ed8341afc24b1528a68533d6",
+      "outputs": [
+        {
+          "compiler": "gcc",
+          "stdout": "first=10 second=15\n",
+          "returncode": 0
+        },
+        {
+          "compiler": "clang",
+          "stdout": "first=10 second=15\n",
+          "returncode": 0
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "kind": "main",
+      "source": "sources/1_32_c/main/main.c",
+      "sha256": "2643252fadd208b0a840bc5ca8d12820b1b246c4155fbbd2f11b6e0db239991a",
+      "outputs": [
+        {
+          "compiler": "gcc",
+          "stdout": "left=17 right=17 total=17\n",
+          "returncode": 0
+        },
+        {
+          "compiler": "clang",
+          "stdout": "left=17 right=17 total=17\n",
+          "returncode": 0
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "kind": "variant",
+      "source": "sources/1_32_c/variant/main.c",
+      "sha256": "ac53921f8e3a0ded354b3f5e1652b0ebd696ba8d1fe3199739bf7cb84e1108a5",
+      "outputs": [
+        {
+          "compiler": "gcc",
+          "stdout": "total=19\n",
+          "returncode": 0
+        },
+        {
+          "compiler": "clang",
+          "stdout": "total=19\n",
+          "returncode": 0
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "kind": "main",
+      "source": "sources/1_32_d/main/main.c",
+      "sha256": "02f65286b536aa8aa31dfd14e915057e59994be73b1b8a168c3dab9481519f52",
+      "outputs": [
+        {
+          "compiler": "gcc",
+          "stdout": "not connected\nscore=8\n",
+          "returncode": 0
+        },
+        {
+          "compiler": "clang",
+          "stdout": "not connected\nscore=8\n",
+          "returncode": 0
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "kind": "variant",
+      "source": "sources/1_32_d/variant/main.c",
+      "sha256": "c8e29b65d8790f453778c83696f3cdc9c45e4afbde88e837ff23fc7979fa9e75",
+      "outputs": [
+        {
+          "compiler": "gcc",
+          "stdout": "empty\nscore=10\n",
+          "returncode": 0
+        },
+        {
+          "compiler": "clang",
+          "stdout": "empty\nscore=10\n",
+          "returncode": 0
+        }
+      ]
+    },
+    {
+      "id": "a",
+      "kind": "main",
+      "source": "sources/1_33_a/main/main.c",
+      "sha256": "c7f728ed0a68725cfe63c011ab295059a97215e755480d55d012315344eb7f3b",
+      "outputs": [
+        {
+          "compiler": "gcc",
+          "stdout": "x=9 y=3\n",
+          "returncode": 0
+        },
+        {
+          "compiler": "clang",
+          "stdout": "x=9 y=3\n",
+          "returncode": 0
+        }
+      ]
+    },
+    {
+      "id": "a",
+      "kind": "variant",
+      "source": "sources/1_33_a/variant/main.c",
+      "sha256": "88e659afe9cf28d027494c8bbff8ead78d85412b4d2074774a539e76be0e5c4e",
+      "outputs": [
+        {
+          "compiler": "gcc",
+          "stdout": "x=-2 y=14\n",
+          "returncode": 0
+        },
+        {
+          "compiler": "clang",
+          "stdout": "x=-2 y=14\n",
+          "returncode": 0
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "kind": "main",
+      "source": "sources/1_33_b/main/main.c",
+      "sha256": "86b2fd87f7a6c52426ad341a99ebbd7b7ab05735e8edfd98106dec6e64aeb3b1",
+      "outputs": [
+        {
+          "compiler": "gcc",
+          "stdout": "limited=35\n",
+          "returncode": 0
+        },
+        {
+          "compiler": "clang",
+          "stdout": "limited=35\n",
+          "returncode": 0
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "kind": "variant",
+      "source": "sources/1_33_b/variant/main.c",
+      "sha256": "18c959e41d480cfa367b82ce88246fd3546974520d20ea1124e0ebaef0de9d08",
+      "outputs": [
+        {
+          "compiler": "gcc",
+          "stdout": "limited=0\n",
+          "returncode": 0
+        },
+        {
+          "compiler": "clang",
+          "stdout": "limited=0\n",
+          "returncode": 0
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "kind": "main",
+      "source": "sources/1_33_c/main/main.c",
+      "sha256": "5f2f87901f55b39d17635fc604785a5231901be8223e8dcf4b95fb97c8fa3ee3",
+      "outputs": [
+        {
+          "compiler": "gcc",
+          "stdout": "original=11 twice=22\n",
+          "returncode": 0
+        },
+        {
+          "compiler": "clang",
+          "stdout": "original=11 twice=22\n",
+          "returncode": 0
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "kind": "variant",
+      "source": "sources/1_33_c/variant/main.c",
+      "sha256": "b132295a171b4709fd47722a3639ba4eeb4180be0bcdf235c5acdc6397a33a2d",
+      "outputs": [
+        {
+          "compiler": "gcc",
+          "stdout": "original=11 triple=33\n",
+          "returncode": 0
+        },
+        {
+          "compiler": "clang",
+          "stdout": "original=11 triple=33\n",
+          "returncode": 0
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "kind": "main",
+      "source": "sources/1_33_d/main/main.c",
+      "sha256": "c9f2bf305fdbc188b3eebab8a01aa46fef08dda3b0c3f1a3134b87b66aebae23",
+      "outputs": [
+        {
+          "compiler": "gcc",
+          "stdout": "q=3 r=2\n",
+          "returncode": 0
+        },
+        {
+          "compiler": "clang",
+          "stdout": "q=3 r=2\n",
+          "returncode": 0
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "kind": "variant",
+      "source": "sources/1_33_d/variant/main.c",
+      "sha256": "1ee282244a72dd8f8565043795c3e9a5063f9c2c61aad9ec792240b8b68b73da",
+      "outputs": [
+        {
+          "compiler": "gcc",
+          "stdout": "q=4 r=5\n",
+          "returncode": 0
+        },
+        {
+          "compiler": "clang",
+          "stdout": "q=4 r=5\n",
+          "returncode": 0
+        }
+      ]
+    },
+    {
+      "id": "a",
+      "kind": "main",
+      "source": "sources/1_34_a/main/main.c",
+      "sha256": "525e98eca76db22f7a4a9ca8fcee642ec644cb3917f942b09b0c027c7c868d98",
+      "outputs": [
+        {
+          "compiler": "gcc",
+          "stdout": "first=2 third=6\nindexed=8\n",
+          "returncode": 0
+        },
+        {
+          "compiler": "clang",
+          "stdout": "first=2 third=6\nindexed=8\n",
+          "returncode": 0
+        }
+      ]
+    },
+    {
+      "id": "a",
+      "kind": "variant",
+      "source": "sources/1_34_a/variant/main.c",
+      "sha256": "68321013379e464d57952fefff741da2afe76cb8281442fdaede7778e48f80a8",
+      "outputs": [
+        {
+          "compiler": "gcc",
+          "stdout": "second=4 fourth=8\n",
+          "returncode": 0
+        },
+        {
+          "compiler": "clang",
+          "stdout": "second=4 fourth=8\n",
+          "returncode": 0
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "kind": "main",
+      "source": "sources/1_34_b/main/main.c",
+      "sha256": "f8d9ce5d0be0130da8ce583029e4d80bbf8703cd0e880cc208bfcdf33427a51c",
+      "outputs": [
+        {
+          "compiler": "gcc",
+          "stdout": "sum=10\n",
+          "returncode": 0
+        },
+        {
+          "compiler": "clang",
+          "stdout": "sum=10\n",
+          "returncode": 0
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "kind": "variant",
+      "source": "sources/1_34_b/variant/main.c",
+      "sha256": "2e3255b370ee405ba119e0fd6fd65d0acb747906c6e9f1835c001212e917a271",
+      "outputs": [
+        {
+          "compiler": "gcc",
+          "stdout": "count=2\n",
+          "returncode": 0
+        },
+        {
+          "compiler": "clang",
+          "stdout": "count=2\n",
+          "returncode": 0
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "kind": "main",
+      "source": "sources/1_34_c/main/main.c",
+      "sha256": "fe5d58726b6cb02179499f0e27f92996e5dce08d3ce0857ed25df6e59fbfbb98",
+      "outputs": [
+        {
+          "compiler": "gcc",
+          "stdout": "index=3 value=40\n",
+          "returncode": 0
+        },
+        {
+          "compiler": "clang",
+          "stdout": "index=3 value=40\n",
+          "returncode": 0
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "kind": "variant",
+      "source": "sources/1_34_c/variant/main.c",
+      "sha256": "228df149c779dd16f20428247fa52c012b6738a9423f4bb36f37319c93214ee2",
+      "outputs": [
+        {
+          "compiler": "gcc",
+          "stdout": "index=4 value=50\n",
+          "returncode": 0
+        },
+        {
+          "compiler": "clang",
+          "stdout": "index=4 value=50\n",
+          "returncode": 0
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "kind": "main",
+      "source": "sources/1_34_d/main/main.c",
+      "sha256": "6fb92461bfd99292c639ce5f42cbd3954fd6c13f7a85774c6d69da306983fe72",
+      "outputs": [
+        {
+          "compiler": "gcc",
+          "stdout": "count=5 sum=15\n",
+          "returncode": 0
+        },
+        {
+          "compiler": "clang",
+          "stdout": "count=5 sum=15\n",
+          "returncode": 0
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "kind": "variant",
+      "source": "sources/1_34_d/variant/main.c",
+      "sha256": "9e25618ade53635980c9a9bf292d7c908d646b499cadd736c39bc56cc8b5d941",
+      "outputs": [
+        {
+          "compiler": "gcc",
+          "stdout": "count=5 even=2\n",
+          "returncode": 0
+        },
+        {
+          "compiler": "clang",
+          "stdout": "count=5 even=2\n",
+          "returncode": 0
+        }
+      ]
+    }
+  ],
+  "failures": [],
+  "docx_sha256": "5c486046b94ba95ba394c837c8049c777d1a31a51a1f256db1217c0088f40841",
+  "code_docx_consistency": "Each program and variant inserted from same E source used for compilation",
+  "source_global_objects": false
+}

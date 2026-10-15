@@ -1,0 +1,20 @@
+{
+  "run": "2026-10-15 ch01 1.32-1.34",
+  "sections": [
+    "1.32",
+    "1.33",
+    "1.34"
+  ],
+  "docx": "C언어_종합교과서_이해중심_정식개정판_제1장_1.32-1.34.docx",
+  "source_zip": "official_ch01_1_32-1_34_sources.zip",
+  "verification": "official_ch01_1_32-1_34_c11_verification.json",
+  "build_script": "build_ch01_1_32_to_1_34.py",
+  "progress": "official_rewrite_progress_1_1-1_34.json",
+  "objective_tracking": "official_rewrite_objective_tracking_1_1-1_34.json",
+  "verified_programs": 24,
+  "verified_compiles": 48,
+  "sha256": {
+    "C언어_종합교과서_이해중심_정식개정판_제1장_1.32-1.34.docx": "5c486046b94ba95ba394c837c8049c777d1a31a51a1f256db1217c0088f40841",
+    "official_ch01_1_32-1_34_sources.zip": "e610a949f9a72058fbf0802305af178704867588f347ac67ecedb8862efe19bd"
+  }
+}

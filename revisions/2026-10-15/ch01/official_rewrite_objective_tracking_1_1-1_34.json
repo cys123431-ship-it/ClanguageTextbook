@@ -1,0 +1,41 @@
+{
+  "coverage_audit_status": "not_exhaustively_audited",
+  "original_sources": {
+    "Express": "c언어 압축 (1)(1).pdf — full source per-item audit pending",
+    "K&R": "C_Programming.pdf — full source per-item audit pending",
+    "K&R OCR": "C Programming Language - 2nd Edition (OCR).pdf — supplementary; full audit pending"
+  },
+  "new_items": [
+    {
+      "section": "1.32",
+      "topics": [
+        "address-of",
+        "indirection",
+        "pointer copying",
+        "null pointer"
+      ],
+      "status": "original textbook content verified; source-to-item audit pending"
+    },
+    {
+      "section": "1.33",
+      "topics": [
+        "pointer arguments",
+        "output parameters",
+        "const pointee",
+        "value passing"
+      ],
+      "status": "original textbook content verified; source-to-item audit pending"
+    },
+    {
+      "section": "1.34",
+      "topics": [
+        "array-to-pointer conversion",
+        "pointer arithmetic",
+        "one-past",
+        "ptrdiff_t",
+        "sizeof array"
+      ],
+      "status": "original textbook content verified; source-to-item audit pending"
+    }
+  ]
+}
