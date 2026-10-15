@@ -1,0 +1,14 @@
+{
+  "completed_range_reported": "1.1~1.52",
+  "new_sections": [
+    "1.50",
+    "1.51",
+    "1.52"
+  ],
+  "next_section": "1.53",
+  "progress_percent": null,
+  "source_objective_full_audit": false,
+  "stage": "ctype 문자 검사·qsort/bsearch·stdlib 유틸리티 신규 집필 및 C11 검증",
+  "github_delivery": "pending",
+  "library_delivery": "pending"
+}
