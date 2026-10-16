@@ -1,0 +1,33 @@
+{
+  "timestamp": "2026-10-16T22:10:13.148311+09:00",
+  "previous_reported_last": "1.106",
+  "new_sections": [
+    {
+      "section": "1.107",
+      "title": "저수준 I/O와 표준 스트림의 버퍼링: 성능을 정확히 비교하는 법",
+      "status": "manuscript_compiled_verified",
+      "source_mapping": "K&R 8.1/8.3/8.5/8.6/8.7/Exercises 8-1..8-8 partial; Express exact exercise item audit unverified"
+    },
+    {
+      "section": "1.108",
+      "title": "재귀 디렉터리 순회: 경로·심볼릭 링크·오류를 함께 설계하기",
+      "status": "manuscript_compiled_verified",
+      "source_mapping": "K&R 8.1/8.3/8.5/8.6/8.7/Exercises 8-1..8-8 partial; Express exact exercise item audit unverified"
+    },
+    {
+      "section": "1.109",
+      "title": "할당자 설계 실습: 슬롯 풀·첫 적합·병합과 안전한 크기 계산",
+      "status": "manuscript_compiled_verified",
+      "source_mapping": "K&R 8.1/8.3/8.5/8.6/8.7/Exercises 8-1..8-8 partial; Express exact exercise item audit unverified"
+    }
+  ],
+  "full_original_item_audit": false,
+  "unverified": [
+    "K&R 8-2 bitfield comparison and speed measurement",
+    "K&R 8-3 full _flushbuf/fflush/fclose custom implementation",
+    "K&R 8-4 buffered fseek custom implementation",
+    "K&R 8-5 complete inode fields",
+    "K&R 8-6 to 8-8 full generic allocator and bfree",
+    "Express 17 chapters item-by-item LAB/Exercise/Programming/Mini Project/Advanced Topic"
+  ]
+}
