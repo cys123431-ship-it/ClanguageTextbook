@@ -1,0 +1,23 @@
+{
+  "run": "1.104-1.106",
+  "status": "partial",
+  "verified_text_files": [
+    "official_rewrite_manifest_1_104-1_106.json",
+    "official_ch01_1_104-1_106_original_objective_audit_partial.json",
+    "official_ch01_1_104-1_106_code_match.json",
+    "official_ch01_1_104-1_106_pedagogy_qa.json"
+  ],
+  "not_uploaded": [
+    "C언어_종합교과서_이해중심_정식개정판_제1장_1.104-1.106.docx",
+    "official_ch01_1_104-1_106_sources.zip",
+    "build_ch01_1_104_to_1_106.py",
+    "official_ch01_1_104-1_106_c11_verification.json",
+    "official_ch01_1_104-1_106_page_qa.json",
+    "official_ch01_1_104-1_106_source_inspection.json",
+    "official_rewrite_progress_1_1-1_106.json"
+  ],
+  "root_progress_json_last_completed": "1.70",
+  "readme_update": false,
+  "source_full_audit": false,
+  "reason": "GitHub write calls for binary blobs and selected text files, README and progress.json were blocked by safety checks; local git network access failed DNS resolution."
+}
