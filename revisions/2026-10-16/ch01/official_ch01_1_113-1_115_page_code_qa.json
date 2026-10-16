@@ -1,0 +1,75 @@
+{
+  "page_count": 16,
+  "text_characters_per_page": [
+    1589,
+    1490,
+    1696,
+    1538,
+    1362,
+    1487,
+    1577,
+    1842,
+    1492,
+    1628,
+    1580,
+    1722,
+    1723,
+    1618,
+    1873,
+    1658
+  ],
+  "blank_pages": [],
+  "code_match": [
+    {
+      "file": "1_113_buffered_writer.c",
+      "exact_match_occurrences": 1
+    },
+    {
+      "file": "1_113_buffered_writer_variant.c",
+      "exact_match_occurrences": 1
+    },
+    {
+      "file": "1_113_independent_binary.c",
+      "exact_match_occurrences": 1
+    },
+    {
+      "file": "1_113_standard_buffer.c",
+      "exact_match_occurrences": 1
+    },
+    {
+      "file": "1_114_independent_seek.c",
+      "exact_match_occurrences": 1
+    },
+    {
+      "file": "1_114_position_mark.c",
+      "exact_match_occurrences": 1
+    },
+    {
+      "file": "1_114_seek_buffer.c",
+      "exact_match_occurrences": 1
+    },
+    {
+      "file": "1_114_seek_buffer_variant.c",
+      "exact_match_occurrences": 1
+    },
+    {
+      "file": "1_115_donated_arena.c",
+      "exact_match_occurrences": 1
+    },
+    {
+      "file": "1_115_donated_arena_variant.c",
+      "exact_match_occurrences": 1
+    },
+    {
+      "file": "1_115_independent_donation.c",
+      "exact_match_occurrences": 1
+    },
+    {
+      "file": "1_115_slot_pool.c",
+      "exact_match_occurrences": 1
+    }
+  ],
+  "all_code_exact": true,
+  "visual_contact_sheet_reviewed": true,
+  "manual_full_size_all_pages_reviewed": false
+}
