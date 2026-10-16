@@ -1,0 +1,29 @@
+{
+  "timestamp": "2026-10-16T17:03:00+09:00",
+  "repository": "cys123431-ship-it/ClanguageTextbook",
+  "target_branch": "main",
+  "delivery_complete": false,
+  "verified_on_main": [
+    "official_rewrite_progress_1_1-1_94.json",
+    "official_rewrite_objective_tracking_1_1-1_94.json",
+    "official_rewrite_manifest_1_92-1_94.json",
+    "official_ch01_1_92-1_94_source_inspection.json",
+    "official_ch01_1_92-1_94_code_match.json",
+    "official_ch01_1_92-1_94_pedagogy_qa.json",
+    "official_ch01_1_92-1_94_page_qa.json",
+    "official_ch01_1_92-1_94_original_audit_partial.json"
+  ],
+  "last_verified_commit": "61d2caab871f28a069f4d3847e2906830fec91ec",
+  "missing_on_main": [
+    "C언어_종합교과서_이해중심_정식개정판_제1장_1.92-1.94.docx",
+    "official_ch01_1_92-1_94_sources.zip",
+    "build_ch01_1_92_to_1_94.py",
+    "content_run30.py",
+    "official_ch01_1_92-1_94_c11_verification.json"
+  ],
+  "failed_root_updates": ["README.md", "progress.json"],
+  "failure_reason": "GitHub UTF-8 text writes for larger source and verification payloads and root updates were blocked by tool safety checks. The available text contents action cannot directly upload DOCX/ZIP binary files from the working container. Direct git push was unavailable because github.com DNS resolution failed in the container.",
+  "older_backfill": "1.1-1.5 DOCX exists on main (blob SHA 091f0a98cf42aabb6e8914dbbaa5bf9055ad8246); 1.89-1.91 DOCX missing on main. Other missing binaries require a full inventory.",
+  "library_saved": true,
+  "source_audit_complete": false
+}
