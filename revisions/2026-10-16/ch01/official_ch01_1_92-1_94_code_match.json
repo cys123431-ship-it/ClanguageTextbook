@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-10-16T17:00:31+09:00",
+  "source_program_count": 21,
+  "all_matched": true,
+  "filenames": [
+    "ch01_1_92_01_bounded_copy_example.c",
+    "ch01_1_92_01_bounded_copy_variation.c",
+    "ch01_1_92_02_slice_sum_example.c",
+    "ch01_1_92_02_slice_sum_variation.c",
+    "ch01_1_92_03_line_input_example.c",
+    "ch01_1_92_03_line_input_variation.c",
+    "ch01_1_92_independent.c",
+    "ch01_1_93_01_safe_add_example.c",
+    "ch01_1_93_01_safe_add_variation.c",
+    "ch01_1_93_02_safe_multiply_example.c",
+    "ch01_1_93_02_safe_multiply_variation.c",
+    "ch01_1_93_03_signed_length_example.c",
+    "ch01_1_93_03_signed_length_variation.c",
+    "ch01_1_93_independent.c",
+    "ch01_1_94_01_heap_sum_example.c",
+    "ch01_1_94_01_heap_sum_variation.c",
+    "ch01_1_94_02_tmp_file_example.c",
+    "ch01_1_94_02_tmp_file_variation.c",
+    "ch01_1_94_03_big_endian_example.c",
+    "ch01_1_94_03_big_endian_variation.c",
+    "ch01_1_94_independent.c"
+  ]
+}
