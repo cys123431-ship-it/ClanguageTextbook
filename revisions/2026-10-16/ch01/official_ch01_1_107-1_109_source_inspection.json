@@ -1,0 +1,28 @@
+{
+  "source_md": "C언어_통합교과서_전체수록범위_확정안.md",
+  "md_reviewed": "36 units; unit 32 and 36 emphasized",
+  "express_pdf": "c언어 압축 (1)(1).pdf",
+  "express_visual_page_checked": 13,
+  "knr_original_pdf": "C_Programming.pdf",
+  "knr_original_visual_pages_checked": [
+    140,
+    141
+  ],
+  "knr_ocr_pdf": "C Programming Language - 2nd Edition (OCR).pdf",
+  "knr_ocr_text_pages_checked": [
+    158,
+    159,
+    160,
+    161,
+    162,
+    163,
+    164
+  ],
+  "knr_ocr_focus": "8.5 buffered stream; 8.6 directory listing; 8.7 allocator; exercises 8-2 to 8-5",
+  "full_audit_complete": false,
+  "limitations": [
+    "K&R original scan target chapter pages not visually verified this run",
+    "Express all LAB/Exercise/Programming/Mini Project item audit pending",
+    "K&R all exercises exact goal-by-goal audit pending"
+  ]
+}
