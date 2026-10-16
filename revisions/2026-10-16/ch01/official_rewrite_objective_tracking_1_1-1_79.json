@@ -1,0 +1,40 @@
+{
+  "schema_version": 6,
+  "timestamp": "2026-10-16T12:35:02+09:00",
+  "previous_reported_completed": "1.1~1.76; not re-audited in this run",
+  "source_coverage_complete": false,
+  "source_status": {
+    "Express PDF": "Library root page image checked; individual item audit pending",
+    "K&R original scan": "Library root page image checked; individual item audit pending",
+    "K&R OCR": "contents inspected; individual item audit pending",
+    "scope MD": "editorial units 23 and 27 read"
+  },
+  "new_sections": [
+    {
+      "section": "1.77",
+      "objective": "비트 연산을 함수로 읽기: C23 <stdbit.h>와 C11 대체 구현",
+      "editorial_unit": "23",
+      "manuscript": "completed",
+      "gcc_clang_c11": "passed",
+      "original_item_mapping": "pending"
+    },
+    {
+      "section": "1.78",
+      "objective": "오버플로를 결과와 분리하기: C23 <stdckdint.h>와 C11 안전 검사",
+      "editorial_unit": "23",
+      "manuscript": "completed",
+      "gcc_clang_c11": "passed",
+      "original_item_mapping": "pending"
+    },
+    {
+      "section": "1.79",
+      "objective": "C23 전처리 확장과 호환성: #elifdef·#warning·#embed를 읽는 법",
+      "editorial_unit": "27",
+      "manuscript": "completed",
+      "gcc_clang_c11": "passed",
+      "original_item_mapping": "pending"
+    }
+  ],
+  "unmapped_original_items": "unknown count; not verified",
+  "next": "1.80: C23 modern syntax or original-item audit gaps"
+}
