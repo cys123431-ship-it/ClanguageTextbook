@@ -1,0 +1,14 @@
+{
+  "pages": 23,
+  "render_status": "passed",
+  "blank_pages": 0,
+  "min_extracted_characters_per_page": 619,
+  "one_line_pages": 0,
+  "contact_sheets_visually_reviewed": [
+    "contact_1.png",
+    "contact_2.png"
+  ],
+  "page_geometry": "A4-like Word default; all page thumbnails visually checked",
+  "code_outside_page_observed": false,
+  "notes": "Final page 23 contains ~619 characters, not an orphan one-line page."
+}
