@@ -1,0 +1,14 @@
+{
+  "audit_scope": "limited first-pass audit, NOT an exhaustive source comparison",
+  "timestamp_local": "2026-10-16 15:07 KST",
+  "source": "K&R 2nd ed. OCR pages 79-82; original scan pages 81-82 (Chapter 4 opening)",
+  "objectives": [
+    {"id": "KNR-04-01-modular-functions", "source_location": "K&R Chapter 4 opening and 4.1", "objective": "Break a program into independently understandable functions and source units", "new_location": "1.86-1.88", "status": "covered_by_new_original_examples", "audit_level": "chapter/section-level"},
+    {"id": "KNR-04-11-01-inclusion", "source_location": "K&R 4.11.1", "objective": "Use #include and shared declarations across translation units; understand header dependencies", "new_location": "1.86.1-1.86.3 and 1.87.2", "status": "covered_by_new_original_examples", "audit_level": "section-level"},
+    {"id": "KNR-04-11-02-macros", "source_location": "K&R 4.11.2", "objective": "Macro substitution, argument evaluation, stringizing and token concatenation", "new_location": null, "status": "not_audited_against_earlier_sections", "audit_level": "identified_not_credited"},
+    {"id": "KNR-04-11-02-exercise-4-14", "source_location": "K&R exercise 4-14", "objective": "Type-parametric exchange through a macro; independently designed equivalent practice required", "new_location": null, "status": "pending_independent_practice_mapping", "audit_level": "identified_not_credited"},
+    {"id": "KNR-04-11-03-conditional", "source_location": "K&R 4.11.3", "objective": "Conditional compilation and include guards", "new_location": "1.86.1, 1.87.2, 1.88.3", "status": "covered_by_new_original_examples", "audit_level": "section-level"}
+  ],
+  "express": {"chapter": "16", "chapter_topic": "Preprocessor and multiple source files", "status": "chapter-level relevance only; individual LAB/Exercise/Programming pages not yet audited"},
+  "limitations": ["Only listed K&R subsections checked in this pass", "No claim of original problem copying or exhaustive mapping", "All other original items remain pending"]
+}
