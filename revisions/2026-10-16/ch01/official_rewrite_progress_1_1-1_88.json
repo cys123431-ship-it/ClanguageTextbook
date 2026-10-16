@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-10-16T15:02:37+09:00",
+  "reported_completed": "1.1~1.88",
+  "verified_this_run": [
+    "1.86",
+    "1.87",
+    "1.88"
+  ],
+  "last_completed": "1.88",
+  "next": "1.89",
+  "percentage": null,
+  "source_item_audit_complete": false,
+  "final_merged_docx_complete": false,
+  "github_delivery": "pending"
+}
