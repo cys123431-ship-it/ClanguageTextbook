@@ -1,0 +1,71 @@
+{
+  "timestamp": "2026-10-16T15:02:37+09:00",
+  "last_completed": "1.88",
+  "next": "1.89",
+  "source_audit_complete": false,
+  "github_delivery": "pending",
+  "files": [
+    {
+      "name": "C언어_종합교과서_이해중심_정식개정판_제1장_1.86-1.88.docx",
+      "sha256": "260c767e6d18dce0799b348e7062579773b60535937dba5eba605132c3d1c22f",
+      "size_bytes": 54226
+    },
+    {
+      "name": "build_ch01_1_86_to_1_88.py",
+      "sha256": "d3b2634dee121a2e8e77d2872c52f04fde4f8304a7bf731aea10175daa0d1e95",
+      "size_bytes": 18525
+    },
+    {
+      "name": "content_run28.py",
+      "sha256": "4d9f8bb7ff4087cf25e6d15e6ee53747746574bc35a7f94d84014e2951150245",
+      "size_bytes": 37041
+    },
+    {
+      "name": "official_ch01_1_86-1_88_build_template_qa.json",
+      "sha256": "0c5031ed4df217ed1f5907789d4d602397398be5247854c17adc87fb8f7a77cd",
+      "size_bytes": 178
+    },
+    {
+      "name": "official_ch01_1_86-1_88_c11_verification.json",
+      "sha256": "969fa715abf85f2c12276cba97ac3483a3b6faefba22f4440e33056fda682cd9",
+      "size_bytes": 63786
+    },
+    {
+      "name": "official_ch01_1_86-1_88_code_match.json",
+      "sha256": "93959be9864c0731c680a938523e2be29adb3d8338f789d641e81cb551088165",
+      "size_bytes": 12898
+    },
+    {
+      "name": "official_ch01_1_86-1_88_page_qa.json",
+      "sha256": "75dfad5a065562e739585d18baf638a6d6721da1bc9a616fbff1afcb4b11d0bc",
+      "size_bytes": 423
+    },
+    {
+      "name": "official_ch01_1_86-1_88_pedagogy_qa.json",
+      "sha256": "496b65ad1a3b9496b96a3a7d5fc0d9c1218d3185be752b73df4aa3f2cfa14a81",
+      "size_bytes": 379
+    },
+    {
+      "name": "official_ch01_1_86-1_88_source_inspection.json",
+      "sha256": "d53206f262bb7e10ace1813a5712519bece5d275b7340d36eb6f906bcb342130",
+      "size_bytes": 817
+    },
+    {
+      "name": "official_ch01_1_86-1_88_sources.zip",
+      "sha256": "8e66d0b2707ef261694f7698cf52e995763f1968d77aae87848b5dd9bb2639e2",
+      "size_bytes": 18441
+    },
+    {
+      "name": "official_rewrite_objective_tracking_1_1-1_88.json",
+      "sha256": "41d3d75c4e4f06505d6fdabce14d07cb4528b5fd9a33aa9aa918da6d58d4bffc",
+      "size_bytes": 1668
+    },
+    {
+      "name": "official_rewrite_progress_1_1-1_88.json",
+      "sha256": "7bb64099bf00008750d9d80aeac549c286809a171ec3a924d2bacfbc897e0396",
+      "size_bytes": 326
+    }
+  ],
+  "page_qa": "passed, 23 pages",
+  "build_template_qa": "Make and CMake passed locally"
+}
