@@ -1,0 +1,11 @@
+{
+  "progressive_independence": "complete example, variation and independent exercises in each section",
+  "retrieval_practice": "cumulative reviews and answers in all three sections",
+  "predict_before_execution": 9,
+  "debugging": "syntax, runtime and logic discussions",
+  "subgoals": "4 per section",
+  "misconception_diagnostics": 9,
+  "adjacent_variation_and_answer": 9,
+  "prerequisite_qa": "terms introduced in context; earlier POSIX concepts explicitly reviewed",
+  "result": "manual structure checked, not proof of full pedagogical perfection"
+}
