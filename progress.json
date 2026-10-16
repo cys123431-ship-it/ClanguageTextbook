@@ -55,15 +55,16 @@
     "revisions/2026-10-16/ch01/C언어_종합교과서_이해중심_정식개정판_제1장_1.59-1.61.docx",
     "revisions/2026-10-16/ch01/C언어_종합교과서_이해중심_정식개정판_제1장_1.62-1.64.docx"
   ],
-  "github_delivery_status": "PARTIAL: chapter2 manifest/progress text only; DOCX ZIP script full QA not verified on main",
+  "github_delivery_status": "PARTIAL: chapter17 Markdown progress report committed; chapter17 DOCX/ZIP not uploaded; Library upload tool failed",
   "latest_github_file_links": {
     "docx": "revisions/2026-10-16/ch01/C언어_종합교과서_이해중심_정식개정판_제1장_1.62-1.64.docx",
     "verification": "revisions/2026-10-16/ch01/official_ch01_1_62-1_64_code_match.json",
     "chapter02_manifest": "revisions/2026-10-17/part01/ch02/official_ch02_2_1-2_3_manifest.json",
     "chapter02_docx": null,
-    "chapter02_zip": null
+    "chapter02_zip": null,
+    "chapter17_report": "revisions/2026-10-17/part02/ch17/CH17_FIRST_DRAFT_REUSE_REPORT.md"
   },
-  "current_stage": "제2장 2.1-2.3 새 원고 GCC·Clang 24회 검증, Library 저장 완료. GitHub DOCX/ZIP 미업로드. 과거 115개 절 재분류 진행 중.",
+  "current_stage": "제17장 17.1~17.3 신규 집필 및 기존 1.110~1.112/1.115를 17.4~17.7에 초안 재배치. 신규 6개 C11 예제 GCC·Clang 총 12회 통과. 33쪽 DOCX 로컬 생성; Library/GitHub DOCX 업로드 미확인.",
   "latest_library_verified_artifacts": [
     "C언어_종합교과서_이해중심_정식개정판_제1장_1.68-1.70.docx",
     "official_ch01_1_68-1_70_sources.zip",
@@ -147,6 +148,23 @@
     "rule": "분량 무제한; 장 경계는 주제와 선행 개념으로 결정",
     "old_sections": "1.1-1.115 임시 번호; 완전 재분류 미완료",
     "current_verified": "PART 01 제2장 2.1-2.3",
-    "chapter1_finished": false
-  }
+    "chapter1_finished": false,
+    "current_draft": "PART 02 제17장 17.1-17.7 부분 초안 (원서 전수 감사 및 전체 QA 미완료)"
+  },
+  "draft_sections_in_review": [
+    "17.1",
+    "17.2",
+    "17.3",
+    "17.4",
+    "17.5",
+    "17.6",
+    "17.7"
+  ],
+  "legacy_draft_reclassification": {
+    "1.110": "17.4",
+    "1.111": "17.5",
+    "1.112": "17.6",
+    "1.115": "17.7"
+  },
+  "last_draft_activity_at": "2026-10-17T02:02:24+09:00"
 }
