@@ -1,0 +1,59 @@
+{
+  "timestamp": "2026-10-16T17:03:44+09:00",
+  "status": "partial_source_inspection_not_item_audit",
+  "sources": [
+    {
+      "file": "c언어 압축 (1)(1).pdf",
+      "pages": 750,
+      "observed_pages": [
+        1,
+        9
+      ],
+      "observations": [
+        "cover and book identity",
+        "page 9 explains Q&A, Summary, Exercise, Programming learning activity types"
+      ],
+      "all_exercise_items_indexed": false
+    },
+    {
+      "file": "C_Programming.pdf",
+      "pages": 288,
+      "observed_pages": [
+        1
+      ],
+      "all_exercise_items_indexed": false
+    },
+    {
+      "file": "C Programming Language - 2nd Edition (OCR).pdf",
+      "pages": 238,
+      "observed_pages": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "observations": [
+        "chapter 1 introductory examples and tutorial text accessible"
+      ],
+      "all_exercise_items_indexed": false
+    }
+  ],
+  "section_alignment": [
+    {
+      "section": "1.92",
+      "editorial_unit": "31",
+      "original_specific_item_ids": "not yet matched"
+    },
+    {
+      "section": "1.93",
+      "editorial_unit": "31",
+      "original_specific_item_ids": "not yet matched"
+    },
+    {
+      "section": "1.94",
+      "editorial_unit": "31",
+      "original_specific_item_ids": "not yet matched"
+    }
+  ],
+  "remaining": "All original chapters and all individual LAB/Exercise/Programming/Mini Project/Advanced Topic/appendix items need full audit; no completion claim."
+}
