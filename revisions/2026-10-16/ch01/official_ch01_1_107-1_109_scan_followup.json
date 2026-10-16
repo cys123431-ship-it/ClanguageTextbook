@@ -1,0 +1,28 @@
+{
+  "original": "C_Programming.pdf",
+  "materialized_raw": true,
+  "actual_pdf_pages": 288,
+  "original_scanned_pages_visually_inspected": [
+    171,
+    176,
+    181,
+    186,
+    191,
+    196,
+    201,
+    206,
+    211,
+    216,
+    221
+  ],
+  "target_original_chapter8_pages": [
+    186,
+    191,
+    196,
+    201
+  ],
+  "ocr_correspondence": "K&R OCR pages 158–164",
+  "express_original_page_visually_inspected": 13,
+  "source_audit_complete": false,
+  "note": "K&R scan chapter 8 target pages checked; no original problem statements copied"
+}
