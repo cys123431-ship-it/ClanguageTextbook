@@ -1,0 +1,14 @@
+{
+  "run": "ch01_1.68-1.70",
+  "timestamp": "2026-10-16T10:06:25+09:00",
+  "verified_programs": 21,
+  "gcc_runs": 21,
+  "clang_runs": 21,
+  "compile_flags": "-std=c11 -Wall -Wextra -Wpedantic -Werror -O0",
+  "link_flags": "-pthread",
+  "stdout_compared": true,
+  "source_docx_code_match": true,
+  "rendered_pages": 24,
+  "source_objective_full_audit": false,
+  "full_verification_json": "Library only; GitHub upload pending"
+}
