@@ -1,0 +1,37 @@
+{
+  "run": "2026-10-17 03:12 KST automation turn 2",
+  "status": "partial_draft_created_not_full_book",
+  "chapter": 2,
+  "sections": [
+    "2.1",
+    "2.2",
+    "2.3",
+    "2.4",
+    "2.5",
+    "2.6"
+  ],
+  "reused_existing": {
+    "file": "C언어_종합교과서_이해중심_정식개정판_PART01_제02장_2.1-2.3.docx",
+    "source": "Library /C언어_통합교과서_제작",
+    "paragraphs_preserved": "2.1~2.3 full main body, excluding superseded interim ending"
+  },
+  "new_sections": {
+    "2.4": "Visual Studio Community empty project and existing .c/.h file registration",
+    "2.5": "source/build/run file location, stale executable, encoding",
+    "2.6": "GCC/Clang/MSVC options and warning interpretation"
+  },
+  "docx": {
+    "path": "/mnt/data/ctextbook/run_20261017_0312/C언어_종합교과서_PART01_제02장_2.1-2.6_누적1차초안.docx",
+    "sha256": "e195e1ab95845de3a9a473e68d71a65caa81fa3492b608e77fba47584e44070c",
+    "bytes": 57968,
+    "rendered_pages": 22
+  },
+  "code_verification": {
+    "gcc_clang": 12,
+    "total": 12,
+    "msvc": "not tested (Windows unavailable)"
+  },
+  "source_coverage": "partial. Individual Express LAB/Exercise/Programming/Mini Project/Advanced Topic and K&R exercises not exhaustively audited",
+  "old_mapping": "115 old sections preserved as candidate/pending; no unverified legacy mapping marked complete",
+  "next": "Chapter 3 new draft or verified legacy reclassification; source objective audit pending"
+}

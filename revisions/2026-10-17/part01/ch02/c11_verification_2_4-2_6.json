@@ -1,0 +1,310 @@
+{
+  "compiler_matrix": [
+    {
+      "compiler": "gcc",
+      "unit": "status",
+      "sources": [
+        "2_4_01_status.c"
+      ],
+      "command": [
+        "gcc",
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0",
+        "/mnt/data/ctextbook/run_20261017_0312/sources/2_4_01_status.c",
+        "-o",
+        "/mnt/data/ctextbook/run_20261017_0312/build/gcc_status"
+      ],
+      "compile_rc": 0,
+      "compile_stderr": "",
+      "run_rc": 0,
+      "stdout": "available=7\n",
+      "expected": "available=7\n",
+      "passed": true
+    },
+    {
+      "compiler": "gcc",
+      "unit": "price",
+      "sources": [
+        "2_4_02_main.c",
+        "2_4_02_price.c"
+      ],
+      "command": [
+        "gcc",
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0",
+        "/mnt/data/ctextbook/run_20261017_0312/sources/2_4_02_main.c",
+        "/mnt/data/ctextbook/run_20261017_0312/sources/2_4_02_price.c",
+        "-o",
+        "/mnt/data/ctextbook/run_20261017_0312/build/gcc_price"
+      ],
+      "compile_rc": 0,
+      "compile_stderr": "",
+      "run_rc": 0,
+      "stdout": "total=3600\n",
+      "expected": "total=3600\n",
+      "passed": true
+    },
+    {
+      "compiler": "gcc",
+      "unit": "label_v1",
+      "sources": [
+        "2_5_01_label_v1.c"
+      ],
+      "command": [
+        "gcc",
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0",
+        "/mnt/data/ctextbook/run_20261017_0312/sources/2_5_01_label_v1.c",
+        "-o",
+        "/mnt/data/ctextbook/run_20261017_0312/build/gcc_label_v1"
+      ],
+      "compile_rc": 0,
+      "compile_stderr": "",
+      "run_rc": 0,
+      "stdout": "revision=1\n",
+      "expected": "revision=1\n",
+      "passed": true
+    },
+    {
+      "compiler": "gcc",
+      "unit": "label_v2",
+      "sources": [
+        "2_5_02_label_v2.c"
+      ],
+      "command": [
+        "gcc",
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0",
+        "/mnt/data/ctextbook/run_20261017_0312/sources/2_5_02_label_v2.c",
+        "-o",
+        "/mnt/data/ctextbook/run_20261017_0312/build/gcc_label_v2"
+      ],
+      "compile_rc": 0,
+      "compile_stderr": "",
+      "run_rc": 0,
+      "stdout": "revision=2\n",
+      "expected": "revision=2\n",
+      "passed": true
+    },
+    {
+      "compiler": "gcc",
+      "unit": "portable",
+      "sources": [
+        "2_6_01_portable.c"
+      ],
+      "command": [
+        "gcc",
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0",
+        "/mnt/data/ctextbook/run_20261017_0312/sources/2_6_01_portable.c",
+        "-o",
+        "/mnt/data/ctextbook/run_20261017_0312/build/gcc_portable"
+      ],
+      "compile_rc": 0,
+      "compile_stderr": "",
+      "run_rc": 0,
+      "stdout": "total=11\n",
+      "expected": "total=11\n",
+      "passed": true
+    },
+    {
+      "compiler": "gcc",
+      "unit": "warning_fixed",
+      "sources": [
+        "2_6_02_warning_fixed.c"
+      ],
+      "command": [
+        "gcc",
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0",
+        "/mnt/data/ctextbook/run_20261017_0312/sources/2_6_02_warning_fixed.c",
+        "-o",
+        "/mnt/data/ctextbook/run_20261017_0312/build/gcc_warning_fixed"
+      ],
+      "compile_rc": 0,
+      "compile_stderr": "",
+      "run_rc": 0,
+      "stdout": "difference=3\n",
+      "expected": "difference=3\n",
+      "passed": true
+    },
+    {
+      "compiler": "clang",
+      "unit": "status",
+      "sources": [
+        "2_4_01_status.c"
+      ],
+      "command": [
+        "clang",
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0",
+        "/mnt/data/ctextbook/run_20261017_0312/sources/2_4_01_status.c",
+        "-o",
+        "/mnt/data/ctextbook/run_20261017_0312/build/clang_status"
+      ],
+      "compile_rc": 0,
+      "compile_stderr": "",
+      "run_rc": 0,
+      "stdout": "available=7\n",
+      "expected": "available=7\n",
+      "passed": true
+    },
+    {
+      "compiler": "clang",
+      "unit": "price",
+      "sources": [
+        "2_4_02_main.c",
+        "2_4_02_price.c"
+      ],
+      "command": [
+        "clang",
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0",
+        "/mnt/data/ctextbook/run_20261017_0312/sources/2_4_02_main.c",
+        "/mnt/data/ctextbook/run_20261017_0312/sources/2_4_02_price.c",
+        "-o",
+        "/mnt/data/ctextbook/run_20261017_0312/build/clang_price"
+      ],
+      "compile_rc": 0,
+      "compile_stderr": "",
+      "run_rc": 0,
+      "stdout": "total=3600\n",
+      "expected": "total=3600\n",
+      "passed": true
+    },
+    {
+      "compiler": "clang",
+      "unit": "label_v1",
+      "sources": [
+        "2_5_01_label_v1.c"
+      ],
+      "command": [
+        "clang",
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0",
+        "/mnt/data/ctextbook/run_20261017_0312/sources/2_5_01_label_v1.c",
+        "-o",
+        "/mnt/data/ctextbook/run_20261017_0312/build/clang_label_v1"
+      ],
+      "compile_rc": 0,
+      "compile_stderr": "",
+      "run_rc": 0,
+      "stdout": "revision=1\n",
+      "expected": "revision=1\n",
+      "passed": true
+    },
+    {
+      "compiler": "clang",
+      "unit": "label_v2",
+      "sources": [
+        "2_5_02_label_v2.c"
+      ],
+      "command": [
+        "clang",
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0",
+        "/mnt/data/ctextbook/run_20261017_0312/sources/2_5_02_label_v2.c",
+        "-o",
+        "/mnt/data/ctextbook/run_20261017_0312/build/clang_label_v2"
+      ],
+      "compile_rc": 0,
+      "compile_stderr": "",
+      "run_rc": 0,
+      "stdout": "revision=2\n",
+      "expected": "revision=2\n",
+      "passed": true
+    },
+    {
+      "compiler": "clang",
+      "unit": "portable",
+      "sources": [
+        "2_6_01_portable.c"
+      ],
+      "command": [
+        "clang",
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0",
+        "/mnt/data/ctextbook/run_20261017_0312/sources/2_6_01_portable.c",
+        "-o",
+        "/mnt/data/ctextbook/run_20261017_0312/build/clang_portable"
+      ],
+      "compile_rc": 0,
+      "compile_stderr": "",
+      "run_rc": 0,
+      "stdout": "total=11\n",
+      "expected": "total=11\n",
+      "passed": true
+    },
+    {
+      "compiler": "clang",
+      "unit": "warning_fixed",
+      "sources": [
+        "2_6_02_warning_fixed.c"
+      ],
+      "command": [
+        "clang",
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O0",
+        "/mnt/data/ctextbook/run_20261017_0312/sources/2_6_02_warning_fixed.c",
+        "-o",
+        "/mnt/data/ctextbook/run_20261017_0312/build/clang_warning_fixed"
+      ],
+      "compile_rc": 0,
+      "compile_stderr": "",
+      "run_rc": 0,
+      "stdout": "difference=3\n",
+      "expected": "difference=3\n",
+      "passed": true
+    }
+  ],
+  "passed": 12,
+  "total": 12
+}
