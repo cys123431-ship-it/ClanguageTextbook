@@ -1,0 +1,62 @@
+{
+  "timestamp": "2026-10-16T12:36:05+09:00",
+  "sections": [
+    "1.77",
+    "1.78",
+    "1.79"
+  ],
+  "programs": 21,
+  "compiler_runs": 42,
+  "expected_output_checks_passed": true,
+  "code_match": true,
+  "pages_rendered": 21,
+  "page_contact_sheet_inspected": true,
+  "source_item_audit_complete": false,
+  "github_delivery": "pending",
+  "files": {
+    "C언어_종합교과서_이해중심_정식개정판_제1장_1.77-1.79.docx": {
+      "sha256": "cd8bf139ba1c15f52dde8ee4cf0a125f80c3fc7f094fe476bcd0e50ed864fa98",
+      "size_bytes": 52481
+    },
+    "build_ch01_1_77_to_1_79.py": {
+      "sha256": "67986b5e05a84bd1f86b8be30495a5467514100b045f5fad74ceac41c9848c93",
+      "size_bytes": 17194
+    },
+    "content_run25.py": {
+      "sha256": "734e6b6770492908e98388d215705f2b07b221d4e7c33f851f0d97fde1cb835d",
+      "size_bytes": 33295
+    },
+    "official_ch01_1_77-1_79_c11_verification.json": {
+      "sha256": "9c333a0db41e2705133ed977370f917219402b78ce78f7ccabf40e1e09bdeab0",
+      "size_bytes": 13450
+    },
+    "official_ch01_1_77-1_79_code_match.json": {
+      "sha256": "60afd403c6b16f184b07199ce84d4554890ae5985da353dd6e547e3fa38d0816",
+      "size_bytes": 1872
+    },
+    "official_ch01_1_77-1_79_page_qa.json": {
+      "sha256": "558dd30e5a8c5b50ae1f5673c31ae6b09f9c560961d4f6d3e6e7467c5a176ae5",
+      "size_bytes": 2945
+    },
+    "official_ch01_1_77-1_79_pedagogy_qa.json": {
+      "sha256": "87a055720435c8caf5bf038e2a89ea34b413fa5c4f42844eb7dcdba400337c66",
+      "size_bytes": 535
+    },
+    "official_ch01_1_77-1_79_source_inspection.json": {
+      "sha256": "f450884d39f098f28c7b15c1e6490a59ece482d879015311f7c61685e9bf2854",
+      "size_bytes": 987
+    },
+    "official_ch01_1_77-1_79_sources.zip": {
+      "sha256": "5e2c39589769bdbe36fd31cd4eb0c8652e70045f9161fa6b7e634ba1c845ef09",
+      "size_bytes": 6944
+    },
+    "official_rewrite_objective_tracking_1_1-1_79.json": {
+      "sha256": "a309aa38cc6c057d9a5271253ad1fe3380545e16e03e1573313f93bc4dfce403",
+      "size_bytes": 1465
+    },
+    "official_rewrite_progress_1_1-1_79.json": {
+      "sha256": "eed0da6af75221c264732dc2b9f0b2ab3b3d8095e0f70e427255a48bc9d6a1b1",
+      "size_bytes": 326
+    }
+  }
+}
