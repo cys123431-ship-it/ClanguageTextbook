@@ -1,0 +1,59 @@
+{
+  "timestamp": "2026-10-16T20:09:54+09:00",
+  "files": {
+    "official_ch01_1_101-1_103_page_qa.json": {
+      "bytes": 2026,
+      "sha256": "343053e3d90436cdc58f52f44b5d77b380761cb4e5037a63e52db08fe836fdee"
+    },
+    "official_ch01_1_101-1_103_code_match.json": {
+      "bytes": 98,
+      "sha256": "0d395f3894f4c2261a57ebec2f6b208d3ff90da57e76fdcd6a89dc26226dcc44"
+    },
+    "C언어_종합교과서_이해중심_정식개정판_제1장_1.101-1.103.docx": {
+      "bytes": 48937,
+      "sha256": "5aa6b53b1f87901d6352cea2a2f2da8bd7a2df8be6d4f75ac1524403d9d6ac15"
+    },
+    "official_ch01_1_101-1_103_c11_verification.json": {
+      "bytes": 17773,
+      "sha256": "8908af87de9cfc8d4395be6ecec9ff04b9e58b4f02489813bc440df3afad7a02"
+    },
+    "official_rewrite_progress_1_1-1_103.json": {
+      "bytes": 376,
+      "sha256": "3aa6a1dc53082ed1e4172130dab48929779b69ed3820b0120103d46fc50ba63b"
+    },
+    "render.log": {
+      "bytes": 52,
+      "sha256": "3f5dd5a11406c4794a5d4e1d39a196c4759289b3dd3519f401b230bafc318fd5"
+    },
+    "contact_1.jpg": {
+      "bytes": 202234,
+      "sha256": "b4882e5590e3cbb199c9f4cb36af360f0edc01f68a832dc4f26b0f8cdb79c0ad"
+    },
+    "build_ch01_1_101_to_1_103.py": {
+      "bytes": 33165,
+      "sha256": "db0c77e15bb173bc8defdb690350f65eba82c1d2d374ceadc38d078f4189f90c"
+    },
+    "contact_2.jpg": {
+      "bytes": 157622,
+      "sha256": "95acc0c5b7deb15f408bc0914d1b851dd3f0968ae6e9003a5a8e1317f86567f0"
+    },
+    "official_ch01_1_101-1_103_sources.zip": {
+      "bytes": 11913,
+      "sha256": "08b09154358de2d40ae4204b5735d34f81e2d077c71cb82b88c36c5ee60b0ac8"
+    },
+    "official_rewrite_objective_tracking_1_1-1_103.json": {
+      "bytes": 1318,
+      "sha256": "22adfe55f3f5d76e142598763788eb102e8fb365995ab8a8fb13b50414921e59"
+    }
+  },
+  "sections": [
+    "1.101",
+    "1.102",
+    "1.103"
+  ],
+  "verified_programs": 21,
+  "compiler_runs": 42,
+  "source_docx_code_match": "21/21 exact",
+  "page_render_qa": "27 pages rendered, no blank page",
+  "github_delivery": "pending"
+}
