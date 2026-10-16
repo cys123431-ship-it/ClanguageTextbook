@@ -1,0 +1,40 @@
+{
+  "schema_version": 6,
+  "timestamp": "2026-10-16T13:01:04+09:00",
+  "previous_reported_completed": "1.1~1.79; not re-audited in this run",
+  "source_coverage_complete": false,
+  "source_status": {
+    "Express PDF": "Library root found; page 8 image checked; item-level audit pending",
+    "K&R original scan": "Library root found; page 6 image checked; item-level audit pending",
+    "K&R OCR": "238-page text accessible; contents pages 3–4 inspected",
+    "scope MD": "36 editorial units read; units 27 and 28 are the present supplemental targets"
+  },
+  "new_sections": [
+    {
+      "section": "1.80",
+      "objective": "자료형을 따라가는 선언: C23 typeof·typeof_unqual과 C11의 대안",
+      "editorial_unit": "27,28",
+      "manuscript": "completed",
+      "gcc_clang_c11": "passed",
+      "original_item_mapping": "supplemental C23, not a verbatim original exercise; item audit pending"
+    },
+    {
+      "section": "1.81",
+      "objective": "C23 비트 정밀 정수와 2진 리터럴: 표현 범위부터 안전하게 계산하기",
+      "editorial_unit": "27,28",
+      "manuscript": "completed",
+      "gcc_clang_c11": "passed",
+      "original_item_mapping": "supplemental C23, not a verbatim original exercise; item audit pending"
+    },
+    {
+      "section": "1.82",
+      "objective": "C23 bool·nullptr·표준 속성: 의미를 드러내고 실수를 진단하기",
+      "editorial_unit": "27,28",
+      "manuscript": "completed",
+      "gcc_clang_c11": "passed",
+      "original_item_mapping": "supplemental C23, not a verbatim original exercise; item audit pending"
+    }
+  ],
+  "unmapped_original_items": "unknown count; not verified",
+  "next": "1.83: C23 constexpr, initialization, or per-item source audit gaps"
+}
