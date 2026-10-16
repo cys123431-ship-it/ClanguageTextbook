@@ -1,0 +1,90 @@
+{
+  "all_matched": true,
+  "total": 21,
+  "files": [
+    {
+      "file": "ch01_1_77_01_example_count_ones.c",
+      "matched": true
+    },
+    {
+      "file": "ch01_1_77_01_variation_count_ones.c",
+      "matched": true
+    },
+    {
+      "file": "ch01_1_77_02_example_bit_width.c",
+      "matched": true
+    },
+    {
+      "file": "ch01_1_77_02_variation_bit_width.c",
+      "matched": true
+    },
+    {
+      "file": "ch01_1_77_03_example_power_two.c",
+      "matched": true
+    },
+    {
+      "file": "ch01_1_77_03_variation_power_two.c",
+      "matched": true
+    },
+    {
+      "file": "ch01_1_78_01_example_unsigned_add.c",
+      "matched": true
+    },
+    {
+      "file": "ch01_1_78_01_variation_unsigned_add.c",
+      "matched": true
+    },
+    {
+      "file": "ch01_1_78_02_example_signed_add.c",
+      "matched": true
+    },
+    {
+      "file": "ch01_1_78_02_variation_signed_add.c",
+      "matched": true
+    },
+    {
+      "file": "ch01_1_78_03_example_size_multiply.c",
+      "matched": true
+    },
+    {
+      "file": "ch01_1_78_03_variation_size_multiply.c",
+      "matched": true
+    },
+    {
+      "file": "ch01_1_79_01_example_trace_switch.c",
+      "matched": true
+    },
+    {
+      "file": "ch01_1_79_01_variation_trace_switch.c",
+      "matched": true
+    },
+    {
+      "file": "ch01_1_79_02_example_token_macros.c",
+      "matched": true
+    },
+    {
+      "file": "ch01_1_79_02_variation_token_macros.c",
+      "matched": true
+    },
+    {
+      "file": "ch01_1_79_03_example_version_guard.c",
+      "matched": true
+    },
+    {
+      "file": "ch01_1_79_03_variation_version_guard.c",
+      "matched": true
+    },
+    {
+      "file": "ch01_1_77_independent.c",
+      "matched": true
+    },
+    {
+      "file": "ch01_1_78_independent.c",
+      "matched": true
+    },
+    {
+      "file": "ch01_1_79_independent.c",
+      "matched": true
+    }
+  ]
+}
