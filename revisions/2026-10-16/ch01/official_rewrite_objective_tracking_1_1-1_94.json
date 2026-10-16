@@ -1,0 +1,41 @@
+{
+  "timestamp": "2026-10-16T17:00:31+09:00",
+  "original_sources_item_by_item_audit": "incomplete",
+  "prior_reported_1_1_to_1_91": "not independently reaudited",
+  "new_sections": [
+    {
+      "section": "1.92",
+      "topic": "배열과 문자열의 경계: 길이·용량·입력 검증",
+      "editorial_unit": "31",
+      "new_original_examples": 3,
+      "variations": 3,
+      "independent_solutions": 1,
+      "c11_compiler_verification": "passed",
+      "original_express_item_ids": "unverified",
+      "original_kr_item_ids": "unverified"
+    },
+    {
+      "section": "1.93",
+      "topic": "정수 연산과 크기 계산: 오버플로 전에 막기",
+      "editorial_unit": "31",
+      "new_original_examples": 3,
+      "variations": 3,
+      "independent_solutions": 1,
+      "c11_compiler_verification": "passed",
+      "original_express_item_ids": "unverified",
+      "original_kr_item_ids": "unverified"
+    },
+    {
+      "section": "1.94",
+      "topic": "자원 수명과 이식성: 소유권·정리·바이트 표현",
+      "editorial_unit": "31",
+      "new_original_examples": 3,
+      "variations": 3,
+      "independent_solutions": 1,
+      "c11_compiler_verification": "passed",
+      "original_express_item_ids": "unverified",
+      "original_kr_item_ids": "unverified"
+    }
+  ],
+  "unmapped_original_items": "Unknown until both originals fully inspected; do not mark complete"
+}
