@@ -1,0 +1,54 @@
+{
+  "updated_at": "2026-10-17T00:01:26+09:00",
+  "coverage_status": "partial; no original-item census completed",
+  "source_scope": [
+    "K&R original scanned PDF pages 177, 188 (image inspection)",
+    "K&R OCR chapter 8 exercises 8-2 through 8-8",
+    "Express scanned PDF front matter page 5 (limited; item census pending)"
+  ],
+  "items": [
+    {
+      "source": "K&R OCR",
+      "objective": "8-3 buffered output flush/close",
+      "location": "1.113",
+      "status": "partial",
+      "gap": "full standalone FILE library internal implementation"
+    },
+    {
+      "source": "K&R OCR",
+      "objective": "8-4 buffered file positioning",
+      "location": "1.114",
+      "status": "partial",
+      "gap": "independent fseek implementation"
+    },
+    {
+      "source": "K&R OCR",
+      "objective": "8-8 external storage donation to allocator",
+      "location": "1.115",
+      "status": "partial",
+      "gap": "generic aligned free-list allocator with arbitrary donation"
+    },
+    {
+      "source": "K&R OCR",
+      "objective": "8-2 bitfield replacement plus speed/code-size comparison",
+      "location": null,
+      "status": "not_covered"
+    },
+    {
+      "source": "K&R OCR",
+      "objective": "8-5 directory metadata extension",
+      "location": "1.105",
+      "status": "needs_individual_item_audit"
+    },
+    {
+      "source": "Express PDF",
+      "objective": "all LAB/Exercise/Programming/Mini Project/Advanced Topic item-by-item",
+      "location": null,
+      "status": "not_fully_audited"
+    }
+  ],
+  "original_page_inspection": {
+    "K&R original PDF": "opened scanned page 177 and 188; 8.5 internal buffering and 8.7 allocator",
+    "Express PDF": "opened scanned book organization page 5"
+  }
+}
