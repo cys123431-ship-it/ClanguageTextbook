@@ -1,0 +1,69 @@
+{
+  "timestamp": "2026-10-16T22:10:13.148311+09:00",
+  "scope": "official new revision sections 1.107-1.109",
+  "status": "manuscript verified; full source audit and GitHub delivery pending",
+  "files": [
+    {
+      "name": "C언어_종합교과서_이해중심_정식개정판_제1장_1.107-1.109.docx",
+      "bytes": 50976,
+      "sha256": "6aabad8b030955e1ccdf6c20b3edd76f073615f6b7149b93eb42a4a5e3d74614"
+    },
+    {
+      "name": "build_ch01_1_107_to_1_109.py",
+      "bytes": 41563,
+      "sha256": "b3a3818d626008746fafe52c6add8a7cbf0d5baefcc46776d5f7d65877a4ffff"
+    },
+    {
+      "name": "contact_sheet.jpg",
+      "bytes": 470666,
+      "sha256": "7523a285d8c00fde56aa9fcc82b9b528e77f1c56368dc370bc08b1f3f773140f"
+    },
+    {
+      "name": "official_ch01_1_107-1_109_c11_verification.json",
+      "bytes": 10971,
+      "sha256": "6fe9ccf0cb22fff61e4903dec5402cb05e7503d7df659cb23cb74317ba9730cd"
+    },
+    {
+      "name": "official_ch01_1_107-1_109_code_match.json",
+      "bytes": 736,
+      "sha256": "7ae82ce9cc8af79b7fda067761a89a535457368bd8ef2c7a07a4e33448bc0f64"
+    },
+    {
+      "name": "official_ch01_1_107-1_109_page_qa.json",
+      "bytes": 357,
+      "sha256": "a239b2e66c09c4a46720054d2a21ff2c8286a06ceb0aca030011628a241df8a4"
+    },
+    {
+      "name": "official_ch01_1_107-1_109_pedagogy_qa.json",
+      "bytes": 385,
+      "sha256": "8829cd330ff1382f67e35958395f9a407ee4154fa92d54545325974b8ccdd81a"
+    },
+    {
+      "name": "official_ch01_1_107-1_109_source_inspection.json",
+      "bytes": 857,
+      "sha256": "016ab695e0bae584f4b8f5d182f70540f79ed9ee93a163c106cfa3efb3683ac0"
+    },
+    {
+      "name": "official_ch01_1_107-1_109_sources.zip",
+      "bytes": 12007,
+      "sha256": "d31f6bda30f526709fd30ce886e3fdd7bdd8041c2df500322d01f10cf85852d8"
+    },
+    {
+      "name": "official_rewrite_objective_tracking_1_1-1_109.json",
+      "bytes": 1469,
+      "sha256": "77fcfd5f332733e56c1d8e10ecc39647c831ce21379c3c7929d04cfe136dcc4f"
+    },
+    {
+      "name": "official_rewrite_progress_1_1-1_109.json",
+      "bytes": 347,
+      "sha256": "2544a772b37e19c4628275574d3aa64699034c97c4a0fb19316344a34e8638e4"
+    },
+    {
+      "name": "render.log",
+      "bytes": 54,
+      "sha256": "b3a57b53d6feb34bf05933c592e7e5850f605fe179487b41c10bff6d4a9c936e"
+    }
+  ],
+  "page_qa": "19 pages rendered; visually inspected",
+  "source_inspection": "partial, full audit incomplete"
+}
