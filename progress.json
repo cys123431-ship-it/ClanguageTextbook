@@ -68,10 +68,13 @@
     "1.61",
     "1.62",
     "1.63",
-    "1.64"
+    "1.64",
+    "1.65",
+    "1.66",
+    "1.67"
   ],
-  "last_completed_section": "1.64",
-  "last_verified_at": "2026-10-16T08:21:02+09:00",
+  "last_completed_section": "1.67",
+  "last_verified_at": "2026-10-16T00:08:28.695Z",
   "stages": [
     {
       "id": "draft",
@@ -114,12 +117,13 @@
     "revisions/2026-10-16/ch01/C언어_종합교과서_이해중심_정식개정판_제1장_1.53-1.55.docx",
     "revisions/2026-10-16/ch01/C언어_종합교과서_이해중심_정식개정판_제1장_1.56-1.58.docx",
     "revisions/2026-10-16/ch01/C언어_종합교과서_이해중심_정식개정판_제1장_1.59-1.61.docx",
-    "revisions/2026-10-16/ch01/C언어_종합교과서_이해중심_정식개정판_제1장_1.62-1.64.docx"
+    "revisions/2026-10-16/ch01/C언어_종합교과서_이해중심_정식개정판_제1장_1.62-1.64.docx",
+    "revisions/2026-10-16/ch01/C언어_종합교과서_이해중심_정식개정판_제1장_1.65-1.67.docx"
   ],
-  "github_delivery_status": "partial: verified DOCX and selected QA artifacts on main; source ZIP and verify_delivery.py pending",
+  "github_delivery_status": "partial: DOCX, build script and selected QA artifacts; source ZIP and detailed verification pending",
   "latest_github_file_links": {
-    "docx": "revisions/2026-10-16/ch01/C언어_종합교과서_이해중심_정식개정판_제1장_1.62-1.64.docx",
-    "verification": "revisions/2026-10-16/ch01/official_ch01_1_62-1_64_code_match.json"
+    "docx": "revisions/2026-10-16/ch01/C언어_종합교과서_이해중심_정식개정판_제1장_1.65-1.67.docx",
+    "verification": "revisions/2026-10-16/ch01/official_ch01_1_65-1_67_page_qa.json"
   },
-  "current_stage": "원서 전수 대조 미완료; 1.62-1.64 신규 본문·코드 검증 완료"
+  "current_stage": "1.65-1.67 신규 집필·컴파일·DOCX 검증 완료; 원서 전수 대조 미완료"
 }

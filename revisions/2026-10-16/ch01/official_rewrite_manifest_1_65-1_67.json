@@ -1,0 +1,60 @@
+{
+  "run": "ch01_1.65-1.67",
+  "timestamp": "2026-10-16T09:06:34+09:00",
+  "files": [
+    {
+      "name": "C언어_종합교과서_이해중심_정식개정판_제1장_1.65-1.67.docx",
+      "bytes": 51381,
+      "sha256": "1efc157d8e2f57f61b74e1548b8c83fc3e3d1f89c72b99332de24078c2dc2055"
+    },
+    {
+      "name": "official_ch01_1_65-1_67_sources.zip",
+      "bytes": 7098,
+      "sha256": "fd68c6a3988bd8d003fd093f4d39637a69abdcb02feab4d91159dc92b7c72c6d"
+    },
+    {
+      "name": "build_ch01_1_65_to_1_67.py",
+      "bytes": 47118,
+      "sha256": "0d63cf2727551fd0667084c997cc42e88eaa31b28996e70ee9aafbe3baf49c75"
+    },
+    {
+      "name": "official_ch01_1_65-1_67_c11_verification.json",
+      "bytes": 13076,
+      "sha256": "757f6184938575f68acd021a6c2b866951dc792836d69570bea2c2d9fc8b4dfa"
+    },
+    {
+      "name": "official_ch01_1_65-1_67_code_match.json",
+      "bytes": 1822,
+      "sha256": "ce64bb2b9c50292a4404b65bf80f30fbaef509b5043c5f7eeca547185e35c015"
+    },
+    {
+      "name": "official_ch01_1_65-1_67_pedagogy_qa.json",
+      "bytes": 406,
+      "sha256": "16aa39d983467b2169ad4452176619158e36737bf4c705392932161cb40b602a"
+    },
+    {
+      "name": "official_ch01_1_65-1_67_page_qa.json",
+      "bytes": 615,
+      "sha256": "c29146c5782fbd9600d2f44288411720541f6680a6656c5a0adec17f8dca794e"
+    },
+    {
+      "name": "official_ch01_1_65-1_67_source_inspection.json",
+      "bytes": 1104,
+      "sha256": "4ffea521af3954a8f37c2b347419ff0c1ac5bf0fb22efbbde285d6ccd8c286fe"
+    },
+    {
+      "name": "official_rewrite_objective_tracking_1_1-1_67.json",
+      "bytes": 2307,
+      "sha256": "86b89505c231af5bebbd2275321990e37de7c58a7c4ca9b8d418eca67981faac"
+    },
+    {
+      "name": "official_rewrite_progress_1_1-1_67.json",
+      "bytes": 572,
+      "sha256": "9d97082d57db507085d501110b599fcdbb9920c24ed66f49806f2eaacc9f267d"
+    }
+  ],
+  "source_full_audit_complete": false,
+  "github_delivery": "pending verification",
+  "library_delivery": "pending verification",
+  "next_section": "1.68"
+}

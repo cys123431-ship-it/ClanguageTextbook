@@ -1,0 +1,19 @@
+{
+  "six_methods": [
+    "완성→변형→독립",
+    "간격·인출 복습",
+    "실행 전 예측",
+    "단계별 디버깅",
+    "하위 목표 분해",
+    "오개념 진단·교정"
+  ],
+  "in_place_variations": 9,
+  "in_place_answers": 9,
+  "global_objects": 0,
+  "new_sections": [
+    "1.65",
+    "1.66",
+    "1.67"
+  ],
+  "manual_review": "code and content checked; page rendering pending"
+}

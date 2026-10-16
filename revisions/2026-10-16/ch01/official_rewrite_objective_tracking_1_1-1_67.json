@@ -1,0 +1,69 @@
+{
+  "schema_version": 4,
+  "timestamp": "2026-10-16T09:06:34+09:00",
+  "full_original_item_audit_complete": false,
+  "previous_reported_completed": "1.1~1.64 (previous report, not independently re-audited)",
+  "source_materials": [
+    {
+      "name": "c언어 압축 (1)(1).pdf",
+      "pages": 750,
+      "visually_inspected_pages_this_run": [
+        14
+      ],
+      "full_item_audit": false
+    },
+    {
+      "name": "C_Programming.pdf",
+      "pages": 288,
+      "visually_inspected_pages_this_run": [
+        268,
+        269
+      ],
+      "full_item_audit": false
+    },
+    {
+      "name": "C Programming Language - 2nd Edition (OCR).pdf",
+      "pages": 238,
+      "visually_inspected_pages_this_run": [
+        233
+      ],
+      "full_item_audit": false
+    },
+    {
+      "name": "C언어_통합교과서_전체수록범위_확정안.md",
+      "status": "36 editorial units checked, unit 22 and 25 confirmed; full objectives pending"
+    }
+  ],
+  "new_sections": [
+    {
+      "section": "1.65",
+      "title": "부동소수점 환경·예외 플래그·반올림 모드",
+      "editorial_unit": "22",
+      "source_relation": "K&R 2판 이후 C99 fenv.h 확장. Express 수학·실수 관련 LAB 개별 대조 미완료",
+      "new_manuscript": "complete",
+      "code_verification": "passed",
+      "original_item_audit": "pending"
+    },
+    {
+      "section": "1.66",
+      "title": "setjmp/longjmp 비지역 복구와 제한",
+      "editorial_unit": "25",
+      "source_relation": "K&R Appendix B.8, scanned PDF p.268 visually inspected; individual exercise mapping pending",
+      "new_manuscript": "complete",
+      "code_verification": "passed",
+      "original_item_audit": "pending"
+    },
+    {
+      "section": "1.67",
+      "title": "signal/raise/SIG_IGN과 핸들러 제한",
+      "editorial_unit": "25",
+      "source_relation": "K&R Appendix B.9, scanned PDF p.269 visually inspected; original exercise mapping pending",
+      "new_manuscript": "complete",
+      "code_verification": "passed",
+      "original_item_audit": "pending"
+    }
+  ],
+  "verified_programs": 21,
+  "verified_compiler_runs": 42,
+  "outstanding": "Express 17 chapters and K&R 8 chapters/appendices all item-level LAB/Exercise/Programming/Mini Project/Advanced Topic goals remain to be audited."
+}
