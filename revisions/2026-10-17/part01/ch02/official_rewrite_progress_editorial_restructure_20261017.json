@@ -1,0 +1,17 @@
+{
+  "updated_at_kst": "2026-10-17T01:01:59+09:00",
+  "editorial_restructure": "in_progress",
+  "latest_new_verified_sections": [
+    "2.1",
+    "2.2",
+    "2.3"
+  ],
+  "latest_new_chapter": "PART 01 제2장",
+  "last_completed_chapter": null,
+  "prior_provisional_sections": "1.1-1.115, reclassification pending",
+  "verified_chapter2_programs": 12,
+  "verified_gcc_clang_checks": 24,
+  "original_item_audit_complete": false,
+  "total_progress_percent": null,
+  "github_delivery": "pending"
+}
