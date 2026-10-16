@@ -1,0 +1,47 @@
+{
+  "range": "1.113-1.115",
+  "github_delivery_complete": false,
+  "github_repository": "cys123431-ship-it/ClanguageTextbook",
+  "github_branch": "main",
+  "confirmed_text_files": [
+    {
+      "path": "revisions/2026-10-16/ch01/official_rewrite_manifest_1_113-1_115.json",
+      "commit_sha": "1fcc74479ce9e5a2d0771a35fe6da99240610c85",
+      "blob_sha": "89e1589ab421aead64b6ee8d29200f145be578ca"
+    },
+    {
+      "path": "revisions/2026-10-16/ch01/official_ch01_1_113-1_115_page_code_qa.json",
+      "commit_sha": "ed846af8fd1cdb54ae182266f439b56ce14ce329",
+      "blob_sha": "a31f4a90c88086d4dfdb542f8fbc50527417e756"
+    },
+    {
+      "path": "revisions/2026-10-16/ch01/official_rewrite_objective_tracking_1_1-1_115.json",
+      "commit_sha": "09e4dff6f846343cec1f94d47046509d2540cf96",
+      "blob_sha": "e85994df2c711deb600bbe58fab2b301e1bee3e8"
+    }
+  ],
+  "missing_or_unverified": [
+    "DOCX",
+    "C source ZIP",
+    "build script",
+    "compiler verification JSON",
+    "root progress.json update",
+    "README.md update",
+    "previous run missing binary files"
+  ],
+  "errors": [
+    "create_file for script/verification/progress blocked by safety checks",
+    "update_file for root progress.json and README.md blocked by safety checks",
+    "container git ls-remote failed DNS resolution"
+  ],
+  "root_progress_last_section_rechecked": "1.70",
+  "library_upload_verified": true,
+  "source_verification": {
+    "programs": 12,
+    "compiler_runs": 24,
+    "all_pass": true,
+    "docx_pages": 16,
+    "code_match": true
+  },
+  "original_objective_census_complete": false
+}
