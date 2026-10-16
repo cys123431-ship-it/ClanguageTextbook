@@ -1,0 +1,61 @@
+{
+  "created_at_kst": "2026-10-17T01:00:36+09:00",
+  "edition": "이해 중심 정식 개정판",
+  "chapter": "PART 01 제2장 C 프로그램 작성과 실행 환경",
+  "sections": [
+    "2.1",
+    "2.2",
+    "2.3"
+  ],
+  "prior_reported_1_1_to_1_115": "provisional numbering; reclassification required, not counted as 115 finished sections of Chapter 1",
+  "verified_this_run": {
+    "programs": 12,
+    "gcc_clang_checks": 24,
+    "code_blocks": 14
+  },
+  "artifacts": {
+    "C언어_종합교과서_이해중심_정식개정판_PART01_제02장_2.1-2.3.docx": {
+      "sha256": "8c6ab8af6fab68b57cb4998e5bf445d58f8b75415adae1031c05feb91eeb97b1",
+      "size": 50150
+    },
+    "official_ch02_2_1-2_3_sources.zip": {
+      "sha256": "80cc8dc29feb3e84aa5c351c2757d44047c20f12d2f20fc1de0c825f4f6349e2",
+      "size": 3273
+    },
+    "build_chapter02.py": {
+      "sha256": "5aedc654bc6f2377f893b2e1cedd95a9b3339413668ee7b41eea0b4287a61a7b",
+      "size": 42073
+    },
+    "build_editorial_structure.py": {
+      "sha256": "364a175fe2fca201ce0b3cea465f38cc1726d3f6f344ccbbd511a9e1d0dcfff6",
+      "size": 8856
+    },
+    "official_ch02_2_1-2_3_c11_verification.json": {
+      "sha256": "d9446d07e4136e3e7b11fe8df3ee905e7a8a89f4c71dc275cc54df0ec7bc5d27",
+      "size": 11701
+    },
+    "official_ch02_2_1-2_3_page_qa.json": {
+      "sha256": "71a213159fc5c0432d9d06e10af3f4f5ece5910646881a5de96f26a8bd7d2189",
+      "size": 2620
+    },
+    "official_ch02_2_1-2_3_objective_tracking.json": {
+      "sha256": "5314b09886e74739e07fee37c385e04571ab80a3a365ab2f0f1a11f29ce54bd7",
+      "size": 1396
+    },
+    "official_editorial_chapter_structure_and_legacy_mapping.json": {
+      "sha256": "17cbabe319c9b19f82b415bba1b00f936b9aed583318025e2cea846b375baca8",
+      "size": 28849
+    },
+    "C언어_정식_편집구조_장절분류_재배치_대장.md": {
+      "sha256": "faac9fb9850b1de8936b04b970a3ae5588e74796119a6e939c146dbde90fbebb",
+      "size": 4256
+    },
+    "official_rewrite_progress_editorial_restructure_20261017.json": {
+      "sha256": "6f4bb4e9911d731cc244a6338a883e9c32617dc35b1699cc64926ec14e5edff0",
+      "size": 492
+    }
+  },
+  "github_delivery": "pending",
+  "rendered_pages": 13,
+  "page_qa": "13 page contact sheet inspected, full size individual inspection not completed"
+}
