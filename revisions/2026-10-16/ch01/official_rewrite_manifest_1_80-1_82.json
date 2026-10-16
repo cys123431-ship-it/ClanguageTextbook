@@ -1,0 +1,62 @@
+{
+  "timestamp": "2026-10-16T13:01:04+09:00",
+  "sections": [
+    "1.80",
+    "1.81",
+    "1.82"
+  ],
+  "programs": 21,
+  "compiler_runs": 42,
+  "expected_output_checks_passed": true,
+  "code_match": true,
+  "pages_rendered": 20,
+  "page_contact_sheets_inspected": true,
+  "source_item_audit_complete": false,
+  "github_delivery": "pending",
+  "files": {
+    "official_ch01_1_80-1_82_code_match.json": {
+      "sha256": "112c0584342ad581c57d95c9c6d94a82d2191b89774a86c766fc4476b88ce1b9",
+      "size_bytes": 1774
+    },
+    "official_ch01_1_80-1_82_sources.zip": {
+      "sha256": "44b5c6ae15859e89ee68917d9e14d073f04628b85ba2f442bac439b4a7684f40",
+      "size_bytes": 6163
+    },
+    "official_ch01_1_80-1_82_source_inspection.json": {
+      "sha256": "10a591721e55f6ff7a414a3289e6240d81e332770e2eb3a6efa88b83187f0c2e",
+      "size_bytes": 1002
+    },
+    "official_rewrite_objective_tracking_1_1-1_82.json": {
+      "sha256": "ed8a15214efa05fa0e6389be59a26ca2c1acc0964ea3aea9a07e603b89ee5a76",
+      "size_bytes": 1761
+    },
+    "official_ch01_1_80-1_82_c11_verification.json": {
+      "sha256": "71181dd6ab4cdaef5042bd64355bb58ae1d06e95a2846eba4730982d35c4bead",
+      "size_bytes": 13384
+    },
+    "official_rewrite_progress_1_1-1_82.json": {
+      "sha256": "db20db8993695d8c955f2d93f94e3cde5a4d8273d91fd031c8745444a332d1b1",
+      "size_bytes": 326
+    },
+    "build_ch01_1_80_to_1_82.py": {
+      "sha256": "2b6c2216ebb4b23d907ee2a8fd62a5322426c12a0e3e918a570d0c4f995b929a",
+      "size_bytes": 14407
+    },
+    "content_run26.py": {
+      "sha256": "a86ef47cd040f8fac4e79b10f631d160837d926d0521e857f6560440af15caef",
+      "size_bytes": 39040
+    },
+    "official_ch01_1_80-1_82_pedagogy_qa.json": {
+      "sha256": "78eaa230a89e91343af123bed9015feb2a7c09843853380e9b59952f19a444fa",
+      "size_bytes": 467
+    },
+    "C언어_종합교과서_이해중심_정식개정판_제1장_1.80-1.82.docx": {
+      "sha256": "ef5d5996c78595383036546bb685c97436259cc7678e75d128ed833058d0f388",
+      "size_bytes": 53094
+    },
+    "official_ch01_1_80-1_82_page_qa.json": {
+      "sha256": "075e702051e8a5bac99ca209ba9d06cfd974d2e58a31da81583bcbcabba506fb",
+      "size_bytes": 1806
+    }
+  }
+}
