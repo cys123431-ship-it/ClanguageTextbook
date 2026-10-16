@@ -1,0 +1,49 @@
+{
+  "schema_version": 7,
+  "timestamp": "2026-10-16T15:02:37+09:00",
+  "previous_reported_completed": "1.1~1.85 (not reaudited)",
+  "source_coverage_complete": false,
+  "source_status": {
+    "Express PDF": "Library root found, page 8–9 images inspected, per-item audit pending",
+    "K&R original": "Library root found, pages 6–7 inspected, per-item audit pending",
+    "K&R OCR": "Library root found, contents pages 3–5 read, per-item audit pending",
+    "scope MD": "36 editorial units read; units 29 and 30 mapped at category level"
+  },
+  "new_sections": [
+    {
+      "section": "1.86",
+      "objective": "다중 파일의 첫걸음: 공개 선언과 구현의 분리",
+      "editorial_units": [
+        "29",
+        "30"
+      ],
+      "manuscript": "complete",
+      "gcc_clang_c11": "passed",
+      "original_item_mapping": "item-by-item audit pending"
+    },
+    {
+      "section": "1.87",
+      "objective": "연결(linkage)과 내부 구현의 경계: static·중복 정의·콜백",
+      "editorial_units": [
+        "29",
+        "30"
+      ],
+      "manuscript": "complete",
+      "gcc_clang_c11": "passed",
+      "original_item_mapping": "item-by-item audit pending"
+    },
+    {
+      "section": "1.88",
+      "objective": "컴파일·링크·테스트를 재현 가능하게 만들기: 라이브러리와 빌드 설정",
+      "editorial_units": [
+        "29",
+        "30"
+      ],
+      "manuscript": "complete",
+      "gcc_clang_c11": "passed",
+      "original_item_mapping": "item-by-item audit pending"
+    }
+  ],
+  "unmapped_original_items": "unknown count",
+  "next": "1.89: 디버거·컴파일러 진단과 테스트 자동화"
+}
