@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-10-16T22:10:13.148311+09:00",
+  "prior_reported_through": "1.106",
+  "newly_verified_sections": [
+    "1.107",
+    "1.108",
+    "1.109"
+  ],
+  "last_reported_completed": "1.109",
+  "whole_book_review_complete": false,
+  "full_original_item_audit_complete": false,
+  "github_delivery": "pending",
+  "progress_percent": null
+}
