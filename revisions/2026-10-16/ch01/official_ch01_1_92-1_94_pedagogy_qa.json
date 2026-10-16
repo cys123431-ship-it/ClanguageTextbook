@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-10-16T17:00:31+09:00",
+  "sections": [
+    "1.92",
+    "1.93",
+    "1.94"
+  ],
+  "gradual_independence": true,
+  "spaced_retrieval": true,
+  "prediction_before_trace": true,
+  "debugging_stages": true,
+  "subgoal_decomposition": true,
+  "misconception_correction": true,
+  "variation_adjacent_to_example": true,
+  "independent_answers": 3,
+  "first_appearance_notes": true,
+  "prior_sections_not_reaudited": true
+}
