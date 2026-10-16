@@ -1,0 +1,27 @@
+{
+  "verified_at": "2026-10-16T23:03:11.105322+09:00",
+  "all_exact_blocks_match": true,
+  "records": {
+    "s1_110_1_example.c": true,
+    "s1_110_1_variation.c": true,
+    "s1_110_2_example.c": true,
+    "s1_110_2_variation.c": true,
+    "s1_110_3_example.c": true,
+    "s1_110_3_variation.c": true,
+    "s1_110_independent.c": true,
+    "s1_111_1_example.c": true,
+    "s1_111_1_variation.c": true,
+    "s1_111_2_example.c": true,
+    "s1_111_2_variation.c": true,
+    "s1_111_3_example.c": true,
+    "s1_111_3_variation.c": true,
+    "s1_111_independent.c": true,
+    "s1_112_1_example.c": true,
+    "s1_112_1_variation.c": true,
+    "s1_112_2_example.c": true,
+    "s1_112_2_variation.c": true,
+    "s1_112_3_example.c": true,
+    "s1_112_3_variation.c": true,
+    "s1_112_independent.c": true
+  }
+}
