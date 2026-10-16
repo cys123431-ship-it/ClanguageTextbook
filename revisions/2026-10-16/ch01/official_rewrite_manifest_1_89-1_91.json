@@ -1,0 +1,70 @@
+{
+  "timestamp": "2026-10-16T16:03:48+09:00",
+  "range": "1.89-1.91",
+  "verified_new_sections": [
+    "1.89",
+    "1.90",
+    "1.91"
+  ],
+  "new_programs": 21,
+  "compiler_runs": 42,
+  "original_item_audit_complete": false,
+  "artifacts": [
+    {
+      "name": "C언어_종합교과서_이해중심_정식개정판_제1장_1.89-1.91.docx",
+      "sha256": "70fb2773a31d2f2750e3cdc3f549843d5d52ebbea25e7f2e8a218946810879d2",
+      "bytes": 53849
+    },
+    {
+      "name": "build_ch01_1_89_to_1_91.py",
+      "sha256": "b1da0c6c36319ceb24f3fa8d85cbae6daa8b9816fc006e9c8d5e91db4031a59d",
+      "bytes": 17674
+    },
+    {
+      "name": "content_run29.py",
+      "sha256": "1f5b7b071d3fc3765ea7868ce858a0f69ae34c00caec56b557bd211050e936bb",
+      "bytes": 36897
+    },
+    {
+      "name": "official_ch01_1_89-1_91_c11_verification.json",
+      "sha256": "3f8e1a536546f699bf5993bc3a61e866f9cca94c19ad75dea6684556fb6d408f",
+      "bytes": 24291
+    },
+    {
+      "name": "official_ch01_1_89-1_91_code_match.json",
+      "sha256": "f61692809e39c12b0f64caee31d0010a90601e6d47859d3e3def11daad763e6d",
+      "bytes": 1022
+    },
+    {
+      "name": "official_ch01_1_89-1_91_page_qa.json",
+      "sha256": "21ed4236e5553461ea529b614282ea87db1017e73fef09628b7010fd0e49533d",
+      "bytes": 1926
+    },
+    {
+      "name": "official_ch01_1_89-1_91_pedagogy_qa.json",
+      "sha256": "1d6c9f0b5844e0d1920424ae17c184c3c8dc6d852eceb29e8f7d6ecb7e924d31",
+      "bytes": 438
+    },
+    {
+      "name": "official_ch01_1_89-1_91_source_inspection.json",
+      "sha256": "e197439ca99fe75657cd5db426fb9c13bbd0d9cab65ed1076e12ad6a98a9588a",
+      "bytes": 740
+    },
+    {
+      "name": "official_ch01_1_89-1_91_sources.zip",
+      "sha256": "8acff401e21cc9734c905cc5c48da62ce46f83b232411f00797b10d89f0973d4",
+      "bytes": 8988
+    },
+    {
+      "name": "official_rewrite_objective_tracking_1_1-1_91.json",
+      "sha256": "337461346cbf0366c50a7e4270009f53c038d8ad3585b54368e092232b858021",
+      "bytes": 1450
+    },
+    {
+      "name": "official_rewrite_progress_1_1-1_91.json",
+      "sha256": "d9a8b40afec68ff1c77f53f453c84ee0daca2cb83117fe620811e7833c39c221",
+      "bytes": 443
+    }
+  ],
+  "page_qa": "19 pages, all nonempty, zero out-of-page words"
+}
