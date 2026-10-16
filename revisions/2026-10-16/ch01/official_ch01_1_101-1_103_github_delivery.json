@@ -1,0 +1,31 @@
+{
+  "sections": "1.101-1.103",
+  "verified_locally": {
+    "docx_pages": 27,
+    "programs": 21,
+    "gcc_clang_runs": 42,
+    "source_match": 21
+  },
+  "github": {
+    "status": "PARTIAL",
+    "uploaded_and_rechecked": [
+      "official_rewrite_manifest_1_101-1_103.json",
+      "official_rewrite_progress_1_1-1_103.json",
+      "official_ch01_1_101-1_103_code_match.json"
+    ],
+    "missing_on_main": [
+      "C언어_종합교과서_이해중심_정식개정판_제1장_1.101-1.103.docx",
+      "official_ch01_1_101-1_103_sources.zip",
+      "build_ch01_1_101_to_1_103.py",
+      "official_ch01_1_101-1_103_c11_verification.json",
+      "official_rewrite_objective_tracking_1_1-1_103.json",
+      "official_ch01_1_101-1_103_page_qa.json"
+    ],
+    "root_readme_and_progress_updated": false,
+    "reason": "Upload/update tool safety checks blocked; binary file transfer is not supported through the successful text write route."
+  },
+  "originals": {
+    "express_item_audit": "incomplete",
+    "knr_item_audit": "incomplete"
+  }
+}
