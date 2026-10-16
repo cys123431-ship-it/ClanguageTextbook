@@ -1,0 +1,114 @@
+{
+  "scope": "partial only",
+  "records": [
+    {
+      "source": "K&R",
+      "chapter": "8.5",
+      "goal": "버퍼링된 스트림의 저장 상태, 채움·소진, EOF 및 위치 조정",
+      "sections": [
+        "1.104"
+      ],
+      "status": "partial",
+      "reason": "교육용 Reader 및 파일 위치 변경 구현, 완전한 stdio 대체 구현은 아님"
+    },
+    {
+      "source": "K&R",
+      "chapter": "8.6",
+      "goal": "디렉터리 열거, 파일 종류와 크기·심볼릭 링크 메타데이터",
+      "sections": [
+        "1.105"
+      ],
+      "status": "partial",
+      "reason": "직접 열거와 stat/lstat 검증, 재귀 탐색·추가 inode 필드 검사는 후속"
+    },
+    {
+      "source": "K&R",
+      "chapter": "8.7",
+      "goal": "메모리 할당·반환, free list, 정렬, 크기 검증",
+      "sections": [
+        "1.106"
+      ],
+      "status": "partial",
+      "reason": "arena/고정 슬롯 풀/checked_calloc 교육용 구현, 범용 malloc 대체 구현은 후속"
+    },
+    {
+      "source": "K&R",
+      "chapter": "Exercise 8-2",
+      "goal": "상태 플래그 구조 변경 및 성능 비교",
+      "sections": [
+        "1.104"
+      ],
+      "status": "not_completed",
+      "reason": "원서 개별 학습목표의 완전한 실습 검증은 추후"
+    },
+    {
+      "source": "K&R",
+      "chapter": "Exercise 8-3",
+      "goal": "쓰기 버퍼 비우기·닫기",
+      "sections": [
+        "1.104"
+      ],
+      "status": "not_completed",
+      "reason": "원서 개별 학습목표의 완전한 실습 검증은 추후"
+    },
+    {
+      "source": "K&R",
+      "chapter": "Exercise 8-4",
+      "goal": "버퍼와 탐색 위치 조정",
+      "sections": [
+        "1.104"
+      ],
+      "status": "not_completed",
+      "reason": "원서 개별 학습목표의 완전한 실습 검증은 추후"
+    },
+    {
+      "source": "K&R",
+      "chapter": "Exercise 8-5",
+      "goal": "파일 메타데이터 추가 출력",
+      "sections": [
+        "1.105"
+      ],
+      "status": "partial",
+      "reason": "원서 개별 학습목표의 완전한 실습 검증은 추후"
+    },
+    {
+      "source": "K&R",
+      "chapter": "Exercise 8-6",
+      "goal": "calloc의 0 초기화",
+      "sections": [
+        "1.106"
+      ],
+      "status": "partial",
+      "reason": "원서 개별 학습목표의 완전한 실습 검증은 추후"
+    },
+    {
+      "source": "K&R",
+      "chapter": "Exercise 8-7",
+      "goal": "할당·해제의 잘못된 요청 검증",
+      "sections": [
+        "1.106"
+      ],
+      "status": "partial",
+      "reason": "원서 개별 학습목표의 완전한 실습 검증은 추후"
+    },
+    {
+      "source": "K&R",
+      "chapter": "Exercise 8-8",
+      "goal": "사용자 제공 블록을 free 공간에 추가",
+      "sections": [
+        "1.106"
+      ],
+      "status": "not_completed",
+      "reason": "원서 개별 학습목표의 완전한 실습 검증은 추후"
+    },
+    {
+      "source": "Express",
+      "chapter": "전체 750쪽",
+      "goal": "모든 LAB·Exercise·Programming·Mini Project·Advanced Topic 항목 전수 확인",
+      "sections": [],
+      "status": "not_audited",
+      "reason": "이번 회차에는 표본 페이지 확인만 수행"
+    }
+  ],
+  "full_audit_complete": false
+}
