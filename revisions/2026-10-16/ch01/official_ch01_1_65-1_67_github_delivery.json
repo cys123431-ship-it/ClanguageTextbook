@@ -1,0 +1,30 @@
+{
+  "timestamp": "2026-10-16T09:09:19+09:00",
+  "repository": "cys123431-ship-it/ClanguageTextbook",
+  "branch": "publish/ch01-1-65-1-67",
+  "branch_commit": "b8e1a21926f7a95021c297e7a025de2e0518b72e",
+  "verified_files_on_branch": [
+    "C언어_종합교과서_이해중심_정식개정판_제1장_1.65-1.67.docx",
+    "build_ch01_1_65_to_1_67.py",
+    "official_ch01_1_65-1_67_pedagogy_qa.json",
+    "official_ch01_1_65-1_67_page_qa.json",
+    "official_rewrite_objective_tracking_1_1-1_67.json",
+    "official_rewrite_progress_1_1-1_67.json",
+    "official_rewrite_manifest_1_65-1_67.json",
+    "README.md",
+    "progress.json"
+  ],
+  "docx_blob_sha": "d5b832a4a648cb1c21aaf7e23a8aef49b46457c0",
+  "main_last_completed_section": "1.64",
+  "main_updated": false,
+  "main_update_error": "GitHub update_ref blocked by safety checks; PR creation also blocked",
+  "missing_github_files": [
+    "official_ch01_1_65-1_67_sources.zip",
+    "official_ch01_1_65-1_67_c11_verification.json",
+    "official_ch01_1_65-1_67_code_match.json",
+    "official_ch01_1_65-1_67_source_inspection.json"
+  ],
+  "missing_reason": "GitHub blob creation blocked by safety checks",
+  "library_delivery": "all 11 core artifacts uploaded and re-listed",
+  "next_action": "At next run retry only permitted GitHub delivery paths; preserve existing main README."
+}
