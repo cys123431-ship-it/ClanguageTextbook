@@ -1,0 +1,26 @@
+{
+  "all_match": true,
+  "files": {
+    "s1_107_1_example.c": true,
+    "s1_107_1_variation.c": true,
+    "s1_107_2_example.c": true,
+    "s1_107_2_variation.c": true,
+    "s1_107_3_example.c": true,
+    "s1_107_3_variation.c": true,
+    "s1_107_independent.c": true,
+    "s1_108_1_example.c": true,
+    "s1_108_1_variation.c": true,
+    "s1_108_2_example.c": true,
+    "s1_108_2_variation.c": true,
+    "s1_108_3_example.c": true,
+    "s1_108_3_variation.c": true,
+    "s1_108_independent.c": true,
+    "s1_109_1_example.c": true,
+    "s1_109_1_variation.c": true,
+    "s1_109_2_example.c": true,
+    "s1_109_2_variation.c": true,
+    "s1_109_3_example.c": true,
+    "s1_109_3_variation.c": true,
+    "s1_109_independent.c": true
+  }
+}
