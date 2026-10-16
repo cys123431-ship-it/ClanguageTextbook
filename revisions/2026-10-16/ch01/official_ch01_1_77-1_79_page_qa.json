@@ -1,0 +1,175 @@
+{
+  "pages": 21,
+  "page_text_audit": [
+    {
+      "page": 1,
+      "chars": 1940,
+      "blocks": 32,
+      "min_x": 59.8,
+      "max_x": 554.2,
+      "max_y": 765.3
+    },
+    {
+      "page": 2,
+      "chars": 1678,
+      "blocks": 29,
+      "min_x": 59.8,
+      "max_x": 552.4,
+      "max_y": 765.3
+    },
+    {
+      "page": 3,
+      "chars": 1417,
+      "blocks": 25,
+      "min_x": 59.8,
+      "max_x": 552.4,
+      "max_y": 765.3
+    },
+    {
+      "page": 4,
+      "chars": 1629,
+      "blocks": 28,
+      "min_x": 59.8,
+      "max_x": 553.9,
+      "max_y": 765.3
+    },
+    {
+      "page": 5,
+      "chars": 999,
+      "blocks": 16,
+      "min_x": 59.8,
+      "max_x": 552.4,
+      "max_y": 765.3
+    },
+    {
+      "page": 6,
+      "chars": 1503,
+      "blocks": 25,
+      "min_x": 59.8,
+      "max_x": 552.4,
+      "max_y": 765.3
+    },
+    {
+      "page": 7,
+      "chars": 1296,
+      "blocks": 16,
+      "min_x": 59.8,
+      "max_x": 554.6,
+      "max_y": 765.3
+    },
+    {
+      "page": 8,
+      "chars": 1603,
+      "blocks": 25,
+      "min_x": 59.8,
+      "max_x": 554.5,
+      "max_y": 765.3
+    },
+    {
+      "page": 9,
+      "chars": 1211,
+      "blocks": 24,
+      "min_x": 59.8,
+      "max_x": 552.4,
+      "max_y": 765.3
+    },
+    {
+      "page": 10,
+      "chars": 1460,
+      "blocks": 27,
+      "min_x": 59.8,
+      "max_x": 552.4,
+      "max_y": 765.3
+    },
+    {
+      "page": 11,
+      "chars": 1341,
+      "blocks": 20,
+      "min_x": 59.8,
+      "max_x": 552.4,
+      "max_y": 765.3
+    },
+    {
+      "page": 12,
+      "chars": 1565,
+      "blocks": 26,
+      "min_x": 59.8,
+      "max_x": 552.4,
+      "max_y": 765.3
+    },
+    {
+      "page": 13,
+      "chars": 1749,
+      "blocks": 26,
+      "min_x": 59.8,
+      "max_x": 552.4,
+      "max_y": 765.3
+    },
+    {
+      "page": 14,
+      "chars": 1459,
+      "blocks": 21,
+      "min_x": 59.8,
+      "max_x": 552.4,
+      "max_y": 765.3
+    },
+    {
+      "page": 15,
+      "chars": 1661,
+      "blocks": 32,
+      "min_x": 59.8,
+      "max_x": 554.1,
+      "max_y": 765.3
+    },
+    {
+      "page": 16,
+      "chars": 1561,
+      "blocks": 30,
+      "min_x": 59.8,
+      "max_x": 554.8,
+      "max_y": 765.3
+    },
+    {
+      "page": 17,
+      "chars": 1260,
+      "blocks": 25,
+      "min_x": 59.8,
+      "max_x": 552.4,
+      "max_y": 765.3
+    },
+    {
+      "page": 18,
+      "chars": 1551,
+      "blocks": 31,
+      "min_x": 59.8,
+      "max_x": 552.4,
+      "max_y": 765.3
+    },
+    {
+      "page": 19,
+      "chars": 1453,
+      "blocks": 31,
+      "min_x": 59.8,
+      "max_x": 554.7,
+      "max_y": 765.3
+    },
+    {
+      "page": 20,
+      "chars": 1340,
+      "blocks": 25,
+      "min_x": 59.8,
+      "max_x": 553.9,
+      "max_y": 765.3
+    },
+    {
+      "page": 21,
+      "chars": 709,
+      "blocks": 12,
+      "min_x": 59.8,
+      "max_x": 553.5,
+      "max_y": 765.3
+    }
+  ],
+  "blank_pages": [],
+  "contact_sheet_inspected": true
+}
