@@ -1,0 +1,30 @@
+{
+  "run": "1.77-1.79",
+  "date": "2026-10-16",
+  "library_verified": true,
+  "library_path": "/C언어_통합교과서_제작/",
+  "completed_sections": [
+    "1.77",
+    "1.78",
+    "1.79"
+  ],
+  "docx_pages": 21,
+  "c11_programs": 21,
+  "gcc_clang_compiles_and_runs": 42,
+  "expected_stdout_matches": true,
+  "docx_source_code_match": true,
+  "original_item_audit_complete": false,
+  "github_main_binary_delivery": "FAILED",
+  "blocked_binary_uploads": [
+    "C언어_종합교과서_이해중심_정식개정판_제1장_1.77-1.79.docx",
+    "official_ch01_1_77-1_79_sources.zip"
+  ],
+  "reason": "GitHub create_blob binary/base64 upload blocked by tool safety checks",
+  "previous_missing_main": [
+    "1.65-1.67 DOCX",
+    "1.68-1.70 DOCX",
+    "1.71-1.73 DOCX",
+    "1.74-1.76 DOCX"
+  ],
+  "final_completion": false
+}
