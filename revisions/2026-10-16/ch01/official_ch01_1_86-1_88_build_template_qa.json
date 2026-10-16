@@ -1,0 +1,6 @@
+{
+  "make": "passed; expected output 면적: 20",
+  "cmake": "passed; expected output 면적: 20",
+  "platform": "Linux, native toolchain",
+  "other_platforms": "not verified"
+}
