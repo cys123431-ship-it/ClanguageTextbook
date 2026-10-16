@@ -1,0 +1,909 @@
+{
+  "run": "ch01_1.86-1.88",
+  "timestamp": "2026-10-16T15:02:37+09:00",
+  "flags": [
+    "-std=c11",
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-Werror",
+    "-O0"
+  ],
+  "projects": 21,
+  "gcc_clang_project_runs": 42,
+  "all_compiled_linked_and_expected_stdout_passed": true,
+  "programs": [
+    {
+      "project": "ch01_1_86_01_delivery_example",
+      "section": "1.86",
+      "kind": "example",
+      "mode": "objects",
+      "expected_stdout": "결제액: 12000원\n",
+      "files": {
+        "include/delivery.h": "ed99ea81272edf3cf4f9e0ec178f113afba563795bf9c1889243e916a29cd1e9",
+        "src/delivery.c": "bfd30e61f20093425a175e454673d9b1ec3ff4ad217e734a15e7eb0c6bf46e49",
+        "main.c": "f64be4d7eca0d65c3e8e4c2e6409ffa753e1be1b10db9dfaadcb120e12219b4e"
+      },
+      "results": {
+        "gcc": {
+          "compiler": "gcc",
+          "compile": "passed",
+          "link": "passed",
+          "run": "passed",
+          "exit_code": 0,
+          "stdout": "결제액: 12000원\n",
+          "stderr": "",
+          "commands": [
+            "gcc -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_86_01_delivery_example/include -c /mnt/data/c_textbook_run28/sources/ch01_1_86_01_delivery_example/main.c -o /mnt/data/c_textbook_run28/sources/ch01_1_86_01_delivery_example/.verify_gcc/obj0.o",
+            "gcc -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_86_01_delivery_example/include -c /mnt/data/c_textbook_run28/sources/ch01_1_86_01_delivery_example/src/delivery.c -o /mnt/data/c_textbook_run28/sources/ch01_1_86_01_delivery_example/.verify_gcc/obj1.o",
+            "gcc -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 /mnt/data/c_textbook_run28/sources/ch01_1_86_01_delivery_example/.verify_gcc/obj0.o /mnt/data/c_textbook_run28/sources/ch01_1_86_01_delivery_example/.verify_gcc/obj1.o -o /mnt/data/c_textbook_run28/sources/ch01_1_86_01_delivery_example/.verify_gcc/app"
+          ]
+        },
+        "clang": {
+          "compiler": "clang",
+          "compile": "passed",
+          "link": "passed",
+          "run": "passed",
+          "exit_code": 0,
+          "stdout": "결제액: 12000원\n",
+          "stderr": "",
+          "commands": [
+            "clang -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_86_01_delivery_example/include -c /mnt/data/c_textbook_run28/sources/ch01_1_86_01_delivery_example/main.c -o /mnt/data/c_textbook_run28/sources/ch01_1_86_01_delivery_example/.verify_clang/obj0.o",
+            "clang -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_86_01_delivery_example/include -c /mnt/data/c_textbook_run28/sources/ch01_1_86_01_delivery_example/src/delivery.c -o /mnt/data/c_textbook_run28/sources/ch01_1_86_01_delivery_example/.verify_clang/obj1.o",
+            "clang -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 /mnt/data/c_textbook_run28/sources/ch01_1_86_01_delivery_example/.verify_clang/obj0.o /mnt/data/c_textbook_run28/sources/ch01_1_86_01_delivery_example/.verify_clang/obj1.o -o /mnt/data/c_textbook_run28/sources/ch01_1_86_01_delivery_example/.verify_clang/app"
+          ]
+        }
+      }
+    },
+    {
+      "project": "ch01_1_86_01_delivery_variation",
+      "section": "1.86",
+      "kind": "variation",
+      "mode": "objects",
+      "expected_stdout": "결제액: 10500원\n",
+      "files": {
+        "include/delivery.h": "ed99ea81272edf3cf4f9e0ec178f113afba563795bf9c1889243e916a29cd1e9",
+        "src/delivery.c": "bfd30e61f20093425a175e454673d9b1ec3ff4ad217e734a15e7eb0c6bf46e49",
+        "main.c": "c659f14e8684a0b6994a1f46279820cb0604a893ecde2fe3de2b309861db9160"
+      },
+      "results": {
+        "gcc": {
+          "compiler": "gcc",
+          "compile": "passed",
+          "link": "passed",
+          "run": "passed",
+          "exit_code": 0,
+          "stdout": "결제액: 10500원\n",
+          "stderr": "",
+          "commands": [
+            "gcc -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_86_01_delivery_variation/include -c /mnt/data/c_textbook_run28/sources/ch01_1_86_01_delivery_variation/main.c -o /mnt/data/c_textbook_run28/sources/ch01_1_86_01_delivery_variation/.verify_gcc/obj0.o",
+            "gcc -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_86_01_delivery_variation/include -c /mnt/data/c_textbook_run28/sources/ch01_1_86_01_delivery_variation/src/delivery.c -o /mnt/data/c_textbook_run28/sources/ch01_1_86_01_delivery_variation/.verify_gcc/obj1.o",
+            "gcc -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 /mnt/data/c_textbook_run28/sources/ch01_1_86_01_delivery_variation/.verify_gcc/obj0.o /mnt/data/c_textbook_run28/sources/ch01_1_86_01_delivery_variation/.verify_gcc/obj1.o -o /mnt/data/c_textbook_run28/sources/ch01_1_86_01_delivery_variation/.verify_gcc/app"
+          ]
+        },
+        "clang": {
+          "compiler": "clang",
+          "compile": "passed",
+          "link": "passed",
+          "run": "passed",
+          "exit_code": 0,
+          "stdout": "결제액: 10500원\n",
+          "stderr": "",
+          "commands": [
+            "clang -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_86_01_delivery_variation/include -c /mnt/data/c_textbook_run28/sources/ch01_1_86_01_delivery_variation/main.c -o /mnt/data/c_textbook_run28/sources/ch01_1_86_01_delivery_variation/.verify_clang/obj0.o",
+            "clang -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_86_01_delivery_variation/include -c /mnt/data/c_textbook_run28/sources/ch01_1_86_01_delivery_variation/src/delivery.c -o /mnt/data/c_textbook_run28/sources/ch01_1_86_01_delivery_variation/.verify_clang/obj1.o",
+            "clang -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 /mnt/data/c_textbook_run28/sources/ch01_1_86_01_delivery_variation/.verify_clang/obj0.o /mnt/data/c_textbook_run28/sources/ch01_1_86_01_delivery_variation/.verify_clang/obj1.o -o /mnt/data/c_textbook_run28/sources/ch01_1_86_01_delivery_variation/.verify_clang/app"
+          ]
+        }
+      }
+    },
+    {
+      "project": "ch01_1_86_02_average_example",
+      "section": "1.86",
+      "kind": "example",
+      "mode": "objects",
+      "expected_stdout": "평균: 20.0\n",
+      "files": {
+        "include/average.h": "33f7808a2f8e16cec0d948f32f30186c791e4d3d1ac8f41cd298d3ef88077ff1",
+        "src/average.c": "8c71644287d4281d4c3089360f278b734d15024e32c3357dc1e7cfe8e0bd4e07",
+        "main.c": "34fb5c4bd46e2ac56188bd57e63268a1b4f9350279f5a1ee9116894e8b9771db"
+      },
+      "results": {
+        "gcc": {
+          "compiler": "gcc",
+          "compile": "passed",
+          "link": "passed",
+          "run": "passed",
+          "exit_code": 0,
+          "stdout": "평균: 20.0\n",
+          "stderr": "",
+          "commands": [
+            "gcc -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_86_02_average_example/include -c /mnt/data/c_textbook_run28/sources/ch01_1_86_02_average_example/main.c -o /mnt/data/c_textbook_run28/sources/ch01_1_86_02_average_example/.verify_gcc/obj0.o",
+            "gcc -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_86_02_average_example/include -c /mnt/data/c_textbook_run28/sources/ch01_1_86_02_average_example/src/average.c -o /mnt/data/c_textbook_run28/sources/ch01_1_86_02_average_example/.verify_gcc/obj1.o",
+            "gcc -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 /mnt/data/c_textbook_run28/sources/ch01_1_86_02_average_example/.verify_gcc/obj0.o /mnt/data/c_textbook_run28/sources/ch01_1_86_02_average_example/.verify_gcc/obj1.o -o /mnt/data/c_textbook_run28/sources/ch01_1_86_02_average_example/.verify_gcc/app"
+          ]
+        },
+        "clang": {
+          "compiler": "clang",
+          "compile": "passed",
+          "link": "passed",
+          "run": "passed",
+          "exit_code": 0,
+          "stdout": "평균: 20.0\n",
+          "stderr": "",
+          "commands": [
+            "clang -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_86_02_average_example/include -c /mnt/data/c_textbook_run28/sources/ch01_1_86_02_average_example/main.c -o /mnt/data/c_textbook_run28/sources/ch01_1_86_02_average_example/.verify_clang/obj0.o",
+            "clang -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_86_02_average_example/include -c /mnt/data/c_textbook_run28/sources/ch01_1_86_02_average_example/src/average.c -o /mnt/data/c_textbook_run28/sources/ch01_1_86_02_average_example/.verify_clang/obj1.o",
+            "clang -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 /mnt/data/c_textbook_run28/sources/ch01_1_86_02_average_example/.verify_clang/obj0.o /mnt/data/c_textbook_run28/sources/ch01_1_86_02_average_example/.verify_clang/obj1.o -o /mnt/data/c_textbook_run28/sources/ch01_1_86_02_average_example/.verify_clang/app"
+          ]
+        }
+      }
+    },
+    {
+      "project": "ch01_1_86_02_average_variation",
+      "section": "1.86",
+      "kind": "variation",
+      "mode": "objects",
+      "expected_stdout": "평균: 30.0\n",
+      "files": {
+        "include/average.h": "33f7808a2f8e16cec0d948f32f30186c791e4d3d1ac8f41cd298d3ef88077ff1",
+        "src/average.c": "8c71644287d4281d4c3089360f278b734d15024e32c3357dc1e7cfe8e0bd4e07",
+        "main.c": "fc15698bc91ba4d420c067383121273b6b23bf2837a834a681877909e7b0924e"
+      },
+      "results": {
+        "gcc": {
+          "compiler": "gcc",
+          "compile": "passed",
+          "link": "passed",
+          "run": "passed",
+          "exit_code": 0,
+          "stdout": "평균: 30.0\n",
+          "stderr": "",
+          "commands": [
+            "gcc -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_86_02_average_variation/include -c /mnt/data/c_textbook_run28/sources/ch01_1_86_02_average_variation/main.c -o /mnt/data/c_textbook_run28/sources/ch01_1_86_02_average_variation/.verify_gcc/obj0.o",
+            "gcc -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_86_02_average_variation/include -c /mnt/data/c_textbook_run28/sources/ch01_1_86_02_average_variation/src/average.c -o /mnt/data/c_textbook_run28/sources/ch01_1_86_02_average_variation/.verify_gcc/obj1.o",
+            "gcc -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 /mnt/data/c_textbook_run28/sources/ch01_1_86_02_average_variation/.verify_gcc/obj0.o /mnt/data/c_textbook_run28/sources/ch01_1_86_02_average_variation/.verify_gcc/obj1.o -o /mnt/data/c_textbook_run28/sources/ch01_1_86_02_average_variation/.verify_gcc/app"
+          ]
+        },
+        "clang": {
+          "compiler": "clang",
+          "compile": "passed",
+          "link": "passed",
+          "run": "passed",
+          "exit_code": 0,
+          "stdout": "평균: 30.0\n",
+          "stderr": "",
+          "commands": [
+            "clang -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_86_02_average_variation/include -c /mnt/data/c_textbook_run28/sources/ch01_1_86_02_average_variation/main.c -o /mnt/data/c_textbook_run28/sources/ch01_1_86_02_average_variation/.verify_clang/obj0.o",
+            "clang -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_86_02_average_variation/include -c /mnt/data/c_textbook_run28/sources/ch01_1_86_02_average_variation/src/average.c -o /mnt/data/c_textbook_run28/sources/ch01_1_86_02_average_variation/.verify_clang/obj1.o",
+            "clang -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 /mnt/data/c_textbook_run28/sources/ch01_1_86_02_average_variation/.verify_clang/obj0.o /mnt/data/c_textbook_run28/sources/ch01_1_86_02_average_variation/.verify_clang/obj1.o -o /mnt/data/c_textbook_run28/sources/ch01_1_86_02_average_variation/.verify_clang/app"
+          ]
+        }
+      }
+    },
+    {
+      "project": "ch01_1_86_03_digit_example",
+      "section": "1.86",
+      "kind": "example",
+      "mode": "objects",
+      "expected_stdout": "숫자: 3\n",
+      "files": {
+        "include/digit.h": "b765a7a06d4aeb8d4fa4bdf062945bfc886b65c53726a786b0859fe7b1685066",
+        "src/digit.c": "2a045978f33bfd8a9168154b61294ba2407598762ff401df952b71eee9a7b62e",
+        "main.c": "a6ef666025591628491942e16e4d911dd592c5c6bb2625d45a90b3a3adfc4c47"
+      },
+      "results": {
+        "gcc": {
+          "compiler": "gcc",
+          "compile": "passed",
+          "link": "passed",
+          "run": "passed",
+          "exit_code": 0,
+          "stdout": "숫자: 3\n",
+          "stderr": "",
+          "commands": [
+            "gcc -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_86_03_digit_example/include -c /mnt/data/c_textbook_run28/sources/ch01_1_86_03_digit_example/main.c -o /mnt/data/c_textbook_run28/sources/ch01_1_86_03_digit_example/.verify_gcc/obj0.o",
+            "gcc -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_86_03_digit_example/include -c /mnt/data/c_textbook_run28/sources/ch01_1_86_03_digit_example/src/digit.c -o /mnt/data/c_textbook_run28/sources/ch01_1_86_03_digit_example/.verify_gcc/obj1.o",
+            "gcc -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 /mnt/data/c_textbook_run28/sources/ch01_1_86_03_digit_example/.verify_gcc/obj0.o /mnt/data/c_textbook_run28/sources/ch01_1_86_03_digit_example/.verify_gcc/obj1.o -o /mnt/data/c_textbook_run28/sources/ch01_1_86_03_digit_example/.verify_gcc/app"
+          ]
+        },
+        "clang": {
+          "compiler": "clang",
+          "compile": "passed",
+          "link": "passed",
+          "run": "passed",
+          "exit_code": 0,
+          "stdout": "숫자: 3\n",
+          "stderr": "",
+          "commands": [
+            "clang -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_86_03_digit_example/include -c /mnt/data/c_textbook_run28/sources/ch01_1_86_03_digit_example/main.c -o /mnt/data/c_textbook_run28/sources/ch01_1_86_03_digit_example/.verify_clang/obj0.o",
+            "clang -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_86_03_digit_example/include -c /mnt/data/c_textbook_run28/sources/ch01_1_86_03_digit_example/src/digit.c -o /mnt/data/c_textbook_run28/sources/ch01_1_86_03_digit_example/.verify_clang/obj1.o",
+            "clang -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 /mnt/data/c_textbook_run28/sources/ch01_1_86_03_digit_example/.verify_clang/obj0.o /mnt/data/c_textbook_run28/sources/ch01_1_86_03_digit_example/.verify_clang/obj1.o -o /mnt/data/c_textbook_run28/sources/ch01_1_86_03_digit_example/.verify_clang/app"
+          ]
+        }
+      }
+    },
+    {
+      "project": "ch01_1_86_03_digit_variation",
+      "section": "1.86",
+      "kind": "variation",
+      "mode": "objects",
+      "expected_stdout": "숫자: 4\n",
+      "files": {
+        "include/digit.h": "b765a7a06d4aeb8d4fa4bdf062945bfc886b65c53726a786b0859fe7b1685066",
+        "src/digit.c": "2a045978f33bfd8a9168154b61294ba2407598762ff401df952b71eee9a7b62e",
+        "main.c": "a49a3280c12ebe9eacf4a66c2d72a48e93c2684448a6e0658fc39c5d1365ec04"
+      },
+      "results": {
+        "gcc": {
+          "compiler": "gcc",
+          "compile": "passed",
+          "link": "passed",
+          "run": "passed",
+          "exit_code": 0,
+          "stdout": "숫자: 4\n",
+          "stderr": "",
+          "commands": [
+            "gcc -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_86_03_digit_variation/include -c /mnt/data/c_textbook_run28/sources/ch01_1_86_03_digit_variation/main.c -o /mnt/data/c_textbook_run28/sources/ch01_1_86_03_digit_variation/.verify_gcc/obj0.o",
+            "gcc -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_86_03_digit_variation/include -c /mnt/data/c_textbook_run28/sources/ch01_1_86_03_digit_variation/src/digit.c -o /mnt/data/c_textbook_run28/sources/ch01_1_86_03_digit_variation/.verify_gcc/obj1.o",
+            "gcc -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 /mnt/data/c_textbook_run28/sources/ch01_1_86_03_digit_variation/.verify_gcc/obj0.o /mnt/data/c_textbook_run28/sources/ch01_1_86_03_digit_variation/.verify_gcc/obj1.o -o /mnt/data/c_textbook_run28/sources/ch01_1_86_03_digit_variation/.verify_gcc/app"
+          ]
+        },
+        "clang": {
+          "compiler": "clang",
+          "compile": "passed",
+          "link": "passed",
+          "run": "passed",
+          "exit_code": 0,
+          "stdout": "숫자: 4\n",
+          "stderr": "",
+          "commands": [
+            "clang -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_86_03_digit_variation/include -c /mnt/data/c_textbook_run28/sources/ch01_1_86_03_digit_variation/main.c -o /mnt/data/c_textbook_run28/sources/ch01_1_86_03_digit_variation/.verify_clang/obj0.o",
+            "clang -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_86_03_digit_variation/include -c /mnt/data/c_textbook_run28/sources/ch01_1_86_03_digit_variation/src/digit.c -o /mnt/data/c_textbook_run28/sources/ch01_1_86_03_digit_variation/.verify_clang/obj1.o",
+            "clang -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 /mnt/data/c_textbook_run28/sources/ch01_1_86_03_digit_variation/.verify_clang/obj0.o /mnt/data/c_textbook_run28/sources/ch01_1_86_03_digit_variation/.verify_clang/obj1.o -o /mnt/data/c_textbook_run28/sources/ch01_1_86_03_digit_variation/.verify_clang/app"
+          ]
+        }
+      }
+    },
+    {
+      "project": "ch01_1_86_independent",
+      "section": "1.86",
+      "kind": "independent",
+      "mode": "objects",
+      "expected_stdout": "6: 1\n7: 0\n",
+      "files": {
+        "include/even.h": "5bec897f6379db196e370da5637b70954f853057694b7642a3fe30ae746715f7",
+        "src/even.c": "6928960319c0f12a3e4d5e9938637b29211c277b045f615203804daadee21df4",
+        "main.c": "1f0aa870c6f66a9418f34d18b40e44ed75d934637c4e3fa9f1522c5562f25979"
+      },
+      "results": {
+        "gcc": {
+          "compiler": "gcc",
+          "compile": "passed",
+          "link": "passed",
+          "run": "passed",
+          "exit_code": 0,
+          "stdout": "6: 1\n7: 0\n",
+          "stderr": "",
+          "commands": [
+            "gcc -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_86_independent/include -c /mnt/data/c_textbook_run28/sources/ch01_1_86_independent/main.c -o /mnt/data/c_textbook_run28/sources/ch01_1_86_independent/.verify_gcc/obj0.o",
+            "gcc -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_86_independent/include -c /mnt/data/c_textbook_run28/sources/ch01_1_86_independent/src/even.c -o /mnt/data/c_textbook_run28/sources/ch01_1_86_independent/.verify_gcc/obj1.o",
+            "gcc -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 /mnt/data/c_textbook_run28/sources/ch01_1_86_independent/.verify_gcc/obj0.o /mnt/data/c_textbook_run28/sources/ch01_1_86_independent/.verify_gcc/obj1.o -o /mnt/data/c_textbook_run28/sources/ch01_1_86_independent/.verify_gcc/app"
+          ]
+        },
+        "clang": {
+          "compiler": "clang",
+          "compile": "passed",
+          "link": "passed",
+          "run": "passed",
+          "exit_code": 0,
+          "stdout": "6: 1\n7: 0\n",
+          "stderr": "",
+          "commands": [
+            "clang -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_86_independent/include -c /mnt/data/c_textbook_run28/sources/ch01_1_86_independent/main.c -o /mnt/data/c_textbook_run28/sources/ch01_1_86_independent/.verify_clang/obj0.o",
+            "clang -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_86_independent/include -c /mnt/data/c_textbook_run28/sources/ch01_1_86_independent/src/even.c -o /mnt/data/c_textbook_run28/sources/ch01_1_86_independent/.verify_clang/obj1.o",
+            "clang -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 /mnt/data/c_textbook_run28/sources/ch01_1_86_independent/.verify_clang/obj0.o /mnt/data/c_textbook_run28/sources/ch01_1_86_independent/.verify_clang/obj1.o -o /mnt/data/c_textbook_run28/sources/ch01_1_86_independent/.verify_clang/app"
+          ]
+        }
+      }
+    },
+    {
+      "project": "ch01_1_87_01_discount_example",
+      "section": "1.87",
+      "kind": "example",
+      "mode": "objects",
+      "expected_stdout": "할인가: 8500원\n",
+      "files": {
+        "include/discount.h": "c4e26e284cb1e5653c67143c86fe643160fe412fcea7e0b8e82831218f49f540",
+        "src/discount.c": "7ff0156c40cdeb9338e0367b7ebe875b99917ad07aca27c6f0f3627aaa937896",
+        "main.c": "75fe3eba310fd4eee83476082e04826cc6b84260ea11d66367651f7c06610bc9"
+      },
+      "results": {
+        "gcc": {
+          "compiler": "gcc",
+          "compile": "passed",
+          "link": "passed",
+          "run": "passed",
+          "exit_code": 0,
+          "stdout": "할인가: 8500원\n",
+          "stderr": "",
+          "commands": [
+            "gcc -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_87_01_discount_example/include -c /mnt/data/c_textbook_run28/sources/ch01_1_87_01_discount_example/main.c -o /mnt/data/c_textbook_run28/sources/ch01_1_87_01_discount_example/.verify_gcc/obj0.o",
+            "gcc -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_87_01_discount_example/include -c /mnt/data/c_textbook_run28/sources/ch01_1_87_01_discount_example/src/discount.c -o /mnt/data/c_textbook_run28/sources/ch01_1_87_01_discount_example/.verify_gcc/obj1.o",
+            "gcc -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 /mnt/data/c_textbook_run28/sources/ch01_1_87_01_discount_example/.verify_gcc/obj0.o /mnt/data/c_textbook_run28/sources/ch01_1_87_01_discount_example/.verify_gcc/obj1.o -o /mnt/data/c_textbook_run28/sources/ch01_1_87_01_discount_example/.verify_gcc/app"
+          ]
+        },
+        "clang": {
+          "compiler": "clang",
+          "compile": "passed",
+          "link": "passed",
+          "run": "passed",
+          "exit_code": 0,
+          "stdout": "할인가: 8500원\n",
+          "stderr": "",
+          "commands": [
+            "clang -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_87_01_discount_example/include -c /mnt/data/c_textbook_run28/sources/ch01_1_87_01_discount_example/main.c -o /mnt/data/c_textbook_run28/sources/ch01_1_87_01_discount_example/.verify_clang/obj0.o",
+            "clang -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_87_01_discount_example/include -c /mnt/data/c_textbook_run28/sources/ch01_1_87_01_discount_example/src/discount.c -o /mnt/data/c_textbook_run28/sources/ch01_1_87_01_discount_example/.verify_clang/obj1.o",
+            "clang -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 /mnt/data/c_textbook_run28/sources/ch01_1_87_01_discount_example/.verify_clang/obj0.o /mnt/data/c_textbook_run28/sources/ch01_1_87_01_discount_example/.verify_clang/obj1.o -o /mnt/data/c_textbook_run28/sources/ch01_1_87_01_discount_example/.verify_clang/app"
+          ]
+        }
+      }
+    },
+    {
+      "project": "ch01_1_87_01_discount_variation",
+      "section": "1.87",
+      "kind": "variation",
+      "mode": "objects",
+      "expected_stdout": "할인가: 0원\n",
+      "files": {
+        "include/discount.h": "c4e26e284cb1e5653c67143c86fe643160fe412fcea7e0b8e82831218f49f540",
+        "src/discount.c": "7ff0156c40cdeb9338e0367b7ebe875b99917ad07aca27c6f0f3627aaa937896",
+        "main.c": "bbc2d582b0ef9e2ea78931b58ae4fb7cbfe91658399affa7fe71c061860830ca"
+      },
+      "results": {
+        "gcc": {
+          "compiler": "gcc",
+          "compile": "passed",
+          "link": "passed",
+          "run": "passed",
+          "exit_code": 0,
+          "stdout": "할인가: 0원\n",
+          "stderr": "",
+          "commands": [
+            "gcc -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_87_01_discount_variation/include -c /mnt/data/c_textbook_run28/sources/ch01_1_87_01_discount_variation/main.c -o /mnt/data/c_textbook_run28/sources/ch01_1_87_01_discount_variation/.verify_gcc/obj0.o",
+            "gcc -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_87_01_discount_variation/include -c /mnt/data/c_textbook_run28/sources/ch01_1_87_01_discount_variation/src/discount.c -o /mnt/data/c_textbook_run28/sources/ch01_1_87_01_discount_variation/.verify_gcc/obj1.o",
+            "gcc -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 /mnt/data/c_textbook_run28/sources/ch01_1_87_01_discount_variation/.verify_gcc/obj0.o /mnt/data/c_textbook_run28/sources/ch01_1_87_01_discount_variation/.verify_gcc/obj1.o -o /mnt/data/c_textbook_run28/sources/ch01_1_87_01_discount_variation/.verify_gcc/app"
+          ]
+        },
+        "clang": {
+          "compiler": "clang",
+          "compile": "passed",
+          "link": "passed",
+          "run": "passed",
+          "exit_code": 0,
+          "stdout": "할인가: 0원\n",
+          "stderr": "",
+          "commands": [
+            "clang -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_87_01_discount_variation/include -c /mnt/data/c_textbook_run28/sources/ch01_1_87_01_discount_variation/main.c -o /mnt/data/c_textbook_run28/sources/ch01_1_87_01_discount_variation/.verify_clang/obj0.o",
+            "clang -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_87_01_discount_variation/include -c /mnt/data/c_textbook_run28/sources/ch01_1_87_01_discount_variation/src/discount.c -o /mnt/data/c_textbook_run28/sources/ch01_1_87_01_discount_variation/.verify_clang/obj1.o",
+            "clang -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 /mnt/data/c_textbook_run28/sources/ch01_1_87_01_discount_variation/.verify_clang/obj0.o /mnt/data/c_textbook_run28/sources/ch01_1_87_01_discount_variation/.verify_clang/obj1.o -o /mnt/data/c_textbook_run28/sources/ch01_1_87_01_discount_variation/.verify_clang/app"
+          ]
+        }
+      }
+    },
+    {
+      "project": "ch01_1_87_02_tally_example",
+      "section": "1.87",
+      "kind": "example",
+      "mode": "objects",
+      "expected_stdout": "합계: 12\n",
+      "files": {
+        "include/tally.h": "73d60792622c963d97a00532ea8e500b61a3ddf35e4c438620e99f563fbf34a3",
+        "src/tally.c": "956fe9aecd27a50b188af79ec5291ef0e1a5ecf699e32e4bb44352d391b76081",
+        "src/display.c": "dbe3582eaba4b1f16f2bd90b349ce4adae447639fb115c16e53ea27873613348",
+        "main.c": "3daa4b0c2defb319e474ff5c5c6b8c8b1192536bf26d6116fb479cdd4e3194b2"
+      },
+      "results": {
+        "gcc": {
+          "compiler": "gcc",
+          "compile": "passed",
+          "link": "passed",
+          "run": "passed",
+          "exit_code": 0,
+          "stdout": "합계: 12\n",
+          "stderr": "",
+          "commands": [
+            "gcc -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_87_02_tally_example/include -c /mnt/data/c_textbook_run28/sources/ch01_1_87_02_tally_example/main.c -o /mnt/data/c_textbook_run28/sources/ch01_1_87_02_tally_example/.verify_gcc/obj0.o",
+            "gcc -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_87_02_tally_example/include -c /mnt/data/c_textbook_run28/sources/ch01_1_87_02_tally_example/src/display.c -o /mnt/data/c_textbook_run28/sources/ch01_1_87_02_tally_example/.verify_gcc/obj1.o",
+            "gcc -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_87_02_tally_example/include -c /mnt/data/c_textbook_run28/sources/ch01_1_87_02_tally_example/src/tally.c -o /mnt/data/c_textbook_run28/sources/ch01_1_87_02_tally_example/.verify_gcc/obj2.o",
+            "gcc -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 /mnt/data/c_textbook_run28/sources/ch01_1_87_02_tally_example/.verify_gcc/obj0.o /mnt/data/c_textbook_run28/sources/ch01_1_87_02_tally_example/.verify_gcc/obj1.o /mnt/data/c_textbook_run28/sources/ch01_1_87_02_tally_example/.verify_gcc/obj2.o -o /mnt/data/c_textbook_run28/sources/ch01_1_87_02_tally_example/.verify_gcc/app"
+          ]
+        },
+        "clang": {
+          "compiler": "clang",
+          "compile": "passed",
+          "link": "passed",
+          "run": "passed",
+          "exit_code": 0,
+          "stdout": "합계: 12\n",
+          "stderr": "",
+          "commands": [
+            "clang -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_87_02_tally_example/include -c /mnt/data/c_textbook_run28/sources/ch01_1_87_02_tally_example/main.c -o /mnt/data/c_textbook_run28/sources/ch01_1_87_02_tally_example/.verify_clang/obj0.o",
+            "clang -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_87_02_tally_example/include -c /mnt/data/c_textbook_run28/sources/ch01_1_87_02_tally_example/src/display.c -o /mnt/data/c_textbook_run28/sources/ch01_1_87_02_tally_example/.verify_clang/obj1.o",
+            "clang -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_87_02_tally_example/include -c /mnt/data/c_textbook_run28/sources/ch01_1_87_02_tally_example/src/tally.c -o /mnt/data/c_textbook_run28/sources/ch01_1_87_02_tally_example/.verify_clang/obj2.o",
+            "clang -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 /mnt/data/c_textbook_run28/sources/ch01_1_87_02_tally_example/.verify_clang/obj0.o /mnt/data/c_textbook_run28/sources/ch01_1_87_02_tally_example/.verify_clang/obj1.o /mnt/data/c_textbook_run28/sources/ch01_1_87_02_tally_example/.verify_clang/obj2.o -o /mnt/data/c_textbook_run28/sources/ch01_1_87_02_tally_example/.verify_clang/app"
+          ]
+        }
+      }
+    },
+    {
+      "project": "ch01_1_87_02_tally_variation",
+      "section": "1.87",
+      "kind": "variation",
+      "mode": "objects",
+      "expected_stdout": "합계: 20\n",
+      "files": {
+        "include/tally.h": "73d60792622c963d97a00532ea8e500b61a3ddf35e4c438620e99f563fbf34a3",
+        "src/tally.c": "956fe9aecd27a50b188af79ec5291ef0e1a5ecf699e32e4bb44352d391b76081",
+        "src/display.c": "dbe3582eaba4b1f16f2bd90b349ce4adae447639fb115c16e53ea27873613348",
+        "main.c": "90dd2a2da56da7fc6af562f18be9a7aa73222414af3456b9082d9fbb365ba65f"
+      },
+      "results": {
+        "gcc": {
+          "compiler": "gcc",
+          "compile": "passed",
+          "link": "passed",
+          "run": "passed",
+          "exit_code": 0,
+          "stdout": "합계: 20\n",
+          "stderr": "",
+          "commands": [
+            "gcc -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_87_02_tally_variation/include -c /mnt/data/c_textbook_run28/sources/ch01_1_87_02_tally_variation/main.c -o /mnt/data/c_textbook_run28/sources/ch01_1_87_02_tally_variation/.verify_gcc/obj0.o",
+            "gcc -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_87_02_tally_variation/include -c /mnt/data/c_textbook_run28/sources/ch01_1_87_02_tally_variation/src/display.c -o /mnt/data/c_textbook_run28/sources/ch01_1_87_02_tally_variation/.verify_gcc/obj1.o",
+            "gcc -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_87_02_tally_variation/include -c /mnt/data/c_textbook_run28/sources/ch01_1_87_02_tally_variation/src/tally.c -o /mnt/data/c_textbook_run28/sources/ch01_1_87_02_tally_variation/.verify_gcc/obj2.o",
+            "gcc -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 /mnt/data/c_textbook_run28/sources/ch01_1_87_02_tally_variation/.verify_gcc/obj0.o /mnt/data/c_textbook_run28/sources/ch01_1_87_02_tally_variation/.verify_gcc/obj1.o /mnt/data/c_textbook_run28/sources/ch01_1_87_02_tally_variation/.verify_gcc/obj2.o -o /mnt/data/c_textbook_run28/sources/ch01_1_87_02_tally_variation/.verify_gcc/app"
+          ]
+        },
+        "clang": {
+          "compiler": "clang",
+          "compile": "passed",
+          "link": "passed",
+          "run": "passed",
+          "exit_code": 0,
+          "stdout": "합계: 20\n",
+          "stderr": "",
+          "commands": [
+            "clang -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_87_02_tally_variation/include -c /mnt/data/c_textbook_run28/sources/ch01_1_87_02_tally_variation/main.c -o /mnt/data/c_textbook_run28/sources/ch01_1_87_02_tally_variation/.verify_clang/obj0.o",
+            "clang -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_87_02_tally_variation/include -c /mnt/data/c_textbook_run28/sources/ch01_1_87_02_tally_variation/src/display.c -o /mnt/data/c_textbook_run28/sources/ch01_1_87_02_tally_variation/.verify_clang/obj1.o",
+            "clang -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_87_02_tally_variation/include -c /mnt/data/c_textbook_run28/sources/ch01_1_87_02_tally_variation/src/tally.c -o /mnt/data/c_textbook_run28/sources/ch01_1_87_02_tally_variation/.verify_clang/obj2.o",
+            "clang -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 /mnt/data/c_textbook_run28/sources/ch01_1_87_02_tally_variation/.verify_clang/obj0.o /mnt/data/c_textbook_run28/sources/ch01_1_87_02_tally_variation/.verify_clang/obj1.o /mnt/data/c_textbook_run28/sources/ch01_1_87_02_tally_variation/.verify_clang/obj2.o -o /mnt/data/c_textbook_run28/sources/ch01_1_87_02_tally_variation/.verify_clang/app"
+          ]
+        }
+      }
+    },
+    {
+      "project": "ch01_1_87_03_callback_example",
+      "section": "1.87",
+      "kind": "example",
+      "mode": "objects",
+      "expected_stdout": "변환합: 14\n",
+      "files": {
+        "include/transform.h": "c0d1207bc3497caa2af9ef656c7fc88ed848a722a7bcfa1d407c2195547b7e7c",
+        "src/transform.c": "0febaeaef4baaa1aff6d184fe6b9b50d2c758d6c5ae8b54b7431465026fe5990",
+        "main.c": "cb531fbe1df48e2c14b348db68cb420487eb21e5f17cc39c6ca2e03e086a5c56"
+      },
+      "results": {
+        "gcc": {
+          "compiler": "gcc",
+          "compile": "passed",
+          "link": "passed",
+          "run": "passed",
+          "exit_code": 0,
+          "stdout": "변환합: 14\n",
+          "stderr": "",
+          "commands": [
+            "gcc -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_87_03_callback_example/include -c /mnt/data/c_textbook_run28/sources/ch01_1_87_03_callback_example/main.c -o /mnt/data/c_textbook_run28/sources/ch01_1_87_03_callback_example/.verify_gcc/obj0.o",
+            "gcc -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_87_03_callback_example/include -c /mnt/data/c_textbook_run28/sources/ch01_1_87_03_callback_example/src/transform.c -o /mnt/data/c_textbook_run28/sources/ch01_1_87_03_callback_example/.verify_gcc/obj1.o",
+            "gcc -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 /mnt/data/c_textbook_run28/sources/ch01_1_87_03_callback_example/.verify_gcc/obj0.o /mnt/data/c_textbook_run28/sources/ch01_1_87_03_callback_example/.verify_gcc/obj1.o -o /mnt/data/c_textbook_run28/sources/ch01_1_87_03_callback_example/.verify_gcc/app"
+          ]
+        },
+        "clang": {
+          "compiler": "clang",
+          "compile": "passed",
+          "link": "passed",
+          "run": "passed",
+          "exit_code": 0,
+          "stdout": "변환합: 14\n",
+          "stderr": "",
+          "commands": [
+            "clang -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_87_03_callback_example/include -c /mnt/data/c_textbook_run28/sources/ch01_1_87_03_callback_example/main.c -o /mnt/data/c_textbook_run28/sources/ch01_1_87_03_callback_example/.verify_clang/obj0.o",
+            "clang -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_87_03_callback_example/include -c /mnt/data/c_textbook_run28/sources/ch01_1_87_03_callback_example/src/transform.c -o /mnt/data/c_textbook_run28/sources/ch01_1_87_03_callback_example/.verify_clang/obj1.o",
+            "clang -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 /mnt/data/c_textbook_run28/sources/ch01_1_87_03_callback_example/.verify_clang/obj0.o /mnt/data/c_textbook_run28/sources/ch01_1_87_03_callback_example/.verify_clang/obj1.o -o /mnt/data/c_textbook_run28/sources/ch01_1_87_03_callback_example/.verify_clang/app"
+          ]
+        }
+      }
+    },
+    {
+      "project": "ch01_1_87_03_callback_variation",
+      "section": "1.87",
+      "kind": "variation",
+      "mode": "objects",
+      "expected_stdout": "변환합: 12\n",
+      "files": {
+        "include/transform.h": "c0d1207bc3497caa2af9ef656c7fc88ed848a722a7bcfa1d407c2195547b7e7c",
+        "src/transform.c": "0febaeaef4baaa1aff6d184fe6b9b50d2c758d6c5ae8b54b7431465026fe5990",
+        "main.c": "45ada5c22136a9073909dab4b07079cc7eefebc5e389970261b413e737cd2bd9"
+      },
+      "results": {
+        "gcc": {
+          "compiler": "gcc",
+          "compile": "passed",
+          "link": "passed",
+          "run": "passed",
+          "exit_code": 0,
+          "stdout": "변환합: 12\n",
+          "stderr": "",
+          "commands": [
+            "gcc -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_87_03_callback_variation/include -c /mnt/data/c_textbook_run28/sources/ch01_1_87_03_callback_variation/main.c -o /mnt/data/c_textbook_run28/sources/ch01_1_87_03_callback_variation/.verify_gcc/obj0.o",
+            "gcc -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_87_03_callback_variation/include -c /mnt/data/c_textbook_run28/sources/ch01_1_87_03_callback_variation/src/transform.c -o /mnt/data/c_textbook_run28/sources/ch01_1_87_03_callback_variation/.verify_gcc/obj1.o",
+            "gcc -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 /mnt/data/c_textbook_run28/sources/ch01_1_87_03_callback_variation/.verify_gcc/obj0.o /mnt/data/c_textbook_run28/sources/ch01_1_87_03_callback_variation/.verify_gcc/obj1.o -o /mnt/data/c_textbook_run28/sources/ch01_1_87_03_callback_variation/.verify_gcc/app"
+          ]
+        },
+        "clang": {
+          "compiler": "clang",
+          "compile": "passed",
+          "link": "passed",
+          "run": "passed",
+          "exit_code": 0,
+          "stdout": "변환합: 12\n",
+          "stderr": "",
+          "commands": [
+            "clang -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_87_03_callback_variation/include -c /mnt/data/c_textbook_run28/sources/ch01_1_87_03_callback_variation/main.c -o /mnt/data/c_textbook_run28/sources/ch01_1_87_03_callback_variation/.verify_clang/obj0.o",
+            "clang -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_87_03_callback_variation/include -c /mnt/data/c_textbook_run28/sources/ch01_1_87_03_callback_variation/src/transform.c -o /mnt/data/c_textbook_run28/sources/ch01_1_87_03_callback_variation/.verify_clang/obj1.o",
+            "clang -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 /mnt/data/c_textbook_run28/sources/ch01_1_87_03_callback_variation/.verify_clang/obj0.o /mnt/data/c_textbook_run28/sources/ch01_1_87_03_callback_variation/.verify_clang/obj1.o -o /mnt/data/c_textbook_run28/sources/ch01_1_87_03_callback_variation/.verify_clang/app"
+          ]
+        }
+      }
+    },
+    {
+      "project": "ch01_1_87_independent",
+      "section": "1.87",
+      "kind": "independent",
+      "mode": "objects",
+      "expected_stdout": "정상: 1\n",
+      "files": {
+        "include/check.h": "fc308398e44c4273470832a41a63f18ef5fe8da60a3f7125334db66dfc255e25",
+        "src/check.c": "65a96faae5b12fc41ba9ee35c7570d61fce6221a9b920c1550265393bab8eb7c",
+        "main.c": "3e880559576efc327a114f0e41a6240357d72bb1f6fb2d8aa919b7a1c3e9354d"
+      },
+      "results": {
+        "gcc": {
+          "compiler": "gcc",
+          "compile": "passed",
+          "link": "passed",
+          "run": "passed",
+          "exit_code": 0,
+          "stdout": "정상: 1\n",
+          "stderr": "",
+          "commands": [
+            "gcc -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_87_independent/include -c /mnt/data/c_textbook_run28/sources/ch01_1_87_independent/main.c -o /mnt/data/c_textbook_run28/sources/ch01_1_87_independent/.verify_gcc/obj0.o",
+            "gcc -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_87_independent/include -c /mnt/data/c_textbook_run28/sources/ch01_1_87_independent/src/check.c -o /mnt/data/c_textbook_run28/sources/ch01_1_87_independent/.verify_gcc/obj1.o",
+            "gcc -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 /mnt/data/c_textbook_run28/sources/ch01_1_87_independent/.verify_gcc/obj0.o /mnt/data/c_textbook_run28/sources/ch01_1_87_independent/.verify_gcc/obj1.o -o /mnt/data/c_textbook_run28/sources/ch01_1_87_independent/.verify_gcc/app"
+          ]
+        },
+        "clang": {
+          "compiler": "clang",
+          "compile": "passed",
+          "link": "passed",
+          "run": "passed",
+          "exit_code": 0,
+          "stdout": "정상: 1\n",
+          "stderr": "",
+          "commands": [
+            "clang -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_87_independent/include -c /mnt/data/c_textbook_run28/sources/ch01_1_87_independent/main.c -o /mnt/data/c_textbook_run28/sources/ch01_1_87_independent/.verify_clang/obj0.o",
+            "clang -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_87_independent/include -c /mnt/data/c_textbook_run28/sources/ch01_1_87_independent/src/check.c -o /mnt/data/c_textbook_run28/sources/ch01_1_87_independent/.verify_clang/obj1.o",
+            "clang -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 /mnt/data/c_textbook_run28/sources/ch01_1_87_independent/.verify_clang/obj0.o /mnt/data/c_textbook_run28/sources/ch01_1_87_independent/.verify_clang/obj1.o -o /mnt/data/c_textbook_run28/sources/ch01_1_87_independent/.verify_clang/app"
+          ]
+        }
+      }
+    },
+    {
+      "project": "ch01_1_88_01_library_example",
+      "section": "1.88",
+      "kind": "example",
+      "mode": "static_library",
+      "expected_stdout": "면적: 20\n",
+      "files": {
+        "include/area.h": "c3cb4924116dd8af23f99061abf9eaeb00c8291b6163e97ce1de56ea57fe6fa6",
+        "src/area.c": "829dbcf92353a75c7799af7cb2319f46afa11d6b9f237707ac2a195742965127",
+        "main.c": "b1d96b36ace1fea41d0d4fa989a59e442e8851721bf4fef037184e71c5363fe8"
+      },
+      "results": {
+        "gcc": {
+          "compiler": "gcc",
+          "compile": "passed",
+          "link": "passed",
+          "run": "passed",
+          "exit_code": 0,
+          "stdout": "면적: 20\n",
+          "stderr": "",
+          "commands": [
+            "gcc -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_88_01_library_example/include -c /mnt/data/c_textbook_run28/sources/ch01_1_88_01_library_example/main.c -o /mnt/data/c_textbook_run28/sources/ch01_1_88_01_library_example/.verify_gcc/obj0.o",
+            "gcc -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_88_01_library_example/include -c /mnt/data/c_textbook_run28/sources/ch01_1_88_01_library_example/src/area.c -o /mnt/data/c_textbook_run28/sources/ch01_1_88_01_library_example/.verify_gcc/obj1.o",
+            "ar rcs /mnt/data/c_textbook_run28/sources/ch01_1_88_01_library_example/.verify_gcc/libarea.a /mnt/data/c_textbook_run28/sources/ch01_1_88_01_library_example/.verify_gcc/obj1.o",
+            "gcc -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 /mnt/data/c_textbook_run28/sources/ch01_1_88_01_library_example/.verify_gcc/obj0.o /mnt/data/c_textbook_run28/sources/ch01_1_88_01_library_example/.verify_gcc/libarea.a -o /mnt/data/c_textbook_run28/sources/ch01_1_88_01_library_example/.verify_gcc/app"
+          ]
+        },
+        "clang": {
+          "compiler": "clang",
+          "compile": "passed",
+          "link": "passed",
+          "run": "passed",
+          "exit_code": 0,
+          "stdout": "면적: 20\n",
+          "stderr": "",
+          "commands": [
+            "clang -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_88_01_library_example/include -c /mnt/data/c_textbook_run28/sources/ch01_1_88_01_library_example/main.c -o /mnt/data/c_textbook_run28/sources/ch01_1_88_01_library_example/.verify_clang/obj0.o",
+            "clang -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_88_01_library_example/include -c /mnt/data/c_textbook_run28/sources/ch01_1_88_01_library_example/src/area.c -o /mnt/data/c_textbook_run28/sources/ch01_1_88_01_library_example/.verify_clang/obj1.o",
+            "ar rcs /mnt/data/c_textbook_run28/sources/ch01_1_88_01_library_example/.verify_clang/libarea.a /mnt/data/c_textbook_run28/sources/ch01_1_88_01_library_example/.verify_clang/obj1.o",
+            "clang -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 /mnt/data/c_textbook_run28/sources/ch01_1_88_01_library_example/.verify_clang/obj0.o /mnt/data/c_textbook_run28/sources/ch01_1_88_01_library_example/.verify_clang/libarea.a -o /mnt/data/c_textbook_run28/sources/ch01_1_88_01_library_example/.verify_clang/app"
+          ]
+        }
+      }
+    },
+    {
+      "project": "ch01_1_88_01_library_variation",
+      "section": "1.88",
+      "kind": "variation",
+      "mode": "static_library",
+      "expected_stdout": "면적: 42\n",
+      "files": {
+        "include/area.h": "c3cb4924116dd8af23f99061abf9eaeb00c8291b6163e97ce1de56ea57fe6fa6",
+        "src/area.c": "829dbcf92353a75c7799af7cb2319f46afa11d6b9f237707ac2a195742965127",
+        "main.c": "062403d899ab521c709ab94217200f0aa55a76b8779363326ce493b49368cf0e"
+      },
+      "results": {
+        "gcc": {
+          "compiler": "gcc",
+          "compile": "passed",
+          "link": "passed",
+          "run": "passed",
+          "exit_code": 0,
+          "stdout": "면적: 42\n",
+          "stderr": "",
+          "commands": [
+            "gcc -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_88_01_library_variation/include -c /mnt/data/c_textbook_run28/sources/ch01_1_88_01_library_variation/main.c -o /mnt/data/c_textbook_run28/sources/ch01_1_88_01_library_variation/.verify_gcc/obj0.o",
+            "gcc -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_88_01_library_variation/include -c /mnt/data/c_textbook_run28/sources/ch01_1_88_01_library_variation/src/area.c -o /mnt/data/c_textbook_run28/sources/ch01_1_88_01_library_variation/.verify_gcc/obj1.o",
+            "ar rcs /mnt/data/c_textbook_run28/sources/ch01_1_88_01_library_variation/.verify_gcc/libarea.a /mnt/data/c_textbook_run28/sources/ch01_1_88_01_library_variation/.verify_gcc/obj1.o",
+            "gcc -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 /mnt/data/c_textbook_run28/sources/ch01_1_88_01_library_variation/.verify_gcc/obj0.o /mnt/data/c_textbook_run28/sources/ch01_1_88_01_library_variation/.verify_gcc/libarea.a -o /mnt/data/c_textbook_run28/sources/ch01_1_88_01_library_variation/.verify_gcc/app"
+          ]
+        },
+        "clang": {
+          "compiler": "clang",
+          "compile": "passed",
+          "link": "passed",
+          "run": "passed",
+          "exit_code": 0,
+          "stdout": "면적: 42\n",
+          "stderr": "",
+          "commands": [
+            "clang -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_88_01_library_variation/include -c /mnt/data/c_textbook_run28/sources/ch01_1_88_01_library_variation/main.c -o /mnt/data/c_textbook_run28/sources/ch01_1_88_01_library_variation/.verify_clang/obj0.o",
+            "clang -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_88_01_library_variation/include -c /mnt/data/c_textbook_run28/sources/ch01_1_88_01_library_variation/src/area.c -o /mnt/data/c_textbook_run28/sources/ch01_1_88_01_library_variation/.verify_clang/obj1.o",
+            "ar rcs /mnt/data/c_textbook_run28/sources/ch01_1_88_01_library_variation/.verify_clang/libarea.a /mnt/data/c_textbook_run28/sources/ch01_1_88_01_library_variation/.verify_clang/obj1.o",
+            "clang -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 /mnt/data/c_textbook_run28/sources/ch01_1_88_01_library_variation/.verify_clang/obj0.o /mnt/data/c_textbook_run28/sources/ch01_1_88_01_library_variation/.verify_clang/libarea.a -o /mnt/data/c_textbook_run28/sources/ch01_1_88_01_library_variation/.verify_clang/app"
+          ]
+        }
+      }
+    },
+    {
+      "project": "ch01_1_88_02_regression_example",
+      "section": "1.88",
+      "kind": "example",
+      "mode": "objects",
+      "expected_stdout": "검사: 1 0 1\n",
+      "files": {
+        "include/range.h": "1edaabc35b39b620c2eb78fb5f7ade2efbbdca23ef8460079462749c82402528",
+        "src/range.c": "165a0cf847d14da4bf093147bd4d54d2d9fa4a99b5c3f13c1030377d5f5a5326",
+        "main.c": "eb6448aa6be054cdb6bc5c682b06d424353d1f85d45085016e99b1698ba826e2"
+      },
+      "results": {
+        "gcc": {
+          "compiler": "gcc",
+          "compile": "passed",
+          "link": "passed",
+          "run": "passed",
+          "exit_code": 0,
+          "stdout": "검사: 1 0 1\n",
+          "stderr": "",
+          "commands": [
+            "gcc -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_88_02_regression_example/include -c /mnt/data/c_textbook_run28/sources/ch01_1_88_02_regression_example/main.c -o /mnt/data/c_textbook_run28/sources/ch01_1_88_02_regression_example/.verify_gcc/obj0.o",
+            "gcc -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_88_02_regression_example/include -c /mnt/data/c_textbook_run28/sources/ch01_1_88_02_regression_example/src/range.c -o /mnt/data/c_textbook_run28/sources/ch01_1_88_02_regression_example/.verify_gcc/obj1.o",
+            "gcc -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 /mnt/data/c_textbook_run28/sources/ch01_1_88_02_regression_example/.verify_gcc/obj0.o /mnt/data/c_textbook_run28/sources/ch01_1_88_02_regression_example/.verify_gcc/obj1.o -o /mnt/data/c_textbook_run28/sources/ch01_1_88_02_regression_example/.verify_gcc/app"
+          ]
+        },
+        "clang": {
+          "compiler": "clang",
+          "compile": "passed",
+          "link": "passed",
+          "run": "passed",
+          "exit_code": 0,
+          "stdout": "검사: 1 0 1\n",
+          "stderr": "",
+          "commands": [
+            "clang -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_88_02_regression_example/include -c /mnt/data/c_textbook_run28/sources/ch01_1_88_02_regression_example/main.c -o /mnt/data/c_textbook_run28/sources/ch01_1_88_02_regression_example/.verify_clang/obj0.o",
+            "clang -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_88_02_regression_example/include -c /mnt/data/c_textbook_run28/sources/ch01_1_88_02_regression_example/src/range.c -o /mnt/data/c_textbook_run28/sources/ch01_1_88_02_regression_example/.verify_clang/obj1.o",
+            "clang -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 /mnt/data/c_textbook_run28/sources/ch01_1_88_02_regression_example/.verify_clang/obj0.o /mnt/data/c_textbook_run28/sources/ch01_1_88_02_regression_example/.verify_clang/obj1.o -o /mnt/data/c_textbook_run28/sources/ch01_1_88_02_regression_example/.verify_clang/app"
+          ]
+        }
+      }
+    },
+    {
+      "project": "ch01_1_88_02_regression_variation",
+      "section": "1.88",
+      "kind": "variation",
+      "mode": "objects",
+      "expected_stdout": "검사: 1 1 1\n",
+      "files": {
+        "include/range.h": "1edaabc35b39b620c2eb78fb5f7ade2efbbdca23ef8460079462749c82402528",
+        "src/range.c": "165a0cf847d14da4bf093147bd4d54d2d9fa4a99b5c3f13c1030377d5f5a5326",
+        "main.c": "4f8264ad56610afeafce3b4eccd4cdc32c02e25749f54f42d2f85a7b27f91796"
+      },
+      "results": {
+        "gcc": {
+          "compiler": "gcc",
+          "compile": "passed",
+          "link": "passed",
+          "run": "passed",
+          "exit_code": 0,
+          "stdout": "검사: 1 1 1\n",
+          "stderr": "",
+          "commands": [
+            "gcc -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_88_02_regression_variation/include -c /mnt/data/c_textbook_run28/sources/ch01_1_88_02_regression_variation/main.c -o /mnt/data/c_textbook_run28/sources/ch01_1_88_02_regression_variation/.verify_gcc/obj0.o",
+            "gcc -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_88_02_regression_variation/include -c /mnt/data/c_textbook_run28/sources/ch01_1_88_02_regression_variation/src/range.c -o /mnt/data/c_textbook_run28/sources/ch01_1_88_02_regression_variation/.verify_gcc/obj1.o",
+            "gcc -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 /mnt/data/c_textbook_run28/sources/ch01_1_88_02_regression_variation/.verify_gcc/obj0.o /mnt/data/c_textbook_run28/sources/ch01_1_88_02_regression_variation/.verify_gcc/obj1.o -o /mnt/data/c_textbook_run28/sources/ch01_1_88_02_regression_variation/.verify_gcc/app"
+          ]
+        },
+        "clang": {
+          "compiler": "clang",
+          "compile": "passed",
+          "link": "passed",
+          "run": "passed",
+          "exit_code": 0,
+          "stdout": "검사: 1 1 1\n",
+          "stderr": "",
+          "commands": [
+            "clang -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_88_02_regression_variation/include -c /mnt/data/c_textbook_run28/sources/ch01_1_88_02_regression_variation/main.c -o /mnt/data/c_textbook_run28/sources/ch01_1_88_02_regression_variation/.verify_clang/obj0.o",
+            "clang -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_88_02_regression_variation/include -c /mnt/data/c_textbook_run28/sources/ch01_1_88_02_regression_variation/src/range.c -o /mnt/data/c_textbook_run28/sources/ch01_1_88_02_regression_variation/.verify_clang/obj1.o",
+            "clang -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 /mnt/data/c_textbook_run28/sources/ch01_1_88_02_regression_variation/.verify_clang/obj0.o /mnt/data/c_textbook_run28/sources/ch01_1_88_02_regression_variation/.verify_clang/obj1.o -o /mnt/data/c_textbook_run28/sources/ch01_1_88_02_regression_variation/.verify_clang/app"
+          ]
+        }
+      }
+    },
+    {
+      "project": "ch01_1_88_03_flags_example",
+      "section": "1.88",
+      "kind": "example",
+      "mode": "objects",
+      "expected_stdout": "합격: 1\n",
+      "files": {
+        "include/config.h": "2243e011e9499132ee52d195c70cd552c49883e1cb8ef45b95780390b1986089",
+        "src/config.c": "d367e83f609c9e77a5ee746069dbe05abf62f2a47f1defe7197c5f37a9bad696",
+        "main.c": "d5ae46308f5292d454c9fde4e41640bbb6d1a574fd55a681607bc7c9c0654e99"
+      },
+      "results": {
+        "gcc": {
+          "compiler": "gcc",
+          "compile": "passed",
+          "link": "passed",
+          "run": "passed",
+          "exit_code": 0,
+          "stdout": "합격: 1\n",
+          "stderr": "",
+          "commands": [
+            "gcc -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_88_03_flags_example/include -c /mnt/data/c_textbook_run28/sources/ch01_1_88_03_flags_example/main.c -o /mnt/data/c_textbook_run28/sources/ch01_1_88_03_flags_example/.verify_gcc/obj0.o",
+            "gcc -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_88_03_flags_example/include -c /mnt/data/c_textbook_run28/sources/ch01_1_88_03_flags_example/src/config.c -o /mnt/data/c_textbook_run28/sources/ch01_1_88_03_flags_example/.verify_gcc/obj1.o",
+            "gcc -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 /mnt/data/c_textbook_run28/sources/ch01_1_88_03_flags_example/.verify_gcc/obj0.o /mnt/data/c_textbook_run28/sources/ch01_1_88_03_flags_example/.verify_gcc/obj1.o -o /mnt/data/c_textbook_run28/sources/ch01_1_88_03_flags_example/.verify_gcc/app"
+          ]
+        },
+        "clang": {
+          "compiler": "clang",
+          "compile": "passed",
+          "link": "passed",
+          "run": "passed",
+          "exit_code": 0,
+          "stdout": "합격: 1\n",
+          "stderr": "",
+          "commands": [
+            "clang -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_88_03_flags_example/include -c /mnt/data/c_textbook_run28/sources/ch01_1_88_03_flags_example/main.c -o /mnt/data/c_textbook_run28/sources/ch01_1_88_03_flags_example/.verify_clang/obj0.o",
+            "clang -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_88_03_flags_example/include -c /mnt/data/c_textbook_run28/sources/ch01_1_88_03_flags_example/src/config.c -o /mnt/data/c_textbook_run28/sources/ch01_1_88_03_flags_example/.verify_clang/obj1.o",
+            "clang -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 /mnt/data/c_textbook_run28/sources/ch01_1_88_03_flags_example/.verify_clang/obj0.o /mnt/data/c_textbook_run28/sources/ch01_1_88_03_flags_example/.verify_clang/obj1.o -o /mnt/data/c_textbook_run28/sources/ch01_1_88_03_flags_example/.verify_clang/app"
+          ]
+        }
+      }
+    },
+    {
+      "project": "ch01_1_88_03_flags_variation",
+      "section": "1.88",
+      "kind": "variation",
+      "mode": "objects",
+      "expected_stdout": "TRACE threshold=3\n합격: 1\n",
+      "files": {
+        "include/config.h": "2243e011e9499132ee52d195c70cd552c49883e1cb8ef45b95780390b1986089",
+        "src/config.c": "d367e83f609c9e77a5ee746069dbe05abf62f2a47f1defe7197c5f37a9bad696",
+        "main.c": "d5ae46308f5292d454c9fde4e41640bbb6d1a574fd55a681607bc7c9c0654e99"
+      },
+      "results": {
+        "gcc": {
+          "compiler": "gcc",
+          "compile": "passed",
+          "link": "passed",
+          "run": "passed",
+          "exit_code": 0,
+          "stdout": "TRACE threshold=3\n합격: 1\n",
+          "stderr": "",
+          "commands": [
+            "gcc -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -DENABLE_TRACE -I /mnt/data/c_textbook_run28/sources/ch01_1_88_03_flags_variation/include -c /mnt/data/c_textbook_run28/sources/ch01_1_88_03_flags_variation/main.c -o /mnt/data/c_textbook_run28/sources/ch01_1_88_03_flags_variation/.verify_gcc/obj0.o",
+            "gcc -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -DENABLE_TRACE -I /mnt/data/c_textbook_run28/sources/ch01_1_88_03_flags_variation/include -c /mnt/data/c_textbook_run28/sources/ch01_1_88_03_flags_variation/src/config.c -o /mnt/data/c_textbook_run28/sources/ch01_1_88_03_flags_variation/.verify_gcc/obj1.o",
+            "gcc -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 /mnt/data/c_textbook_run28/sources/ch01_1_88_03_flags_variation/.verify_gcc/obj0.o /mnt/data/c_textbook_run28/sources/ch01_1_88_03_flags_variation/.verify_gcc/obj1.o -o /mnt/data/c_textbook_run28/sources/ch01_1_88_03_flags_variation/.verify_gcc/app"
+          ]
+        },
+        "clang": {
+          "compiler": "clang",
+          "compile": "passed",
+          "link": "passed",
+          "run": "passed",
+          "exit_code": 0,
+          "stdout": "TRACE threshold=3\n합격: 1\n",
+          "stderr": "",
+          "commands": [
+            "clang -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -DENABLE_TRACE -I /mnt/data/c_textbook_run28/sources/ch01_1_88_03_flags_variation/include -c /mnt/data/c_textbook_run28/sources/ch01_1_88_03_flags_variation/main.c -o /mnt/data/c_textbook_run28/sources/ch01_1_88_03_flags_variation/.verify_clang/obj0.o",
+            "clang -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -DENABLE_TRACE -I /mnt/data/c_textbook_run28/sources/ch01_1_88_03_flags_variation/include -c /mnt/data/c_textbook_run28/sources/ch01_1_88_03_flags_variation/src/config.c -o /mnt/data/c_textbook_run28/sources/ch01_1_88_03_flags_variation/.verify_clang/obj1.o",
+            "clang -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 /mnt/data/c_textbook_run28/sources/ch01_1_88_03_flags_variation/.verify_clang/obj0.o /mnt/data/c_textbook_run28/sources/ch01_1_88_03_flags_variation/.verify_clang/obj1.o -o /mnt/data/c_textbook_run28/sources/ch01_1_88_03_flags_variation/.verify_clang/app"
+          ]
+        }
+      }
+    },
+    {
+      "project": "ch01_1_88_independent",
+      "section": "1.88",
+      "kind": "independent",
+      "mode": "objects",
+      "expected_stdout": "3000 m\n",
+      "files": {
+        "include/convert.h": "34ac56f2ebe162f61c0492ad31b078b9f5f619cb128637016a27411f2740fcf2",
+        "src/convert.c": "c941646ceb3c6d4e43e19230a45fa091e4d8f8ea29c357f443ceb63d4d339cea",
+        "main.c": "59a63619846c2d4166dfd465f810f8c792836d50a9cd91325e87bdd79ec77b9e"
+      },
+      "results": {
+        "gcc": {
+          "compiler": "gcc",
+          "compile": "passed",
+          "link": "passed",
+          "run": "passed",
+          "exit_code": 0,
+          "stdout": "3000 m\n",
+          "stderr": "",
+          "commands": [
+            "gcc -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_88_independent/include -c /mnt/data/c_textbook_run28/sources/ch01_1_88_independent/main.c -o /mnt/data/c_textbook_run28/sources/ch01_1_88_independent/.verify_gcc/obj0.o",
+            "gcc -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_88_independent/include -c /mnt/data/c_textbook_run28/sources/ch01_1_88_independent/src/convert.c -o /mnt/data/c_textbook_run28/sources/ch01_1_88_independent/.verify_gcc/obj1.o",
+            "gcc -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 /mnt/data/c_textbook_run28/sources/ch01_1_88_independent/.verify_gcc/obj0.o /mnt/data/c_textbook_run28/sources/ch01_1_88_independent/.verify_gcc/obj1.o -o /mnt/data/c_textbook_run28/sources/ch01_1_88_independent/.verify_gcc/app"
+          ]
+        },
+        "clang": {
+          "compiler": "clang",
+          "compile": "passed",
+          "link": "passed",
+          "run": "passed",
+          "exit_code": 0,
+          "stdout": "3000 m\n",
+          "stderr": "",
+          "commands": [
+            "clang -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_88_independent/include -c /mnt/data/c_textbook_run28/sources/ch01_1_88_independent/main.c -o /mnt/data/c_textbook_run28/sources/ch01_1_88_independent/.verify_clang/obj0.o",
+            "clang -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 -I /mnt/data/c_textbook_run28/sources/ch01_1_88_independent/include -c /mnt/data/c_textbook_run28/sources/ch01_1_88_independent/src/convert.c -o /mnt/data/c_textbook_run28/sources/ch01_1_88_independent/.verify_clang/obj1.o",
+            "clang -std=c11 -Wall -Wextra -Wpedantic -Werror -O0 /mnt/data/c_textbook_run28/sources/ch01_1_88_independent/.verify_clang/obj0.o /mnt/data/c_textbook_run28/sources/ch01_1_88_independent/.verify_clang/obj1.o -o /mnt/data/c_textbook_run28/sources/ch01_1_88_independent/.verify_clang/app"
+          ]
+        }
+      }
+    }
+  ]
+}
