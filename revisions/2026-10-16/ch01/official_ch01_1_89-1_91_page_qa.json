@@ -1,0 +1,122 @@
+{
+  "pages": 19,
+  "page_details": [
+    {
+      "page": 1,
+      "words": 120,
+      "outside": 0,
+      "text_chars": 2064
+    },
+    {
+      "page": 2,
+      "words": 147,
+      "outside": 0,
+      "text_chars": 1515
+    },
+    {
+      "page": 3,
+      "words": 195,
+      "outside": 0,
+      "text_chars": 1732
+    },
+    {
+      "page": 4,
+      "words": 161,
+      "outside": 0,
+      "text_chars": 1617
+    },
+    {
+      "page": 5,
+      "words": 181,
+      "outside": 0,
+      "text_chars": 1650
+    },
+    {
+      "page": 6,
+      "words": 225,
+      "outside": 0,
+      "text_chars": 1677
+    },
+    {
+      "page": 7,
+      "words": 128,
+      "outside": 0,
+      "text_chars": 2053
+    },
+    {
+      "page": 8,
+      "words": 173,
+      "outside": 0,
+      "text_chars": 1674
+    },
+    {
+      "page": 9,
+      "words": 216,
+      "outside": 0,
+      "text_chars": 1646
+    },
+    {
+      "page": 10,
+      "words": 193,
+      "outside": 0,
+      "text_chars": 1588
+    },
+    {
+      "page": 11,
+      "words": 144,
+      "outside": 0,
+      "text_chars": 1512
+    },
+    {
+      "page": 12,
+      "words": 164,
+      "outside": 0,
+      "text_chars": 1311
+    },
+    {
+      "page": 13,
+      "words": 155,
+      "outside": 0,
+      "text_chars": 2118
+    },
+    {
+      "page": 14,
+      "words": 215,
+      "outside": 0,
+      "text_chars": 1939
+    },
+    {
+      "page": 15,
+      "words": 221,
+      "outside": 0,
+      "text_chars": 1770
+    },
+    {
+      "page": 16,
+      "words": 157,
+      "outside": 0,
+      "text_chars": 1635
+    },
+    {
+      "page": 17,
+      "words": 184,
+      "outside": 0,
+      "text_chars": 1786
+    },
+    {
+      "page": 18,
+      "words": 174,
+      "outside": 0,
+      "text_chars": 1340
+    },
+    {
+      "page": 19,
+      "words": 202,
+      "outside": 0,
+      "text_chars": 2188
+    }
+  ],
+  "all_nonempty": true,
+  "outside_words": 0,
+  "rendered_pngs": 19
+}
