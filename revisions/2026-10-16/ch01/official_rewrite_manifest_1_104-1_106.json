@@ -1,0 +1,66 @@
+{
+  "run": "1.104-1.106",
+  "created_at": "2026-10-16T21:09:23+09:00",
+  "sections": [
+    "1.104",
+    "1.105",
+    "1.106"
+  ],
+  "pages": 25,
+  "source_programs": 21,
+  "verified_runs": 42,
+  "original_books_full_audit": false,
+  "github_delivery": "pending",
+  "files": [
+    {
+      "name": "C언어_종합교과서_이해중심_정식개정판_제1장_1.104-1.106.docx",
+      "sha256": "01da78828f8fb845d078aa935498570e8691dd83edd69d6e3152e98008ebd040",
+      "bytes": 53705
+    },
+    {
+      "name": "build_ch01_1_104_to_1_106.py",
+      "sha256": "3459f8114c716498c1cdc30ef25eb106a4c7855489d1d116a36b0c6bf33ce14b",
+      "bytes": 49702
+    },
+    {
+      "name": "official_ch01_1_104-1_106_c11_verification.json",
+      "sha256": "cc2f6eea931816def6325baeb44063411dcd5b299f70a6067f9f91a2d3c05631",
+      "bytes": 18010
+    },
+    {
+      "name": "official_ch01_1_104-1_106_code_match.json",
+      "sha256": "80e21895b93412446f85434c41149af55ecb652da5816c27054b3ea172d4b6dc",
+      "bytes": 3319
+    },
+    {
+      "name": "official_ch01_1_104-1_106_original_objective_audit_partial.json",
+      "sha256": "cdd29d260488242b7ef4db2bf345e241525112b26f693f910a48d2bc0f5b2ab2",
+      "bytes": 3338
+    },
+    {
+      "name": "official_ch01_1_104-1_106_page_qa.json",
+      "sha256": "cc99296c4d66959cd8d40468f938a9c57692507da3362718b95b9924c452405c",
+      "bytes": 2410
+    },
+    {
+      "name": "official_ch01_1_104-1_106_pedagogy_qa.json",
+      "sha256": "539bd43695674a11c3ac3d8184f42748f0dcd8214e5f99bcf2e7f4bd887b8afa",
+      "bytes": 555
+    },
+    {
+      "name": "official_ch01_1_104-1_106_source_inspection.json",
+      "sha256": "443dafa99c3aaea6916093acd651348fb16e78fc4426426f2ce54869d55fa163",
+      "bytes": 977
+    },
+    {
+      "name": "official_ch01_1_104-1_106_sources.zip",
+      "sha256": "c240e49c5e68cb33d86b3a635fb9e84d49c3e1a14f7fb92c458abd2b4cc68dbe",
+      "bytes": 14404
+    },
+    {
+      "name": "official_rewrite_progress_1_1-1_106.json",
+      "sha256": "f8d938f2818bb44fac7a05273797bba997b678c75e16f25cda00c939baa3cd2d",
+      "bytes": 407
+    }
+  ]
+}
