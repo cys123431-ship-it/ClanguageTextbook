@@ -1,0 +1,31 @@
+{
+  "timestamp": "2026-10-16T17:02:03+09:00",
+  "pages": 18,
+  "all_pages_rendered": true,
+  "page_text_char_counts": [
+    2037,
+    1552,
+    1833,
+    1519,
+    1594,
+    1544,
+    1876,
+    1306,
+    1656,
+    1273,
+    1188,
+    1537,
+    1600,
+    1438,
+    1632,
+    1757,
+    1596,
+    1570
+  ],
+  "blank_pages": [],
+  "single_line_pages": [],
+  "manual_contact_sheet_review": true,
+  "manual_fullsize_sample_page_review": 8,
+  "layout_observation": "No empty pages or visible overflow in contact sheet and inspected full-size page; page images all generated",
+  "docx_sha256": "824f11a261f0d14df6791d6e87877fd636b476441129e99c65744dfcaca3ef8c"
+}
