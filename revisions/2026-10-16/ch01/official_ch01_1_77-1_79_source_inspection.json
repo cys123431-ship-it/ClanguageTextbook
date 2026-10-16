@@ -1,0 +1,31 @@
+{
+  "checked_at": "2026-10-16T12:36:05+09:00",
+  "sources": [
+    {
+      "name": "C언어_통합교과서_전체수록범위_확정안.md",
+      "location": "Library root",
+      "status": "text read; editorial units 23,27 reviewed",
+      "complete_item_audit": false
+    },
+    {
+      "name": "c언어 압축 (1)(1).pdf",
+      "location": "Library root",
+      "status": "page 8 image viewed; scanned text not extracted",
+      "complete_item_audit": false
+    },
+    {
+      "name": "C_Programming.pdf",
+      "location": "Library root",
+      "status": "page 6 image viewed; scanned text not extracted",
+      "complete_item_audit": false
+    },
+    {
+      "name": "C Programming Language - 2nd Edition (OCR).pdf",
+      "location": "Library root",
+      "status": "contents pages 2–4 text read",
+      "complete_item_audit": false
+    }
+  ],
+  "copyright_policy": "independent objectives and new examples; no source text or exercise copied",
+  "full_coverage_audit": false
+}
