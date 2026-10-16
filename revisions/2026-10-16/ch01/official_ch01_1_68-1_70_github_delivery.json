@@ -1,0 +1,15 @@
+{
+  "run": "ch01_1.68-1.70",
+  "verified_at": "2026-10-16T10:06:25+09:00",
+  "local_verified_programs": 21,
+  "compiler_runs": 42,
+  "rendered_pages": 24,
+  "library_uploaded": true,
+  "github_main_docx": false,
+  "github_main_source_zip": false,
+  "github_main_script": false,
+  "previous_1_65_1_67_docx_missing_on_main": true,
+  "original_objective_audit_complete": false,
+  "docx_sha256": "4b015a2f06ff98739d2e0d36fcea65c732eda047eaa755c71be99793fe84bec1",
+  "note": "This is a status record, not a substitute for the missing deliverables."
+}
