@@ -1,0 +1,38 @@
+{
+  "timestamp_local": "2026-10-16 15:08 KST",
+  "target": "cys123431-ship-it/ClanguageTextbook main",
+  "status": "PARTIAL_NOT_COMPLETE",
+  "verified_present_on_main": [
+    "official_ch01_1_86-1_88_page_qa.json",
+    "official_ch01_1_86-1_88_c11_verification.json",
+    "official_ch01_1_86-1_88_source_inspection.json",
+    "official_rewrite_progress_1_1-1_88.json",
+    "official_rewrite_manifest_1_86-1_88.json",
+    "official_rewrite_objective_tracking_1_1-1_88.json",
+    "official_ch01_1_86-1_88_build_template_qa.json"
+  ],
+  "commit_shas_for_created_files": [
+    "036953ed83867039748f8345fd40981eb6d3e374",
+    "a5d06418bb5359966012e7b2cf403c8157bdb641",
+    "c5444e71b12f01cefd4d60b743cbfce9cb5de3c0",
+    "38450b8910b0e9cf5aacb79e74de7e78dc18b71c",
+    "ced20bc2317a6d3008fed0458367b69484c6b80f",
+    "e498ccf3fb33ea06492369a406aaef153cd8b036",
+    "3a69e8219fe7d10c1637115e9fb3a5deb481b4e2"
+  ],
+  "confirmed_absent_on_main": [
+    "C언어_종합교과서_이해중심_정식개정판_제1장_1.86-1.88.docx",
+    "official_ch01_1_86-1_88_sources.zip"
+  ],
+  "blocked_uploads": [
+    "build_ch01_1_86_to_1_88.py",
+    "content_run28.py",
+    "official_ch01_1_86-1_88_code_match.json",
+    "official_ch01_1_86-1_88_pedagogy_qa.json"
+  ],
+  "blocked_updates": ["README.md", "progress.json"],
+  "reason": "GitHub connector safety checks blocked some file writes; binary bytes are not available through connector text-only upload path",
+  "previous_binary_backfill": "1.65-1.85 and earlier missing DOCX/ZIP on main not fully reconciled",
+  "library": "13 new artifacts uploaded and listed successfully",
+  "next_action": "Retry main branch binary uploads and README/progress updates before declaring GitHub delivery complete"
+}
