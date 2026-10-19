@@ -1,0 +1,1 @@
+v38 draft: new chapters 9.10, 13.10, 19.12. C11 examples tested with GCC and Clang. The full first draft is not yet complete.
