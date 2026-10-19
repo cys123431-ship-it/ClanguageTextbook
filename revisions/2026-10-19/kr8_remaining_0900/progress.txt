@@ -1,0 +1,1 @@
+2026-10-19 09:00 KST: K&R 8-2, 8-3, 8-4, 8-7, 8-8 draft sections added. C11 GCC/Clang and UBSan tests 15/15 passed. Full first draft incomplete.
