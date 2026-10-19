@@ -1,0 +1,3 @@
+v28 | 2026-10-19 12:00 KST
+Old sections 1.41, 1.42, 1.43, 1.44, 1.50 were reused and placed in chapters 17, 29, 20.
+Prior 39600 paragraphs; new 40590. 30 C11 programs, 60 GCC/Clang builds passed, 60 executions succeeded, 36 documented outputs matched. Full draft still in progress.
