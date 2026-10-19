@@ -1,0 +1,7 @@
+v40 2026-10-20 01:00 KST
+Recovered old sections 1.74 to 1.76.
+Inserted 1.74 as chapter 26.10, 108 paragraphs.
+1.75 and 1.76 already present as 27.1 and 27.2.
+C11 GCC and Clang: 14 of 14 compile and output checks passed.
+GCC UBSan: 7 of 7 passed.
+Full book draft and source coverage review remain incomplete.
