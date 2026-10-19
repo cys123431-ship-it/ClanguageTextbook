@@ -1,0 +1,1 @@
+v30 draft: 6 original sections relocated into topical chapters. 42 C11 programs tested with GCC and Clang: 84/84 compile, run, and expected output checks passed. Full first draft remains incomplete. Library artifacts preserved. Next: inspect original sections 1.74-1.76 and 1.80 onward.
