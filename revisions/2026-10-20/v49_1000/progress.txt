@@ -1,0 +1,1 @@
+v49: Added original C language textbook sections 9.11 and 9.12. Library contains manuscript and verified source code. Draft incomplete.
