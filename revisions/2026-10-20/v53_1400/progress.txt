@@ -1,0 +1,1 @@
+v53 draft: added C11 textbook sections 18.28 and 18.29. GCC and Clang tests 8/8; UBSan 2/2. Full DOCX stored in Library. Original text preserved. First draft not complete.
