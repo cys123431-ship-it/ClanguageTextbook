@@ -1,0 +1,1 @@
+v54: Added chapter 1 sections 1.20 and 1.21. GCC/Clang C11 verification passed 26/26. Library contains DOCX and sources. First draft remains in progress.
