@@ -1,0 +1,1 @@
+v51: two new original teaching sections 36.19 and 36.20; C11 GCC/Clang tests 20/20 pass; draft still incomplete.
