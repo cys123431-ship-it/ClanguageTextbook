@@ -1,0 +1,1 @@
+v91 first draft in progress. Added sections 19.20 and 19.21. Fixed duplicate numbering in chapter 17. GCC and Clang strict C11 and UBSan: 8 checks passed. Original textbook item-level audit incomplete. Full artifacts in ChatGPT Library.
