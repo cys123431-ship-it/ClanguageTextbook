@@ -1,0 +1,1 @@
+v74: added sections 9.14 and 19.17. Existing v73 text preserved. GCC and Clang C11 plus UBSan checks passed. First draft still in progress.
