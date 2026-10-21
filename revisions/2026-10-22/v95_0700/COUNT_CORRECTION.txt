@@ -1,0 +1,1 @@
+v95 DOCX final count: 59,911 paragraphs, 211 tables. The initial STATUS.md had an outdated paragraph count of 59,910 before one explanatory paragraph was added. Verification JSON in Library is authoritative.
