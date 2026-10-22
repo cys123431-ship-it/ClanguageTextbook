@@ -1,0 +1,1 @@
+v106: Added textbook sections 4.21 and 6.37; C11 GCC and Clang tests passed. Full draft is still in progress.
