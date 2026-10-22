@@ -1,0 +1,1 @@
+v98: New draft sections 1.24, 1.25, 1.26. GCC and Clang verification 29/29 passed. Full first draft remains incomplete. Artifacts retained in project Library.
